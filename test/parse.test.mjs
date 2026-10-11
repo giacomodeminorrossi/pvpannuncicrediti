@@ -10,6 +10,7 @@ import {
   isValidIsoDate,
   listingDescriptionFrom,
   matchLabel,
+  nextReloadDelay,
   normalizeCreditDescription,
   publicationDateFrom,
   readLabel,
@@ -211,4 +212,24 @@ test("listingDescriptionFrom legge la descrizione senza etichetta della scheda i
   assert.equal(listingDescriptionFrom(listing), "Crediti tributari e risarcitori");
   assert.equal(listingDescriptionFrom("Lotto unico\nData Pubblicazione:\n28/09/2026"), null);
   assert.equal(listingDescriptionFrom("Nessuna data"), null);
+});
+
+test("nextReloadDelay conta a parte i ricaricamenti normali e quelli per elenco anomalo", () => {
+  const normal = [3_000, 3_000];
+  const anomaly = [5_000, 30_000, 90_000, 180_000];
+  const counts = {};
+  // Sequenza del controllo del 10/10/2026: due ricaricamenti normali, poi un elenco
+  // non ordinato che deve avere tutte le attese, a partire dalla più breve.
+  const delays = [false, false, true, true, true, true, true].map(
+    (anomalous) => nextReloadDelay(counts, anomalous, normal, anomaly)?.delay ?? null,
+  );
+  assert.deepEqual(delays, [3_000, 3_000, 5_000, 30_000, 90_000, 180_000, null]);
+  // Esauriti i normali, una pagina tornata normale non viene più ricaricata.
+  assert.equal(nextReloadDelay(counts, false, normal, anomaly), null);
+  assert.deepEqual(nextReloadDelay({}, true, normal, anomaly), {
+    delay: 5_000,
+    attempt: 1,
+    total: 4,
+    kind: "anomaly",
+  });
 });

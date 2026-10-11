@@ -13,6 +13,7 @@ import {
   creditDescriptionFrom,
   listingDescriptionFrom,
   deduplicateAnnouncements,
+  nextReloadDelay,
   extractJsonDetails,
   isAnnouncementUrl,
   isValidIsoDate,
@@ -343,17 +344,18 @@ async function loadResultPage(page, pageNumber) {
   return { bodyText, links, summary: summarizePageDates(links.map((item) => item.listingPublicationDate)) };
 }
 
-// Attese tra i ricaricamenti: lunghe solo se l'elenco è chiaramente anomalo, brevi
-// nel caso normale di una prima pagina senza annunci della data cercata.
-function reloadDelays(pageNumber, summary, previousSiteNewest) {
-  const anomalous =
+// Un elenco è chiaramente anomalo (ricaricamenti lunghi) se le date non sono
+// ordinate o se la prima pagina è più vecchia dei controlli precedenti o di oltre
+// MAX_FIRST_PAGE_AGE_DAYS; il caso normale è una prima pagina senza annunci della
+// data cercata (ricaricamenti brevi).
+function isAnomalousList(pageNumber, summary, previousSiteNewest) {
+  return (
     !summary.ordered ||
     (pageNumber === 0 &&
       Boolean(summary.newest) &&
       ((previousSiteNewest && summary.newest < previousSiteNewest) ||
-        daysBetween(summary.newest, targetDate) > MAX_FIRST_PAGE_AGE_DAYS));
-  if (!anomalous) return Array(PAGE_RELOADS).fill(PAGE_RELOAD_DELAY_MS);
-  return pageNumber === 0 ? ANOMALY_RELOAD_DELAYS_MS : ANOMALY_RELOAD_DELAYS_MS.slice(0, 2);
+        daysBetween(summary.newest, targetDate) > MAX_FIRST_PAGE_AGE_DAYS))
+  );
 }
 
 function daysBetween(older, newer) {
@@ -404,18 +406,25 @@ async function collectCandidateLinks(page, coverage, warnings, previousSiteNewes
 
       let suspicion = pageSuspicion(pageNumber, summary, previousSiteNewest, previousPageOldest);
       let reloads = 0;
+      const reloadCounts = {};
+      const anomalyDelays = pageNumber === 0 ? ANOMALY_RELOAD_DELAYS_MS : ANOMALY_RELOAD_DELAYS_MS.slice(0, 2);
       while (suspicion) {
-        const delays = reloadDelays(pageNumber, summary, previousSiteNewest);
-        if (reloads >= delays.length) break;
         // Non consumare il tempo riservato alla verifica dei dettagli e al salvataggio.
         const available = deadlineAt - Date.now() - SAVE_RESERVE_MS - 5 * 60_000;
         if (available <= 0) break;
+        const next = nextReloadDelay(
+          reloadCounts,
+          isAnomalousList(pageNumber, summary, previousSiteNewest),
+          Array(PAGE_RELOADS).fill(PAGE_RELOAD_DELAY_MS),
+          anomalyDelays,
+        );
+        if (!next) break;
         reloads += 1;
         console.warn(
-          `Pagina ${pageNumber + 1} sospetta (${suspicion}): ricaricamento ${reloads}/${delays.length} tra ${delays[reloads - 1] / 1_000} secondi.`,
+          `Pagina ${pageNumber + 1} sospetta (${suspicion}): ricaricamento ${next.kind === "anomaly" ? "per elenco anomalo " : ""}${next.attempt}/${next.total} tra ${next.delay / 1_000} secondi.`,
         );
         coverage.page_reloads = (coverage.page_reloads || 0) + 1;
-        await page.waitForTimeout(Math.min(delays[reloads - 1], available));
+        await page.waitForTimeout(Math.min(next.delay, available));
         // Sessione nuova: l'elenco anomalo potrebbe dipendere dallo stato salvato dal sito.
         await page.context().clearCookies().catch(() => {});
         ({ bodyText, links, summary } = await loadResultPage(page, pageNumber));

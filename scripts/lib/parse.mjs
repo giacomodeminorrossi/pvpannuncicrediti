@@ -443,6 +443,19 @@ export function summarizePageDates(dates) {
   };
 }
 
+// Attesa prima del prossimo ricaricamento di una pagina sospetta, o null se i
+// tentativi del tipo richiesto sono esauriti. I ricaricamenti normali e quelli per
+// elenco anomalo hanno contatori separati in `counts`: un'anomalia che compare
+// dopo i ricaricamenti normali ha comunque tutte le sue attese, dalla più breve.
+export function nextReloadDelay(counts, anomalous, normalDelays, anomalyDelays) {
+  const kind = anomalous ? "anomaly" : "normal";
+  const delays = anomalous ? anomalyDelays : normalDelays;
+  const used = counts[kind] || 0;
+  if (used >= delays.length) return null;
+  counts[kind] = used + 1;
+  return { delay: delays[used], attempt: used + 1, total: delays.length, kind };
+}
+
 // Descrizioni della sezione "Beni inclusi nel lotto". Il PVP tronca il campo
 // "Descrizione" del lotto, mentre qui il testo è spesso più completo. Per ogni
 // bene la struttura è: categoria, indirizzo (facoltativo), descrizione,
