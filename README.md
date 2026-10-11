@@ -6,7 +6,7 @@ Controllo automatico giornaliero degli annunci pubblicati nel Portale delle Vend
 
 Il workflow GitHub Actions:
 
-1. viene avviato alle **21:07 e 22:07 UTC**; un controllo iniziale lo esegue solo se a Parigi sono tra le 23:00 e le 06:59 (con orario estivo o invernale uno dei due trigger cade sempre alle 23:07 locali). Tra le 00:00 e le 06:59 controlla la data del giorno precedente; se quella data è già stata controllata con successo, il secondo trigger viene saltato;
+1. viene avviato ogni ora **dalle 21:07 alle 04:07 UTC**; un controllo iniziale lo esegue solo se a Parigi sono tra le 23:00 e le 06:59 (con orario estivo o invernale un trigger cade sempre alle 23:07 locali). Tra le 00:00 e le 06:59 controlla la data del giorno precedente. Se quella data è già stata controllata con successo dalle 23:00 in poi, i trigger successivi vengono saltati; se il controllo è parziale (per esempio per un elenco anomalo del PVP) o non è partito, il trigger dell'ora successiva lo ripete;
 2. installa Node.js, Playwright e Chromium;
 3. apre la pagina PVP configurata con un browser reale in modalità headless;
 4. segue la paginazione (ordinata per data di pubblicazione) fino alla prima pagina con soli annunci più vecchi e apre le pagine di dettaglio dei candidati;
@@ -91,9 +91,11 @@ Un risultato `success` con `announcements: []` indica che il controllo è stato 
 
 La ricerca si ferma alla prima pagina che contiene solo annunci più vecchi della data cercata, quindi dipende dall'ordine dei risultati. Per questo lo scraper:
 
-- ricarica fino a due volte la prima pagina se contiene solo annunci più vecchi della data cercata, oppure se il suo annuncio più recente è più vecchio di quello visto nel controllo precedente (nei controlli di prova il PVP ha restituito come pagina 1 un elenco diverso, anche con annunci del 2024);
+- ricarica fino a due volte, a pochi secondi di distanza, la prima pagina se contiene solo annunci più vecchi della data cercata;
+- se l'elenco è chiaramente anomalo (date non in ordine decrescente, annuncio più recente più vecchio di quello visto nei controlli riusciti precedenti, oppure di oltre 10 giorni prima della data cercata) ricarica la prima pagina fino a quattro volte, dopo 5, 30, 90 e 180 secondi, azzerando i cookie a ogni tentativo (la notte del 10-11/10/2026 il PVP ha restituito per quasi un'ora una pagina 1 con annunci del 2020-2024 non ordinati);
+- confronta la prima pagina con l'annuncio più recente visto nei controlli **riusciti** (`status: "success"` in `data/latest.json` e `data/history/`), così un controllo parziale con un elenco anomalo non falsa il confronto successivo;
 - ricarica fino a due volte una pagina successiva se salta indietro di oltre 7 giorni rispetto a dove finiva la precedente (le pagine sono contigue), e segnala `result_page_gap` se il salto persiste;
-- segnala `first_page_older_than_previous_run` se l'anomalia della prima pagina persiste dopo i ricaricamenti;
+- segnala `first_page_older_than_previous_run` o `first_page_stale` se l'anomalia della prima pagina persiste dopo i ricaricamenti;
 - segnala `result_order_unexpected` se le date non sono in ordine decrescente, dentro una pagina o tra pagine consecutive.
 
 In entrambi i casi lo stato è `partial`: un elenco vuoto non va letto come assenza di annunci.

@@ -1,5 +1,5 @@
 import { chromium } from "playwright";
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import {
@@ -41,6 +41,14 @@ const DETAIL_STABILITY_MS = 1_000;
 // Ricaricamenti di una pagina risultati quando il suo contenuto è sospetto.
 const PAGE_RELOADS = 2;
 const PAGE_RELOAD_DELAY_MS = 3_000;
+// Se l'elenco è chiaramente anomalo (date non ordinate, prima pagina più vecchia
+// del controllo precedente o di oltre MAX_FIRST_PAGE_AGE_DAYS) i ricaricamenti sono
+// di più, con attese crescenti e cookie azzerati: la notte del 10-11/10/2026 il PVP
+// ha restituito per quasi un'ora un elenco anomalo (annunci 2020-2024 non ordinati).
+const ANOMALY_RELOAD_DELAYS_MS = [5_000, 30_000, 90_000, 180_000];
+// Senza annunci nuovi la prima pagina parte da pochi giorni prima della data
+// cercata: se l'annuncio più recente è più vecchio di così, l'elenco è anomalo.
+const MAX_FIRST_PAGE_AGE_DAYS = 10;
 // Le pagine sono contigue: la successiva riparte dalla data in cui finisce la
 // precedente. Un salto più ampio fa sospettare un elenco diverso.
 const MAX_PAGE_GAP_DAYS = 7;
@@ -335,6 +343,19 @@ async function loadResultPage(page, pageNumber) {
   return { bodyText, links, summary: summarizePageDates(links.map((item) => item.listingPublicationDate)) };
 }
 
+// Attese tra i ricaricamenti: lunghe solo se l'elenco è chiaramente anomalo, brevi
+// nel caso normale di una prima pagina senza annunci della data cercata.
+function reloadDelays(pageNumber, summary, previousSiteNewest) {
+  const anomalous =
+    !summary.ordered ||
+    (pageNumber === 0 &&
+      Boolean(summary.newest) &&
+      ((previousSiteNewest && summary.newest < previousSiteNewest) ||
+        daysBetween(summary.newest, targetDate) > MAX_FIRST_PAGE_AGE_DAYS));
+  if (!anomalous) return Array(PAGE_RELOADS).fill(PAGE_RELOAD_DELAY_MS);
+  return pageNumber === 0 ? ANOMALY_RELOAD_DELAYS_MS : ANOMALY_RELOAD_DELAYS_MS.slice(0, 2);
+}
+
 function daysBetween(older, newer) {
   return (Date.parse(`${newer}T00:00:00Z`) - Date.parse(`${older}T00:00:00Z`)) / 86_400_000;
 }
@@ -347,6 +368,7 @@ function daysBetween(older, newer) {
 // - è una pagina successiva e salta troppo indietro rispetto alla precedente.
 function pageSuspicion(pageNumber, summary, previousSiteNewest, previousPageOldest) {
   if (!summary.newest) return null;
+  if (!summary.ordered) return "le date di pubblicazione non sono in ordine decrescente";
   if (pageNumber > 0) {
     if (previousPageOldest && daysBetween(summary.newest, previousPageOldest) > MAX_PAGE_GAP_DAYS) {
       return `inizia dal ${summary.newest}, ma la pagina precedente finiva il ${previousPageOldest}`;
@@ -355,6 +377,9 @@ function pageSuspicion(pageNumber, summary, previousSiteNewest, previousPageOlde
   }
   if (previousSiteNewest && summary.newest < previousSiteNewest) {
     return `l'annuncio più recente (${summary.newest}) è più vecchio di quello visto nel controllo precedente (${previousSiteNewest})`;
+  }
+  if (daysBetween(summary.newest, targetDate) > MAX_FIRST_PAGE_AGE_DAYS) {
+    return `l'annuncio più recente (${summary.newest}) è di oltre ${MAX_FIRST_PAGE_AGE_DAYS} giorni prima della data cercata`;
   }
   if (summary.newest < targetDate) {
     return `contiene solo annunci più vecchi della data cercata (il più recente è del ${summary.newest})`;
@@ -378,12 +403,21 @@ async function collectCandidateLinks(page, coverage, warnings, previousSiteNewes
       ({ bodyText, links, summary } = await loadResultPage(page, pageNumber));
 
       let suspicion = pageSuspicion(pageNumber, summary, previousSiteNewest, previousPageOldest);
-      for (let reload = 1; suspicion && reload <= PAGE_RELOADS; reload += 1) {
+      let reloads = 0;
+      while (suspicion) {
+        const delays = reloadDelays(pageNumber, summary, previousSiteNewest);
+        if (reloads >= delays.length) break;
+        // Non consumare il tempo riservato alla verifica dei dettagli e al salvataggio.
+        const available = deadlineAt - Date.now() - SAVE_RESERVE_MS - 5 * 60_000;
+        if (available <= 0) break;
+        reloads += 1;
         console.warn(
-          `Pagina ${pageNumber + 1} sospetta (${suspicion}): ricaricamento ${reload}/${PAGE_RELOADS}.`,
+          `Pagina ${pageNumber + 1} sospetta (${suspicion}): ricaricamento ${reloads}/${delays.length} tra ${delays[reloads - 1] / 1_000} secondi.`,
         );
         coverage.page_reloads = (coverage.page_reloads || 0) + 1;
-        await page.waitForTimeout(PAGE_RELOAD_DELAY_MS);
+        await page.waitForTimeout(Math.min(delays[reloads - 1], available));
+        // Sessione nuova: l'elenco anomalo potrebbe dipendere dallo stato salvato dal sito.
+        await page.context().clearCookies().catch(() => {});
         ({ bodyText, links, summary } = await loadResultPage(page, pageNumber));
         suspicion = pageSuspicion(pageNumber, summary, previousSiteNewest, previousPageOldest);
       }
@@ -392,7 +426,7 @@ async function collectCandidateLinks(page, coverage, warnings, previousSiteNewes
         coverage.complete = false;
         warnings.push({
           code: "result_page_gap",
-          message: `Pagina ${pageNumber + 1} anomala anche dopo ${PAGE_RELOADS} ricaricamenti: ${suspicion}.`,
+          message: `Pagina ${pageNumber + 1} anomala anche dopo ${reloads} ricaricamenti: ${suspicion}.`,
           page: pageNumber + 1,
         });
       }
@@ -400,12 +434,23 @@ async function collectCandidateLinks(page, coverage, warnings, previousSiteNewes
       if (pageNumber === 0) {
         coverage.site_newest_date = summary.newest;
         // Senza annunci nuovi la prima pagina è legittimamente più vecchia della
-        // data cercata; resta anomalo solo il confronto con il controllo precedente.
+        // data cercata; restano anomali il confronto con i controlli precedenti e
+        // una prima pagina ferma da oltre MAX_FIRST_PAGE_AGE_DAYS giorni.
         if (previousSiteNewest && summary.newest && summary.newest < previousSiteNewest) {
           coverage.complete = false;
           warnings.push({
             code: "first_page_older_than_previous_run",
-            message: `Pagina 1 anomala anche dopo ${PAGE_RELOADS} ricaricamenti: ${suspicion}.`,
+            message: `Pagina 1 anomala anche dopo ${reloads} ricaricamenti: ${suspicion}.`,
+            page: 1,
+          });
+        } else if (
+          summary.newest &&
+          daysBetween(summary.newest, targetDate) > MAX_FIRST_PAGE_AGE_DAYS
+        ) {
+          coverage.complete = false;
+          warnings.push({
+            code: "first_page_stale",
+            message: `Pagina 1 anomala anche dopo ${reloads} ricaricamenti: l'annuncio più recente (${summary.newest}) è di oltre ${MAX_FIRST_PAGE_AGE_DAYS} giorni prima della data cercata (${targetDate}).`,
             page: 1,
           });
         }
@@ -800,15 +845,31 @@ async function extractAnnouncement(context, listPage, item) {
   }
 }
 
-// Data dell'annuncio più recente visto in prima pagina dal controllo precedente.
+// Data dell'annuncio più recente visto in prima pagina dai controlli precedenti.
+// Contano solo i controlli riusciti: un controllo parziale può aver registrato la
+// data di un elenco anomalo (per esempio del 2024) e il confronto non scatterebbe più.
 async function previousSiteNewestDate() {
+  const files = [OUTPUT_PATH];
   try {
-    const previous = JSON.parse(await readFile(OUTPUT_PATH, "utf8"));
-    const value = previous?.coverage?.site_newest_date;
-    return isValidIsoDate(value) ? value : null;
+    for (const name of await readdir(HISTORY_PATH)) {
+      if (name.endsWith(".json")) files.push(resolve(HISTORY_PATH, name));
+    }
   } catch {
-    return null;
+    // Nessuno storico: si usa solo data/latest.json.
   }
+  let newest = null;
+  for (const file of files) {
+    try {
+      const previous = JSON.parse(await readFile(file, "utf8"));
+      const value = previous?.coverage?.site_newest_date;
+      if (previous?.status === "success" && isValidIsoDate(value) && (!newest || value > newest)) {
+        newest = value;
+      }
+    } catch {
+      // File illeggibile: ignorato.
+    }
+  }
+  return newest;
 }
 
 async function saveResult(payload) {

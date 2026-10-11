@@ -2,8 +2,12 @@ name: Controllo giornaliero PVP
 
 on:
   schedule:
-    - cron: "7 21 * * *"
-    - cron: "7 22 * * *"
+    # Un tentativo ogni ora dalle 23:07 alle 06:07 di Parigi (ora legale; con l'ora
+    # solare dalle 22:07, saltato, alle 05:07). Il controllo orario esegue solo la
+    # finestra 23:00-06:59 e salta se la data è già riuscita: i tentativi successivi
+    # servono a ripetere un controllo parziale (es. elenco anomalo del PVP) o un
+    # avvio saltato da GitHub.
+    - cron: "7 21,22,23,0,1,2,3,4 * * *"
   workflow_dispatch:
     inputs:
       target_date:
