@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-11T07:00:37.185Z",
+  "checked_at": "2026-10-11T07:06:59.767Z",
   "target_date": "2026-10-10",
   "source_url": "https://pvp.giustizia.it/pvp/it/lista_annunci.page?searchType=searchForm&page=0&size=48&sortProperty=dataPubblicazione,desc&sortAlpha=citta,asc&searchWith=Raggio%20d%27azione&codTipoLotto=VALORI/CREDITI&raggioAzione=25",
   "status": "success",
@@ -23,7 +23,7 @@
         "ordered": true
       }
     ],
-    "page_reloads": 2,
+    "page_reloads": 3,
     "site_newest_date": "2026-10-09"
   },
   "announcement_errors": [],
