@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-10-12T00:29:48.805Z",
-  "target_date": "2026-10-11",
+  "checked_at": "2026-10-13T02:33:56.468Z",
+  "target_date": "2026-10-12",
   "source_url": "https://pvp.giustizia.it/pvp/it/lista_annunci.page?searchType=searchForm&page=0&size=48&sortProperty=dataPubblicazione,desc&sortAlpha=citta,asc&searchWith=Raggio%20d%27azione&codTipoLotto=VALORI/CREDITI&raggioAzione=25",
   "status": "success",
   "error": null,
@@ -8,24 +8,122 @@
   "errors": [],
   "coverage": {
     "complete": true,
-    "pages_checked": 1,
-    "listings_seen": 48,
-    "candidates_found": 0,
-    "candidates_checked": 0,
+    "pages_checked": 2,
+    "listings_seen": 96,
+    "candidates_found": 6,
+    "candidates_checked": 6,
     "stop_reason": "page_only_older_dates",
     "pages": [
       {
         "page": 1,
         "listings": 48,
-        "newest": "2026-10-09",
-        "oldest": "2026-09-28",
+        "newest": "2026-10-12",
+        "oldest": "2026-09-29",
+        "undated": 0,
+        "ordered": true
+      },
+      {
+        "page": 2,
+        "listings": 48,
+        "newest": "2026-09-29",
+        "oldest": "2026-09-08",
         "undated": 0,
         "ordered": true
       }
     ],
-    "page_reloads": 3,
-    "site_newest_date": "2026-10-09"
+    "site_newest_date": "2026-10-12"
   },
   "announcement_errors": [],
-  "announcements": []
+  "announcements": [
+    {
+      "title": "N. 51 titoli PAC del valore unitario di € 171,79 - da prog. 000009651566 a prog. 000009651616.…",
+      "credit_description": "N. 51 titoli PAC del valore unitario di € 171,79 - da prog. 000009651566 a prog. 000009651616. Consultare l'avviso di vendita per maggiori dettagli.",
+      "asset_descriptions": [
+        "N. 51 titoli PAC del valore unitario di € 171,79 - da prog. 000009651566 a prog. 000009561616. Consultare l'avviso di vendita per maggiori dettagli."
+      ],
+      "court_or_procedure": "Tribunale di ALESSANDRIA - 1501/2026",
+      "publication_date": "2026-10-12",
+      "sale_type": "Tramite Commissionario",
+      "sale_date": "2026-11-12T10:00",
+      "offer_deadline": "2026-11-11T12:00",
+      "base_auction_price": "8.761,29 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4644444",
+      "detail_verified": true
+    },
+    {
+      "title": "Titoli PAC, come da registro nazionale titoli allegato.",
+      "credit_description": "Titoli PAC, come da registro nazionale titoli allegato.",
+      "asset_descriptions": [
+        "Titoli PAC, come da registro nazionale titoli allegato."
+      ],
+      "court_or_procedure": "Tribunale di SANTA MARIA CAPUA VETERE - 1378/2026",
+      "publication_date": "2026-10-12",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-12T15:00",
+      "offer_deadline": "2026-11-12T13:00",
+      "base_auction_price": "1.362,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4644220",
+      "detail_verified": true
+    },
+    {
+      "title": "LOTTO UNICO (Lotto 1 + Lotto 2 + Lotto 3): Lotto comprensivo della totalità dei crediti da bonus…",
+      "credit_description": "LOTTO UNICO (Lotto 1 + Lotto 2 + Lotto 3): Lotto comprensivo della totalità dei crediti da bonus edilizi cedibili relativi alle annualità 2026, 2027, 2028, 2029, 2030 e 2031, del valore nominale complessivo di euro 430.057,61, Vendita competitiva telematica sui portali www.doauction.it e www.astemobili.it - Gruppo Edicom",
+      "asset_descriptions": [
+        "LOTTO 1 – Crediti d'imposta annualità 2026 Crediti da bonus edilizi relativi all'anno 2026, del valore nominale complessivo di euro 272.159,11, di cui euro 200.335,00 (valore nominale) di crediti tracciabili ed euro 71.824,11 (valore nominale) di crediti non tracciabili cedibili, come meglio descritti nell'avviso di vendita. Vendita competitiva telematica sui portali www.doauction.it e www.astemobili.it - Gruppo Edicom"
+      ],
+      "court_or_procedure": "Tribunale di ROMA - 471/2024",
+      "publication_date": "2026-10-12",
+      "sale_type": "Tramite Commissionario",
+      "sale_date": "2026-11-13T10:00",
+      "offer_deadline": "2026-11-12T12:00",
+      "base_auction_price": "235.896,22 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4643872",
+      "detail_verified": true
+    },
+    {
+      "title": "LOTTO 3 – Crediti d'imposta annualità 2029, 2030 e 2031. Crediti da bonus edilizi relativi alle…",
+      "credit_description": "LOTTO 3 – Crediti d'imposta annualità 2029, 2030 e 2031. Crediti da bonus edilizi relativi alle annualità 2029, 2030 e 2031, del valore nominale complessivo di euro 53.165,40, interamente costituiti da crediti non tracciabili cedibili, come meglio descritti nell'avviso di vendita pubblicato. I potenziali offerenti potranno richiedere accesso alla documentazione relativa ai crediti mediante accesso alla Virtual Data Room (VDR), dal seguente link https://dataroom.asteannunci.it/lg-471-2024, pr",
+      "asset_descriptions": [
+        "LOTTO 3 – Crediti d'imposta annualità 2029, 2030 e 2031. Crediti da bonus edilizi relativi alle annualità 2029, 2030 e 2031, del valore nominale complessivo di euro 53.165,40, interamente costituiti da crediti non tracciabili cedibili, come meglio descritti nell'avviso di vendita pubblicato. Vendita competitiva telematica sui portali www.doauction.it e www.astemobili.it - Gruppo Edicom"
+      ],
+      "court_or_procedure": "Tribunale di ROMA - 471/2024",
+      "publication_date": "2026-10-12",
+      "sale_type": "Tramite Commissionario",
+      "sale_date": "2026-11-13T10:00",
+      "offer_deadline": "2026-11-12T12:00",
+      "base_auction_price": "27.911,84 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4643897",
+      "detail_verified": true
+    },
+    {
+      "title": "LOTTO 2 – Crediti d'imposta annualità 2027 e 2028. Crediti da bonus edilizi relativi alle…",
+      "credit_description": "LOTTO 2 – Crediti d'imposta annualità 2027 e 2028. Crediti da bonus edilizi relativi alle annualità 2027 e 2028, del valore nominale complessivo di euro 104.733,10, di cui euro 69.289,50 (valore nominale) di crediti tracciabili ed euro 35.443,60 (valore nominale) di crediti non tracciabili cedibili, come meglio descritti nell'avviso di vendita. I potenziali offerenti potranno richiedere accesso alla documentazione relativa ai crediti mediante accesso alla Virtual Data Room (VDR), dal seguent",
+      "asset_descriptions": [
+        "LOTTO 2 – Crediti d'imposta annualità 2027 e 2028. Crediti da bonus edilizi relativi alle annualità 2027 e 2028, del valore nominale complessivo di euro 104.733,10, di cui euro 69.289,50 (valore nominale) di crediti tracciabili ed euro 35.443,60 (valore nominale) di crediti non tracciabili cedibili, come meglio descritti nell'avviso di vendita. Vendita competitiva telematica sui portali www.doauction.it e www.astemobili.it - Gruppo Edicom"
+      ],
+      "court_or_procedure": "Tribunale di ROMA - 471/2024",
+      "publication_date": "2026-10-12",
+      "sale_type": "Tramite Commissionario",
+      "sale_date": "2026-11-13T10:00",
+      "offer_deadline": "2026-11-12T12:00",
+      "base_auction_price": "54.984,88 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4643896",
+      "detail_verified": true
+    },
+    {
+      "title": "LOTTO 1 – Crediti d'imposta annualità 2026 Crediti da bonus edilizi relativi all'anno 2026, del…",
+      "credit_description": "LOTTO 1 – Crediti d'imposta annualità 2026 Crediti da bonus edilizi relativi all'anno 2026, del valore nominale complessivo di euro 272.159,11, di cui euro 200.335,00 (valore nominale) di crediti tracciabili ed euro 71.824,11 (valore nominale) di crediti non tracciabili cedibili, come meglio descritti nell'avviso di vendita. I potenziali offerenti potranno richiedere accesso alla documentazione relativa ai crediti mediante accesso alla Virtual Data Room (VDR), dal seguente link https://dataro",
+      "asset_descriptions": [
+        "LOTTO 1 – Crediti d'imposta annualità 2026 Crediti da bonus edilizi relativi all'anno 2026, del valore nominale complessivo di euro 272.159,11, di cui euro 200.335,00 (valore nominale) di crediti tracciabili ed euro 71.824,11 (valore nominale) di crediti non tracciabili cedibili, come meglio descritti nell'avviso di vendita. Vendita competitiva telematica sui portali www.doauction.it e www.astemobili.it - Gruppo Edicom"
+      ],
+      "court_or_procedure": "Tribunale di ROMA - 471/2024",
+      "publication_date": "2026-10-12",
+      "sale_type": "Tramite Commissionario",
+      "sale_date": "2026-11-13T10:00",
+      "offer_deadline": "2026-11-12T12:00",
+      "base_auction_price": "153.089,50 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4643893",
+      "detail_verified": true
+    }
+  ]
 }
