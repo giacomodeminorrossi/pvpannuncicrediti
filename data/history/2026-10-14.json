@@ -1,0 +1,114 @@
+{
+  "checked_at": "2026-10-14T23:54:44.732Z",
+  "target_date": "2026-10-14",
+  "source_url": "https://pvp.giustizia.it/pvp/it/lista_annunci.page?searchType=searchForm&page=0&size=48&sortProperty=dataPubblicazione,desc&sortAlpha=citta,asc&searchWith=Raggio%20d%27azione&codTipoLotto=VALORI/CREDITI&raggioAzione=25",
+  "status": "success",
+  "error": null,
+  "warnings": [],
+  "errors": [],
+  "coverage": {
+    "complete": true,
+    "pages_checked": 2,
+    "listings_seen": 96,
+    "candidates_found": 5,
+    "candidates_checked": 5,
+    "stop_reason": "page_only_older_dates",
+    "pages": [
+      {
+        "page": 1,
+        "listings": 48,
+        "newest": "2026-10-14",
+        "oldest": "2026-10-05",
+        "undated": 0,
+        "ordered": true
+      },
+      {
+        "page": 2,
+        "listings": 48,
+        "newest": "2026-10-03",
+        "oldest": "2026-09-10",
+        "undated": 0,
+        "ordered": true
+      }
+    ],
+    "site_newest_date": "2026-10-14"
+  },
+  "announcement_errors": [],
+  "announcements": [
+    {
+      "title": "Lotto 1: crediti fiscali derivanti dagli sconti ecobonus e sconto ristrutturazione ex art. 121 del…",
+      "credit_description": "Lotto 1: crediti fiscali derivanti dagli sconti ecobonus e sconto ristrutturazione ex art. 121 del d.l. 34/2020, di cui: € 22.324,50 relativi al Codice Tributo 7716 – Sconto Ristrutturazione art. 121 DL n. 34/2020; € 2.822,40 relativi al Codice Tributo 7712 – Sconto Ecobonus art. 121 D.L. n.34/2020. Si precisa che la documentazione attestante i crediti è resa disponibile in una Virtual Data Room (in breve “VDR”) cui sarà possibile accedere dal seguente link ___________. Per l’acce",
+      "asset_descriptions": [
+        "Lotto 1: crediti fiscali derivanti dagli sconti ecobonus e sconto ristrutturazione ex art. 121 del d.l. 34/2020, di cui: € 22.324,50 relativi al Codice Tributo 7716 – Sconto Ristrutturazione art. 121 DL n. 34/2020; € 2.822,40 relativi al Codice Tributo 7712 – Sconto Ecobonus art. 121 D.L. n.34/2020. Vendita competitiva telematica sui portali www.doauction.it e www.astemobili.it - Gruppo Edicom"
+      ],
+      "court_or_procedure": "Tribunale di ROMA - 415/2024",
+      "publication_date": "2026-10-14",
+      "sale_type": "Tramite Commissionario",
+      "sale_date": "2026-12-02T12:00",
+      "offer_deadline": "2026-12-01T12:00",
+      "base_auction_price": "25.146,90 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4645751",
+      "detail_verified": true
+    },
+    {
+      "title": "N°4 TITOLI ORDINARI DAL N° 000010575348 AL N° 000010575351, N°1 TITOLO ORDINARIO N° 000010575352…",
+      "credit_description": "N°4 TITOLI ORDINARI DAL N° 000010575348 AL N° 000010575351, N°1 TITOLO ORDINARIO N° 000010575352, N°15 TITOLI ORDINARI DAL N° 000010576274 AL N° 000010576288, N°1 TITOLO ORDINARIO 000010576289, N°1 TITOLO ORDINARIO N°000022280058; ECC",
+      "asset_descriptions": [
+        "N°4 TITOLI ORDINARI DAL N° 000010575348 AL N° 000010575351, N°1 TITOLO ORDINARIO N° 000010575352, N°15 TITOLI ORDINARI DAL N° 000010576274 AL N° 000010576288, N°1 TITOLO ORDINARIO 000010576289, N°1 TITOLO ORDINARIO N°000022280058; A NORMA DELL'ART. 12 DEL DECRETO 23 DICEMBRE 2022 N°660087 DEL MINISTRO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE, I TITOLI PAC NON UTILIZZATI DALL' INTESTATARIO PER DUE ANNI CONSECUTIVI SONO RIVERSATI NELLA RISERVA NAZIONE (CIOE' ANNULLATI); LA RESTITUZIONE ALLA RISERVA NAZIONALE E' ESEGUITA ANCHE NEL CASO IN CUI I TITOLI NON UTILIZZATI SIANO STATI NEL FRATTEMPO TRASFERITI A TERZI E, PERTANTO, QUALORA NELLE MORE DELLA PROCEDURA ESECUTIVA O SUCCESSIVAMENTE AL TRASFERIMENTO IN FAVORE DELL'ASSEGNATARIO/ACQUIRENTE, I TITOLI SIA RESTITUITI ALLA RISERVA NAZIONALE (CIOE' ANNULLATI)- PER L'EFFETTO, NULLA POTRA' ESSERE OPPOSTO AD AGEA; A NORMA DELL'ART. 27 DEL REG. (UE) N°2115/2021, L'ASSEGNATARIO/ACQUIRENTE DEI TITOLI DEVE SODDISFARE IL REQUISITO DELL'AGRICOLTORE IN ATTIVITA', A NORMA DELL'ART. 4 PAR.5, DEL MEDESIMO REGOLAMENTO E DI QUANTO PREVISTO DELL' ART.13 DEL DECRETO 23 DICEMBRE 2022 N° 660087 DEL MINISTRO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE; IN ASSENZA DI TALE REQUISITO, NON E' POSSIBILE ESEGUIRE IL TRASFERIMENTO DEI TITOLI ASSEGNATI/ACQUISTATI; IN CASO IN CUI I TITOLI PAC SUBISCANO MODIFICHE DEL NUMERO E DEL VALORE, OPPURE VARIAZIONI O MODIFICHE STABILITE DAL DIRITTO COMUNITARIO E DAGLI STRUMENTI NORMATIVI NAZIONALI DI ATTUAZIONE DI TALE NORMATIVA, SIA IL PIGNORAMENTO CHE IL SUCCESSIVO TRASFERIMENTO IN FAVORE DELL'ASSEGNATARIO/ACQUIRENTE CONTINUANO A PRODURRE EFFETTI LIMITATAMENTE AL NUMERO E AL VALORE DEI TITOLI COSI COME RICALCOLATI E PER L'EFFETTO, NULLA POTRA' ESSERE OPPOSTO AD AGEA."
+      ],
+      "court_or_procedure": "Tribunale di BRESCIA - 1792/2026",
+      "publication_date": "2026-10-14",
+      "sale_type": "Tramite Commissionario",
+      "sale_date": "2026-10-29T15:15",
+      "offer_deadline": "2026-10-29T15:10",
+      "base_auction_price": "250,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4645682",
+      "detail_verified": true
+    },
+    {
+      "title": "Cessione pro-soluto del credito I.V.A. della Procedura, composto da: - € 14.743,02 già maturato…",
+      "credit_description": "Cessione pro-soluto del credito I.V.A. della Procedura, composto da: - € 14.743,02 già maturato negli anni di imposta 2025 e 2026;- Credito IVA futuro, che sarà generato dalla fattura del compenso del Curatore, stimato tra minimo € 12.701,20 e massimo € 22.428,05. Complessivamente la stima del credito ceduto varia da un minimo di € 27.444,22 ad un massimo di € 37.171,07. Per approfondimenti si prenda visione del DISCIPLINARE in allegato.",
+      "asset_descriptions": [
+        "Cessione pro-soluto del credito I.V.A. della Procedura, composto da: € 14.743,02 già maturato negli anni di imposta 2025 e 2026; + Credito IVA futuro, che sarà generato dalla fattura del compenso del Curatore, stimato tra minimo € 12.701,20 e massimo € 22.428,05. Complessivamente la stima del credito ceduto varia da un minimo di € 27.444,22 ad un massimo di € 37.171,07. Per approfondimenti si prenda visione del DISCIPLINARE in allegato. Lo studio del sottoscritto Curatore è a disposizione per ulteriori informazioni o richiesta di documentazione ai seguenti recapiti: PEC f497.2020milano@pecfallimenti.it; telefono 02-67072159 (referente Dott.ssa Carlotta Cento, c.cento@ficaloraeassociati.it)"
+      ],
+      "court_or_procedure": "Tribunale di MILANO - 497/2020",
+      "publication_date": "2026-10-14",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-03T15:30",
+      "offer_deadline": "2026-10-30T13:00",
+      "base_auction_price": "15.820,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4645598",
+      "detail_verified": true
+    },
+    {
+      "title": "LOTTO 1 DESCRIZIONE: n. 4.000 azioni dematerializzate della società UNIGROUP SPA (già Uniposte…",
+      "credit_description": "LOTTO 1 DESCRIZIONE: n. 4.000 azioni dematerializzate della società UNIGROUP SPA (già Uniposte spa) CF /PIVA e numero di iscrizione nel Registro delle Imprese 13176531005 R.E.A. RM 1428519 con sede legale in 00187 ROMA VIA LUDOVISI 35, capitale sociale euro 5.904.600,00 i.v.. Vendita competitiva telematica sui portali www.doauction.it e www.astemobili.it - Gruppo Edicom",
+      "asset_descriptions": [
+        "LOTTO 1 DESCRIZIONE: n. 4.000 azioni dematerializzate della società UNIGROUP SPA (già Uniposte spa) CF /PIVA e numero di iscrizione nel Registro delle Imprese 13176531005 R.E.A. RM 1428519 con sede legale in 00187 ROMA VIA LUDOVISI 35, capitale sociale euro 5.904.600,00 i.v.. Vendita competitiva telematica sui portali www.doauction.it e www.astemobili.it - Gruppo Edicom"
+      ],
+      "court_or_procedure": "Tribunale di MILANO - 400/2023",
+      "publication_date": "2026-10-14",
+      "sale_type": "Tramite Commissionario",
+      "sale_date": "2026-11-24T12:00",
+      "offer_deadline": "2026-11-23T12:00",
+      "base_auction_price": "100.000,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4645358",
+      "detail_verified": true
+    },
+    {
+      "title": "GARA ASINCRONA TELEMATICA PER CESSIONE CREDITO IVA",
+      "credit_description": "GARA ASINCRONA TELEMATICA PER CESSIONE CREDITO IVA",
+      "asset_descriptions": [
+        "0001) GARA ASINCRONA TELEMATICA PER CESSIONE CREDITO IVA MATURATO NEL CORSO DELLA PROCEDURA E DELL'ANNO 2026 PER FATTURE ZUCCHETTI, FATTURE LEGALI PROCEDURA, FATTURA COMPENSO CURATORE - TALE CREDITO AMMONTA AD EURO 7.577,25 (SETTEMILACINQUECENTOSETTANTASETTE/25) PREZZO BASE EURO 5.000,00 (CINQUEMILA/00) - RILANCIO MINIMO EURO 100,00 (CENTO/00)La vendita sarà perfezionata decorsi 10 gg. dal deposito in Cancelleria del verbale di aggiudicazione, di conseguenza la consegna dei beni potrà avvenire solo decorso tale termine, in modo da consentire la valutazione del Curatore in ordine ad eventuali rilanci ex art. 107 4^ comma l.f. nonché l’ eventuale sospensione del G.D. ex art. 108 1^ comma l.f., come da ordinanza del Giudice Delegato del 19/12/14.AL FINE DI VALUTARE L'EVENTUALE ACQUISTO GLI INTERESSATI (CHE NE DOVRANNO FARE UN USO STRETTAMENTE RISERVATO) POTRANNO FARE RICHIESTA DELLA DOCUMENTAZIONE IN POSSESSO DELL'IVG DI LUCCA INVIANDO UNA MAIL A INFO@IVGLUCCA.COM"
+      ],
+      "court_or_procedure": "Tribunale di LUCCA - 12/2022",
+      "publication_date": "2026-10-14",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-13T11:00",
+      "offer_deadline": "2026-11-13T10:30",
+      "base_auction_price": "3.750,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4645335",
+      "detail_verified": true
+    }
+  ]
+}
