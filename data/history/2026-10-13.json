@@ -1,0 +1,99 @@
+{
+  "checked_at": "2026-10-14T00:16:44.829Z",
+  "target_date": "2026-10-13",
+  "source_url": "https://pvp.giustizia.it/pvp/it/lista_annunci.page?searchType=searchForm&page=0&size=48&sortProperty=dataPubblicazione,desc&sortAlpha=citta,asc&searchWith=Raggio%20d%27azione&codTipoLotto=VALORI/CREDITI&raggioAzione=25",
+  "status": "success",
+  "error": null,
+  "warnings": [],
+  "errors": [],
+  "coverage": {
+    "complete": true,
+    "pages_checked": 2,
+    "listings_seen": 96,
+    "candidates_found": 4,
+    "candidates_checked": 4,
+    "stop_reason": "page_only_older_dates",
+    "pages": [
+      {
+        "page": 1,
+        "listings": 48,
+        "newest": "2026-10-13",
+        "oldest": "2026-09-30",
+        "undated": 0,
+        "ordered": true
+      },
+      {
+        "page": 2,
+        "listings": 48,
+        "newest": "2026-09-30",
+        "oldest": "2026-09-08",
+        "undated": 0,
+        "ordered": true
+      }
+    ],
+    "site_newest_date": "2026-10-13"
+  },
+  "announcement_errors": [],
+  "announcements": [
+    {
+      "title": "Crediti fiscali presenti nel cassetto fiscale della società in Liquidazione Giudiziale: Crediti…",
+      "credit_description": "Crediti fiscali presenti nel cassetto fiscale della società in Liquidazione Giudiziale: Crediti tracciabili - codice tributo 7719 (attualmente cedibili a chiunque e poi tre volte a soggetti qualificati) - pari ad Euro 297.875,00, di cui Euro 74.468,75 in scadenza nel 2026, Euro 74.468,75 con anno di riferimento 2027, Euro 74.468,75 con anno di riferimento 2028 ed Euro 74.468,75 con anno di riferimento 2029.",
+      "asset_descriptions": [
+        "Crediti fiscali presenti nel cassetto fiscale della società in Liquidazione Giudiziale: Crediti tracciabili - codice tributo 7719 (attualmente cedibili a chiunque e poi tre volte a soggetti qualificati) - pari ad Euro 297.875,00, di cui Euro 74.468,75 in scadenza nel 2026, Euro 74.468,75 con anno di riferimento 2027, Euro 74.468,75 con anno di riferimento 2028 ed Euro 74.468,75 con anno di riferimento 2029."
+      ],
+      "court_or_procedure": "Tribunale di PESCARA - 53/2025",
+      "publication_date": "2026-10-13",
+      "sale_type": "Senza Incanto",
+      "sale_date": "2026-11-04T18:00",
+      "offer_deadline": "2026-11-03T12:00",
+      "base_auction_price": "297.875,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4645149",
+      "detail_verified": true
+    },
+    {
+      "title": "La Procedura di Liquidazione Controllata in oggetto cede la partecipazione totalitaria nella…",
+      "credit_description": "La Procedura di Liquidazione Controllata in oggetto cede la partecipazione totalitaria nella società rumena Bonus Fly Travel Pro con sede in SAT.GHEABA str. COMUNA MANECIU nr. 395 jud. PRAHOVA, Romania, c.f. R026452697, R.C. J29/128/2010. La società svolge attività di call center.",
+      "asset_descriptions": [
+        "La Procedura di Liquidazione Controllata in oggetto cede la partecipazione totalitaria nella società rumena Bonus Fly Travel Pro con sede in SAT.GHEABA str. COMUNA MANECIU nr. 395 jud. PRAHOVA, Romania, c.f. R026452697, R.C. J29/128/2010. La società svolge attività di call center."
+      ],
+      "court_or_procedure": "Tribunale di MILANO - 30/2023",
+      "publication_date": "2026-10-13",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-17T15:00",
+      "offer_deadline": "2026-11-16T13:00",
+      "base_auction_price": "1,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4605165",
+      "detail_verified": true
+    },
+    {
+      "title": "Partecipazione dello 0,5% del capitale sociale della società CREDIL SRL.",
+      "credit_description": "Partecipazione dello 0,5% del capitale sociale della società CREDIL SRL.",
+      "asset_descriptions": [
+        "Partecipazione dello 0,5% del capitale sociale della società CREDIL SRL."
+      ],
+      "court_or_procedure": "Tribunale di MODENA - 83/2020",
+      "publication_date": "2026-10-13",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-28T12:01",
+      "offer_deadline": "2026-11-28T12:00",
+      "base_auction_price": "2.100,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4645039",
+      "detail_verified": true
+    },
+    {
+      "title": "crediti fiscali del valore nominale complessivo di € 263.642,30…",
+      "credit_description": "crediti fiscali del valore nominale complessivo di € 263.642,30 (duecentosessantatreseicentoquarantadue/trenta)",
+      "asset_descriptions": [
+        "crediti fiscali del valore nominale complessivo di € 263.642,30 (duecentosessantatreseicentoquarantadue/trenta)"
+      ],
+      "court_or_procedure": "Tribunale di REGGIO EMILIA - 98/2025",
+      "publication_date": "2026-10-13",
+      "sale_type": "Senza Incanto",
+      "sale_date": "2026-11-21T09:00",
+      "offer_deadline": "2026-11-20T23:59",
+      "base_auction_price": "135.000,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4644818",
+      "detail_verified": true
+    }
+  ]
+}
