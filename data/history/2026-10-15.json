@@ -1,0 +1,129 @@
+{
+  "checked_at": "2026-10-15T23:40:52.356Z",
+  "target_date": "2026-10-15",
+  "source_url": "https://pvp.giustizia.it/pvp/it/lista_annunci.page?searchType=searchForm&page=0&size=48&sortProperty=dataPubblicazione,desc&sortAlpha=citta,asc&searchWith=Raggio%20d%27azione&codTipoLotto=VALORI/CREDITI&raggioAzione=25",
+  "status": "success",
+  "error": null,
+  "warnings": [],
+  "errors": [],
+  "coverage": {
+    "complete": true,
+    "pages_checked": 2,
+    "listings_seen": 96,
+    "candidates_found": 6,
+    "candidates_checked": 6,
+    "stop_reason": "page_only_older_dates",
+    "pages": [
+      {
+        "page": 1,
+        "listings": 48,
+        "newest": "2026-10-15",
+        "oldest": "2026-10-05",
+        "undated": 0,
+        "ordered": true
+      },
+      {
+        "page": 2,
+        "listings": 48,
+        "newest": "2026-10-05",
+        "oldest": "2026-09-11",
+        "undated": 0,
+        "ordered": true
+      }
+    ],
+    "site_newest_date": "2026-10-15"
+  },
+  "announcement_errors": [],
+  "announcements": [
+    {
+      "title": "LOTTO UNICO - CESSIONE PRO-SOLUTO DI CREDITI COMMERCIALI CON VALORE NOMINALE DI €1.332.487,51 DI…",
+      "credit_description": "LOTTO UNICO - CESSIONE PRO-SOLUTO DI CREDITI COMMERCIALI CON VALORE NOMINALE DI €1.332.487,51 DI PERTINENZA DELLA PROCEDURA IN EPIGRAFE, OLTRE INTERESSI AI SENSI DI LEGGE, COME RISULTANTE DALLA CONTABILITA' DELLA SOCIETA' LIQUIDATA.",
+      "asset_descriptions": [
+        "LOTTO UNICO - CESSIONE PRO-SOLUTO DI CREDITI COMMERCIALI CON VALORE NOMINALE DI €1.332.487,51 DI PERTINENZA DELLA PROCEDURA IN EPIGRAFE, OLTRE INTERESSI AI SENSI DI LEGGE, COME RISULTANTE DALLA CONTABILITA' DELLA SOCIETA' LIQUIDATA."
+      ],
+      "court_or_procedure": "Tribunale di BOLOGNA - 115/2024",
+      "publication_date": "2026-10-15",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-12-02T11:00",
+      "offer_deadline": "2026-12-02T09:30",
+      "base_auction_price": "4.959,75 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4646341",
+      "detail_verified": true
+    },
+    {
+      "title": "Cessione pro-soluto dei CREDITI FISCALI DA SUPERBONUS 110% presenti sulla “Piattaforma Cessione…",
+      "credit_description": "Cessione pro-soluto dei CREDITI FISCALI DA SUPERBONUS 110% presenti sulla “Piattaforma Cessione Crediti” della procedura di Liquidazione Giudiziale n.18/2026 del Tribunale di Padova, così composti: 1) Codice tributo 7719 SCONTO SUPERBONUS 110 anni 2026-2027-2028-2029 per un valore nominale complessivo di Euro 509.757,00, valore stimato di Euro 305.854,20. Perizia e documentazione sono consultabili richiedendo l’accesso alla Virtual Data Room (VDR) disponibile al link https://dataroom.aste",
+      "asset_descriptions": [
+        "Cessione pro-soluto di crediti fiscali Superbonus 110% presenti sulla Piattaforma Cessione Crediti della Liquidazione Giudiziale n. 18/2026 del Tribunale di Padova. Crediti identificati dal codice tributo 7719 (annualità 2026-2029), per un valore nominale complessivo di € 509.757,00 e valore stimato di € 305.854,20. Perizia e documentazione disponibili in Virtual Data Room (https://dataroom.asteannunci.it/lg-18-2026-pd). Vendita competitiva telematica su www.doauction.it e www.astemobili.it"
+      ],
+      "court_or_procedure": "Tribunale di PADOVA - 18/2026",
+      "publication_date": "2026-10-15",
+      "sale_type": "Tramite Commissionario",
+      "sale_date": "2026-11-18T12:00",
+      "offer_deadline": "2026-11-17T12:00",
+      "base_auction_price": "305.000,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4646165",
+      "detail_verified": true
+    },
+    {
+      "title": "N. 7 TITOLI PAC (2023-2027)",
+      "credit_description": "N. 7 TITOLI PAC (2023-2027)",
+      "asset_descriptions": [
+        "N. 7 TITOLI PAC (2023 -2027)"
+      ],
+      "court_or_procedure": "Tribunale di BARI - 2618/2024",
+      "publication_date": "2026-10-15",
+      "sale_type": "Tramite Commissionario",
+      "sale_date": "2026-11-20T12:00",
+      "offer_deadline": "2026-11-19T12:00",
+      "base_auction_price": "430,28 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4646074",
+      "detail_verified": true
+    },
+    {
+      "title": "Crediti d'imposta derivanti da interventi agevolati ai sensi degli artt. 119 e 121 D.L. 34/2020…",
+      "credit_description": "Crediti d'imposta derivanti da interventi agevolati ai sensi degli artt. 119 e 121 D.L. 34/2020, conv. L.77/2020, e ss.mm.ii., dell'art. 16-bis TUIR e degli altri bonus edilizi, per un valore nominale complessivodi € 419.646,25",
+      "asset_descriptions": [
+        "Crediti d'imposta derivanti da interventi agevolati ai sensi degli artt. 119 e 121 D.L. 34/2020, conv. L.77/2020, e ss.mm.ii., dell'art. 16-bis TUIR e degli altri bonus edilizi, per un valore nominale complessivodi € 419.646,25"
+      ],
+      "court_or_procedure": "Tribunale di ROMA - 345/2026",
+      "publication_date": "2026-10-15",
+      "sale_type": "Senza Incanto",
+      "sale_date": "2026-11-03T12:00",
+      "offer_deadline": "2026-11-02T12:00",
+      "base_auction_price": "419.646,25 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4646053",
+      "detail_verified": true
+    },
+    {
+      "title": "CESSIONE PRO SOLUTO, A TITOLO ONEROSO, DI CREDITI LITIGIOSI E RELATIVE AZIONI Fall. Diesel Center…",
+      "credit_description": "CESSIONE PRO SOLUTO, A TITOLO ONEROSO, DI CREDITI LITIGIOSI E RELATIVE AZIONI Fall. Diesel Center SPA procedura competitiva per l'individuazione di eventuali offerte migliorative per la cessione pro soluto, ai sensi degli artt. 106 e 107 R.D. 16.03.1942, n°267, di taluni crediti litigiosi (e dei relativi accessori e azioni) di titolarità del Fallimento, con contestuale subentro, anche ai sensi dell'art. 111 cpc, dell'acquirente nei relativi procedimenti. INVITO A PARTECIPARE E DISCIPLINARE DI GARA ALLEGATI",
+      "asset_descriptions": [
+        "CESSIONE PRO SOLUTO, A TITOLO ONEROSO, DI CREDITI LITIGIOSI E RELATIVE AZIONI Il Fallimento Diesel Center S.P.A. ha indetto procedura competitiva per l'individuazione di eventuali offerte migliorative per la cessione pro soluto, ai sensi degli artt. 106 e 107 R.D. 16 marzo 1942, n° 267, di taluni crediti litigiosi (e dei relativi accessori e azioni) di titolarità del Fallimento, con contestuale subentro, anche ai sensi dell'art. 111 c.p.c., dell'acquirente nei relativi procedimenti. INVITO A PARTECIPARE E DISCIPLINARE DI GARA ALLEGATI"
+      ],
+      "court_or_procedure": "Tribunale di LA SPEZIA - 9/2021",
+      "publication_date": "2026-10-15",
+      "sale_type": "Tramite Commissionario",
+      "sale_date": "2026-12-04T12:00",
+      "offer_deadline": "2026-12-03T12:00",
+      "base_auction_price": "1.000.000,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4645829",
+      "detail_verified": true
+    },
+    {
+      "title": "Creditore originario / titolare: Credito Vantato dalla Procedura Fallimentare n.1/2018 del…",
+      "credit_description": "Creditore originario / titolare: Credito Vantato dalla Procedura Fallimentare n.1/2018 del 12.01.2018 – Pignoramento di quote dello stipendio; Debitore pignorato: persona fisica, CF:…omissis…….; Valore residuo: € 17.793,66 (euro diciassettemilasettecentonovantatre/66); Prezzo base: € 8.000 (euro ottomila/00); Offerta minima ammissibile: € 8.000 (euro ottomila/00); Cauzione: 10% prezzo offerto Rilancio minimo: 4% migliore offerta",
+      "asset_descriptions": [
+        "Creditore originario / titolare: Credito Vantato dalla Procedura Fallimentare n.1/2018 del 12.01.2018 – Pignoramento di quote dello stipendio; Debitore pignorato: persona fisica, CF:…omissis…….; Valore residuo: € 17.793,66 (euro diciassettemilasettecentonovantatre/66); Prezzo base: € 8.000 (euro ottomila/00); Offerta minima ammissibile: € 8.000 (euro ottomila/00); Cauzione: 10% prezzo offerto Rilancio minimo: 4% migliore offerta"
+      ],
+      "court_or_procedure": "Tribunale di AVEZZANO - 1/2018",
+      "publication_date": "2026-10-15",
+      "sale_type": "Con Incanto",
+      "sale_date": "2026-12-15T09:00",
+      "offer_deadline": "2026-12-14T12:00",
+      "base_auction_price": "8.000,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4645344",
+      "detail_verified": true
+    }
+  ]
+}
