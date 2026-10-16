@@ -1,0 +1,144 @@
+{
+  "checked_at": "2026-10-16T23:32:40.620Z",
+  "target_date": "2026-10-16",
+  "source_url": "https://pvp.giustizia.it/pvp/it/lista_annunci.page?searchType=searchForm&page=0&size=48&sortProperty=dataPubblicazione,desc&sortAlpha=citta,asc&searchWith=Raggio%20d%27azione&codTipoLotto=VALORI/CREDITI&raggioAzione=25",
+  "status": "success",
+  "error": null,
+  "warnings": [],
+  "errors": [],
+  "coverage": {
+    "complete": true,
+    "pages_checked": 2,
+    "listings_seen": 96,
+    "candidates_found": 7,
+    "candidates_checked": 7,
+    "stop_reason": "page_only_older_dates",
+    "pages": [
+      {
+        "page": 1,
+        "listings": 48,
+        "newest": "2026-10-16",
+        "oldest": "2026-10-06",
+        "undated": 0,
+        "ordered": true
+      },
+      {
+        "page": 2,
+        "listings": 48,
+        "newest": "2026-10-06",
+        "oldest": "2026-09-16",
+        "undated": 0,
+        "ordered": true
+      }
+    ],
+    "site_newest_date": "2026-10-16"
+  },
+  "announcement_errors": [],
+  "announcements": [
+    {
+      "title": "AVVISO DI PROCEDURA COMPETITIVA – GARA ASINCRONA TELEMATICA PERCESSIONE DI CREDITI FISCALI…",
+      "credit_description": "AVVISO DI PROCEDURA COMPETITIVA – GARA ASINCRONA TELEMATICA PERCESSIONE DI CREDITI FISCALI PROVENIENTI DA BONUS EDILIZI LOTTO 6",
+      "asset_descriptions": [
+        "0013) 06) Premesso:- che la società, anteriormente alla dichiarazione di apertura della procedura, ha eseguito interventi edilizi agevolati maturando crediti d'imposta;- che tali crediti sono attualmente disponibili nel cassetto fiscale della società ed oggetto di verifica, riscontro documentale e valutazione da parte del Dott. Andrea Nottoli, esperto indipendente nominato in data 09 settembre 2025;- che lo stesso Dott. Nottoli, in data 06 maggio scorso, ha inviato alla curatela una propria relazione dalle quali risulta la disponibilità di una tranche di crediti maturati dalla società ex art. 121 DL/2020 di complessivi euro 99.796,35= nominali. Tali crediti di tipo tracciabile, con \"anno di riferimento\" 2026 e 2027 ed anni successivi, dai riscontri effettuati dall'esperto risultano commerciabili e, quindi, cedibili a terzi (Allegato A);- i crediti posti all'incanto sono suddivisi in due lotti secondo le modalità indicate dal Dott. Nottoli Andrea, fissando come base d'asta il valore dei crediti nominali, ridotti rispettivamente al 75% per quelli esigibili nel 2026 ed al 70% per quelli esigibile nel 2027 e negli anni successivi. Prezzo base L'offerta minima per l'acquisto dei predetti crediti fiscali dovrà essere pari o superiore a:- Lotto 6: euro 37.175,02 (trentasettemilacentosettantacinque/02).ULTERIORI INFORMAZIONI SONO REPERIBILI NELL'AVVISO DI VENDITA E NELLA DOCUMENTAZIONE IN ALLEGATO"
+      ],
+      "court_or_procedure": "Tribunale di LUCCA - 52/2025",
+      "publication_date": "2026-10-16",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-16T11:00",
+      "offer_deadline": "2026-11-16T10:30",
+      "base_auction_price": "37.175,02 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4646934",
+      "detail_verified": true
+    },
+    {
+      "title": "AVVISO DI PROCEDURA COMPETITIVA – GARA ASINCRONA TELEMATICA PERCESSIONE DI CREDITI FISCALI…",
+      "credit_description": "AVVISO DI PROCEDURA COMPETITIVA – GARA ASINCRONA TELEMATICA PERCESSIONE DI CREDITI FISCALI PROVENIENTI DA BONUS EDILIZI LOTTO 5",
+      "asset_descriptions": [
+        "0012) 05) Premesso:- che la società, anteriormente alla dichiarazione di apertura della procedura, ha eseguito interventi edilizi agevolati maturando crediti d'imposta;- che tali crediti sono attualmente disponibili nel cassetto fiscale della società ed oggetto di verifica, riscontro documentale e valutazione da parte del Dott. Andrea Nottoli, esperto indipendente nominato in data 09 settembre 2025;- che lo stesso Dott. Nottoli, in data 06 maggio scorso, ha inviato alla curatela una propria relazione dalle quali risulta la disponibilità di una tranche di crediti maturati dalla società ex art. 121 DL/2020 di complessivi euro 99.796,35= nominali. Tali crediti di tipo tracciabile, con \"anno di riferimento\" 2026 e 2027 ed anni successivi, dai riscontri effettuati dall'esperto risultano commerciabili e, quindi, cedibili a terzi (Allegato A);- i crediti posti all'incanto sono suddivisi in due lotti secondo le modalità indicate dal Dott. Nottoli Andrea, fissando come base d'asta il valore dei crediti nominali, ridotti rispettivamente al 75% per quelli esigibili nel 2026 ed al 70% per quelli esigibile nel 2027 e negli anni successivi. Prezzo base L'offerta minima per l'acquisto dei predetti crediti fiscali dovrà essere pari o superiore a:-Lotto 5: euro 34.962,29 (trentaquattromilanovecentosessantadue/29).ULTERIORI INFORMAZIONI SONO REPERIBILI NELL'AVVISO DI VENDITA E NELLA DOCUMENTAZIONE IN ALLEGATO"
+      ],
+      "court_or_procedure": "Tribunale di LUCCA - 52/2025",
+      "publication_date": "2026-10-16",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-16T11:00",
+      "offer_deadline": "2026-11-16T10:30",
+      "base_auction_price": "34.962,29 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4646909",
+      "detail_verified": true
+    },
+    {
+      "title": "CREDITI D’IMPOSTA per complessivi euro 65.795,80, relativi alle quote annuali dal 2026 al 2034…",
+      "credit_description": "CREDITI D’IMPOSTA per complessivi euro 65.795,80, relativi alle quote annuali dal 2026 al 2034 derivanti da sconti in fattura in relazione a interventi edilizi agevolati ai sensi dell’art. 121 del D.L. 19 maggio 2020, n. 34, identificati nel cassetto fiscale con il codice tributo 7716 («Sconto ristrutturazione art. 121 D.L. n. 34/2020»)",
+      "asset_descriptions": [
+        "CREDITI D’IMPOSTA per complessivi euro 65.795,80, relativi alle quote annuali dal 2026 al 2034 derivanti da sconti in fattura in relazione a interventi edilizi agevolati ai sensi dell’art. 121 del D.L. 19 maggio 2020, n. 34, identificati nel cassetto fiscale con il codice tributo 7716 («Sconto ristrutturazione art. 121 D.L. n. 34/2020»)"
+      ],
+      "court_or_procedure": "Tribunale di MILANO - 807/2025",
+      "publication_date": "2026-10-16",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-24T15:00",
+      "offer_deadline": "2026-11-23T13:00",
+      "base_auction_price": "15.133,03 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4646631",
+      "detail_verified": true
+    },
+    {
+      "title": "Titoli Pac (Politica agricola Comune) di tipo ordinario iscritti nel registro nazionale Titoli…",
+      "credit_description": "Titoli Pac (Politica agricola Comune) di tipo ordinario iscritti nel registro nazionale Titoli istituito dall'art. 3 del DL 182 2005 convertito in Legge 231 2005 (SIAN) meglio descritti nell'avviso di vendita e nei relativi allegati Ultimo incanto ribassato",
+      "asset_descriptions": [
+        "Titoli Pac (Politica agricola Comune) di tipo ordinario iscritti nel registro nazionale Titoli istituito dall'art. 3 del DL 182 2005 convertito in Legge 231 2005 (SIAN) meglio descritti nell'avviso di vendita e nei relativi allegati"
+      ],
+      "court_or_procedure": "Tribunale di VALLO DELLA LUCANIA - 92/2023",
+      "publication_date": "2026-10-16",
+      "sale_type": "Senza Incanto",
+      "sale_date": "2026-11-17T10:30",
+      "offer_deadline": "2026-11-16T12:00",
+      "base_auction_price": "1.083,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4646604",
+      "detail_verified": true
+    },
+    {
+      "title": "Cessione crediti fiscali: vendita pro soluto dei crediti fiscali relativi ai codici tributo 6926 e…",
+      "credit_description": "Cessione crediti fiscali: vendita pro soluto dei crediti fiscali relativi ai codici tributo 6926 e 7716 relativi alle annualità dal 2026 al 2031. Per maggiori informazioni rivolgersi al dott. Andrea Petreni andrea@itasset.it - mod.339.5274210",
+      "asset_descriptions": [
+        "Cessione crediti fiscali: vendita pro soluto dei crediti fiscali relativi ai codici tributo 6926 e 7716 relativi alle annualità dal 2026 al 2031."
+      ],
+      "court_or_procedure": "Tribunale di SIENA - 4/2026",
+      "publication_date": "2026-10-16",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-12-10T10:00",
+      "offer_deadline": "2026-12-07T21:00",
+      "base_auction_price": "27.600,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4646643",
+      "detail_verified": true
+    },
+    {
+      "title": "crediti d'imposta derivanti da agevolazioni edilizie (BONUS FACCIATE CEDUTO ART. 121 DL N. 34-2020…",
+      "credit_description": "crediti d'imposta derivanti da agevolazioni edilizie (BONUS FACCIATE CEDUTO ART. 121 DL N. 34-2020 - RISTRUTTURAZIONE CEDUTO ART. 121 DL N. 34-2020 - SCONTO RISTRUTT. ART. 121 DL N. 34-2020)",
+      "asset_descriptions": [
+        "crediti d'imposta derivanti da agevolazioni edilizie (BONUS FACCIATE CEDUTO ART. 121 DL N. 34-2020 - RISTRUTTURAZIONE CEDUTO ART. 121 DL N. 34-2020 - SCONTO RISTRUTT. ART. 121 DL N. 34-2020)"
+      ],
+      "court_or_procedure": "16487/2026",
+      "publication_date": "2026-10-16",
+      "sale_type": "Senza Incanto",
+      "sale_date": "2026-11-05T12:00",
+      "offer_deadline": "2026-11-04T12:00",
+      "base_auction_price": "80.000,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4646611",
+      "detail_verified": true
+    },
+    {
+      "title": "Credito IVA del valore nominale di € 255.800,00 maturato nel corso della Procedura, e riportato…",
+      "credit_description": "Credito IVA del valore nominale di € 255.800,00 maturato nel corso della Procedura, e riportato come credito nella dichiarazione IVA 2026 per il periodo d'imposta 2025. Il credito viene venduto, pro soluto e senza garanzia in ordine alla esigibilità ed ai tempi di incasso.",
+      "asset_descriptions": [
+        "Credito IVA del valore nominale di € 255.800,00 maturato nel corso della Procedura, e riportato come credito nella dichiarazione IVA 2026 per il periodo d'imposta 2025. Il credito viene venduto, pro soluto e senza garanzia in ordine alla esigibilità ed ai tempi di incasso."
+      ],
+      "court_or_procedure": "Tribunale di VELLETRI - 50/2014",
+      "publication_date": "2026-10-16",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-12-10T12:00",
+      "offer_deadline": "2026-12-03T12:00",
+      "base_auction_price": "204.640,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4646504",
+      "detail_verified": true
+    }
+  ]
+}
