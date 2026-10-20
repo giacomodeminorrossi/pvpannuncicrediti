@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-10-20T00:17:56.412Z",
-  "target_date": "2026-10-19",
+  "checked_at": "2026-10-20T23:50:04.226Z",
+  "target_date": "2026-10-20",
   "source_url": "https://pvp.giustizia.it/pvp/it/lista_annunci.page?searchType=searchForm&page=0&size=48&sortProperty=dataPubblicazione,desc&sortAlpha=citta,asc&searchWith=Raggio%20d%27azione&codTipoLotto=VALORI/CREDITI&raggioAzione=25",
   "status": "success",
   "error": null,
@@ -8,10 +8,10 @@
   "errors": [],
   "coverage": {
     "complete": true,
-    "pages_checked": 2,
-    "listings_seen": 96,
-    "candidates_found": 3,
-    "candidates_checked": 3,
+    "pages_checked": 1,
+    "listings_seen": 48,
+    "candidates_found": 0,
+    "candidates_checked": 0,
     "stop_reason": "page_only_older_dates",
     "pages": [
       {
@@ -21,64 +21,11 @@
         "oldest": "2026-10-06",
         "undated": 0,
         "ordered": true
-      },
-      {
-        "page": 2,
-        "listings": 48,
-        "newest": "2026-10-06",
-        "oldest": "2026-09-18",
-        "undated": 0,
-        "ordered": true
       }
     ],
+    "page_reloads": 3,
     "site_newest_date": "2026-10-19"
   },
   "announcement_errors": [],
-  "announcements": [
-    {
-      "title": "Lotto 2 - n. 24 titoli PAC identificati dal prog. 2149083 al prog. 2149106, del valore unitario di…",
-      "credit_description": "Lotto 2 - n. 24 titoli PAC identificati dal prog. 2149083 al prog. 2149106, del valore unitario di euro 139,50, valore di gruppo euro 3.348,00; - 2 titoli PAC identificati dal prog. 11444572 al prog. 11444573, del valore unitario di euro 139,50, valore di gruppo euro 279,00; 1 titolo PAC identificato n. 12518630, del valore unitario di euro 139,50, valore di gruppo euro 139,50; 21 titoli PAC identificati dal prog. 2149006 al prog. 2149038, del valore unitario di euro 139,50, valore di gruppo euro 2.929,50.",
-      "asset_descriptions": [
-        "Lotto 2 - n. 24 titoli PAC identificati dal prog. 2149083 al prog. 2149106, del valore unitario di euro 139,50, valore di gruppo euro 3.348,00; - 2 titoli PAC identificati dal prog. 11444572 al prog. 11444573, del valore unitario di euro 139,50, valore di gruppo euro 279,00; 1 titolo PAC identificato n. 12518630, del valore unitario di euro 139,50, valore di gruppo euro 139,50; 21 titoli PAC identificati dal prog. 2149006 al prog. 2149038, del valore unitario di euro 139,50, valore di gruppo euro 2.929,50."
-      ],
-      "court_or_procedure": "Tribunale di BOLOGNA - 71/2025",
-      "publication_date": "2026-10-19",
-      "sale_type": "Competitiva",
-      "sale_date": "2026-12-02T11:00",
-      "offer_deadline": "2026-12-02T09:30",
-      "base_auction_price": "4.017,60 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4647595",
-      "detail_verified": true
-    },
-    {
-      "title": "Lotto 1 - n. 50 titoli PAC (o diritti all'aiuto) identificati dal progressivo n. 000001697795 al…",
-      "credit_description": "Lotto 1 - n. 50 titoli PAC (o diritti all'aiuto) identificati dal progressivo n. 000001697795 al progressivo n. 000001697844, del valore unitario di euro 139,50, valore di gruppo euro 6.975,00; n. 6 titoli PAC (o diritti all'aiuto) identificati dal progressivo n. 000000134712 al progressivo n. 000000134717, del valore unitario di euro 187,09, valore di gruppo euro 1.122,54, art. 24 UE 2021/2115, come dettagliatamente indicati nell'estratto del registro nazionale titoli Agea;",
-      "asset_descriptions": [
-        "Lotto 1 - n. 50 titoli PAC (o diritti all'aiuto) identificati dal progressivo n. 000001697795 al progressivo n. 000001697844, del valore unitario di euro 139,50, valore di gruppo euro 6.975,00; n. 6 titoli PAC (o diritti all'aiuto) identificati dal progressivo n. 000000134712 al progressivo n. 000000134717, del valore unitario di euro 187,09, valore di gruppo euro 1.122,54, art. 24 UE 2021/2115, come dettagliatamente indicati nell'estratto del registro nazionale titoli Agea;"
-      ],
-      "court_or_procedure": "Tribunale di BOLOGNA - 71/2025",
-      "publication_date": "2026-10-19",
-      "sale_type": "Competitiva",
-      "sale_date": "2026-12-02T11:00",
-      "offer_deadline": "2026-12-02T09:30",
-      "base_auction_price": "4.858,25 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4647593",
-      "detail_verified": true
-    },
-    {
-      "title": "Lotto 1 - n. 31 titoli PAC (diritti all'aiuto) valore totale € 4.977,64 (al 31.08.26) così…",
-      "credit_description": "Lotto 1 - n. 31 titoli PAC (diritti all'aiuto) valore totale € 4.977,64 (al 31.08.26) così composti: n.8 titoli dal prog. 000009410512 al 000009410519 - n.13 titoli dal prog. 000009410520 al 000009410532 - n.1 titolo dal prog. 000009410533 al 000009410533 - n.2 titoli dal prog. 000009410534 al 000009410535 - n.1 titolo dal prog. 000009410539 al 000009410539 - n.6 titoli dal prog. 000009410540 al 000009410545. Maggiori info in allegato",
-      "asset_descriptions": [
-        "Lotto 1 - n. 31 titoli PAC (diritti all'aiuto) valore totale € 4.977,64 (al 31.08.26) così composti: n.8 titoli dal prog. 000009410512 al 000009410519 - n.13 titoli dal prog. 000009410520 al 000009410532 - n.1 titolo dal prog. 000009410533 al 000009410533 - n.2 titoli dal prog. 000009410534 al 000009410535 - n.1 titolo dal prog. 000009410539 al 000009410539 - n.6 titoli dal prog. 000009410540 al 000009410545. Maggiori info in allegato"
-      ],
-      "court_or_procedure": "Tribunale di BOLOGNA - 2100/2026",
-      "publication_date": "2026-10-19",
-      "sale_type": "Tramite Commissionario",
-      "sale_date": "2026-11-18T11:00",
-      "offer_deadline": "2026-11-18T09:30",
-      "base_auction_price": "2.389,27 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4647555",
-      "detail_verified": true
-    }
-  ]
+  "announcements": []
 }
