@@ -1,0 +1,69 @@
+{
+  "checked_at": "2026-10-22T23:58:27.127Z",
+  "target_date": "2026-10-22",
+  "source_url": "https://pvp.giustizia.it/pvp/it/lista_annunci.page?searchType=searchForm&page=0&size=48&sortProperty=dataPubblicazione,desc&sortAlpha=citta,asc&searchWith=Raggio%20d%27azione&codTipoLotto=VALORI/CREDITI&raggioAzione=25",
+  "status": "success",
+  "error": null,
+  "warnings": [],
+  "errors": [],
+  "coverage": {
+    "complete": true,
+    "pages_checked": 2,
+    "listings_seen": 96,
+    "candidates_found": 2,
+    "candidates_checked": 2,
+    "stop_reason": "page_only_older_dates",
+    "pages": [
+      {
+        "page": 1,
+        "listings": 48,
+        "newest": "2026-10-22",
+        "oldest": "2026-10-08",
+        "undated": 0,
+        "ordered": true
+      },
+      {
+        "page": 2,
+        "listings": 48,
+        "newest": "2026-10-08",
+        "oldest": "2026-09-22",
+        "undated": 0,
+        "ordered": true
+      }
+    ],
+    "site_newest_date": "2026-10-22"
+  },
+  "announcement_errors": [],
+  "announcements": [
+    {
+      "title": "LOTTO 2 CREDITI FISCALI DERIVANTI DA BONUS EDILIZI - FI - 5390",
+      "credit_description": "LOTTO 2 CREDITI FISCALI DERIVANTI DA BONUS EDILIZI - FI - 5390",
+      "asset_descriptions": [
+        "LOTTO 2 CREDITI FISCALI DERIVANTI DA BONUS EDILIZI - FI - 5390"
+      ],
+      "court_or_procedure": "Tribunale di FIRENZE - 4/2024",
+      "publication_date": "2026-10-22",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-16T12:00",
+      "offer_deadline": "2026-11-16T11:45",
+      "base_auction_price": "2.525,22 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4649441",
+      "detail_verified": true
+    },
+    {
+      "title": "LOTTO 1 CREDITI FISCALI DERIVANTI DA BONUS EDILIZI - FI - 5390",
+      "credit_description": "LOTTO 1 CREDITI FISCALI DERIVANTI DA BONUS EDILIZI - FI - 5390",
+      "asset_descriptions": [
+        "LOTTO 1 CREDITI FISCALI DERIVANTI DA BONUS EDILIZI - FI - 5390"
+      ],
+      "court_or_procedure": "Tribunale di FIRENZE - 4/2024",
+      "publication_date": "2026-10-22",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-16T12:00",
+      "offer_deadline": "2026-11-16T11:45",
+      "base_auction_price": "6.852,13 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4649423",
+      "detail_verified": true
+    }
+  ]
+}
