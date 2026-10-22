@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-10-20T23:50:04.226Z",
-  "target_date": "2026-10-20",
+  "checked_at": "2026-10-22T00:00:15.503Z",
+  "target_date": "2026-10-21",
   "source_url": "https://pvp.giustizia.it/pvp/it/lista_annunci.page?searchType=searchForm&page=0&size=48&sortProperty=dataPubblicazione,desc&sortAlpha=citta,asc&searchWith=Raggio%20d%27azione&codTipoLotto=VALORI/CREDITI&raggioAzione=25",
   "status": "success",
   "error": null,
@@ -8,24 +8,123 @@
   "errors": [],
   "coverage": {
     "complete": true,
-    "pages_checked": 1,
-    "listings_seen": 48,
-    "candidates_found": 0,
-    "candidates_checked": 0,
+    "pages_checked": 2,
+    "listings_seen": 96,
+    "candidates_found": 6,
+    "candidates_checked": 6,
     "stop_reason": "page_only_older_dates",
     "pages": [
       {
         "page": 1,
         "listings": 48,
-        "newest": "2026-10-19",
-        "oldest": "2026-10-06",
+        "newest": "2026-10-21",
+        "oldest": "2026-10-07",
+        "undated": 0,
+        "ordered": true
+      },
+      {
+        "page": 2,
+        "listings": 48,
+        "newest": "2026-10-06",
+        "oldest": "2026-09-21",
         "undated": 0,
         "ordered": true
       }
     ],
-    "page_reloads": 3,
-    "site_newest_date": "2026-10-19"
+    "site_newest_date": "2026-10-21",
+    "page_reloads": 1
   },
   "announcement_errors": [],
-  "announcements": []
+  "announcements": [
+    {
+      "title": "Partecipazione, pari allo 0,16% del capitale sociale, della società Funivie Pinzolo Spa, codice…",
+      "credit_description": "Partecipazione, pari allo 0,16% del capitale sociale, della società Funivie Pinzolo Spa, codice fiscale/partita IVA 00180360224, con sede in Pinzolo, Via Bolognini 84, è stata costituita il 12.06.1968 e svolge attività di costruzione e esercizio di funivie, seggiovie, skilifts, impianti e mezzi di trasporto in genere nonché delle relative piste ed impianti di innevamento nell’ambito Pinzolo-Val Rendena-Madonna di Campiglio – Folgarida Marilleva. Valore della partecipazione pari ad Euro 67.700,00;",
+      "asset_descriptions": [
+        "Oggetto della vendita è la partecipazione pari allo 0,16% del capitale sociale della società Funivie Pinzolo Spa, corrispondenti a n. 4801 azioni ordinarie del valore nominale pari ad Euro 7.969,66 e n. 28.573 azioni ordinarie del valore nominale pari ad Euro 47.437,18: la quota di partecipazione rappresentata da n. 28.573 azioni ordinarie del valore nominale pari ad Euro 47.437,18 è oggetto di pegno da parte della “La Cassa Rurale – Credito Cooperativo Adamello Giudicarie Valsabbia”; La società Funivie Pinzolo Società per Azioni codice fiscale/partita IVA 00180360224, con sede in Pinzolo, Via Bolognini 84, è stata costituita il 12.06.1968 e svolge attività di costruzione e esercizio di funivie, seggiovie, skilifts, impianti e mezzi di trasporto in genere nonché delle relative piste ed impianti di innevamento nell’ambito Pinzolo-Val Rendena-Madonna di Campiglio – Folgarida Marilleva; La società risulta ad oggi avere un capitale sociale sottoscritto e versato pari ad Euro 34.980.845,00 diviso in 21.072.798 azioni con valore nominale pari ad Euro 1,66 ciascuna; Il valore della partecipazione è stato valutato rapportando la quota di partecipazione al patrimonio esistente al 30.04.2025. Il valore base asta è pari ad Euro 67.700,00 con rialzo minimo in caso di gara pari ad Euro 500,00."
+      ],
+      "court_or_procedure": "Tribunale di TRENTO - 69/2014",
+      "publication_date": "2026-10-21",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-12-22T10:30",
+      "offer_deadline": "2026-12-21T12:00",
+      "base_auction_price": "67.700,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4649249",
+      "detail_verified": true
+    },
+    {
+      "title": "Creditore originario / titolare: Credito Vantato dalla Procedura Fallimentare n.1/2018 del…",
+      "credit_description": "Creditore originario / titolare: Credito Vantato dalla Procedura Fallimentare n.1/2018 del 12.01.2018 – Pignoramento di quote dello stipendio; Debitore pignorato: persona fisica, CF:…omissis…….; Valore residuo: euro 15.853,10 (euro quindicimilaottocentocinquantatre/10); Prezzo base: euro 7.500,00 (euro settemilacinquecento/00); Offerta minima ammissibile: euro 7.500,00 (euro settemilacinquecento/00); Cauzione: 10% prezzo offerto. Rilancio minimo: 4% migliore offerta.",
+      "asset_descriptions": [
+        "Creditore originario / titolare: Credito Vantato dalla Procedura Fallimentare n.1/2018 del 12.01.2018 – Pignoramento di quote dello stipendio; Debitore pignorato: persona fisica, CF:…omissis…….; Valore residuo: euro 15.853,10 (euro quindicimilaottocentocinquantatre/10); Prezzo base: euro 7.500,00 (euro settemilacinquecento/00); Offerta minima ammissibile: euro 7,500,00 (euro settemilacinquecento/00); Cauzione: 10% prezzo offerto. Rilancio minimo: 4% migliore offerta."
+      ],
+      "court_or_procedure": "Tribunale di AVEZZANO - 1/2018",
+      "publication_date": "2026-10-21",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-12-15T09:00",
+      "offer_deadline": "2026-12-14T12:00",
+      "base_auction_price": "7.500,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4649219",
+      "detail_verified": true
+    },
+    {
+      "title": "Cessione pro soluto di credito residuo vantato dalla procedura di Fallimento n. 85/2015 nei…",
+      "credit_description": "Cessione pro soluto di credito residuo vantato dalla procedura di Fallimento n. 85/2015 nei confronti di concordato preventivo in continuità aziendale con cessione dei beni/ramo d'azienda e successiva riorganizzazione",
+      "asset_descriptions": [
+        "Cessione pro soluto di credito residuo vantato dalla procedura di Fallimento n. 85/2015 nei confronti di concordato preventivo in continuità aziendale con cessione dei beni/ramo d'azienda e successiva riorganizzazione"
+      ],
+      "court_or_procedure": "Tribunale di PRATO - 85/2015",
+      "publication_date": "2026-10-21",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-25T11:00",
+      "offer_deadline": "2026-11-25T10:00",
+      "base_auction_price": "2.000,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4648495",
+      "detail_verified": true
+    },
+    {
+      "title": "Piena proprietà della quota di partecipazione sociale pignorata di nominali € 163.317,00…",
+      "credit_description": "Piena proprietà della quota di partecipazione sociale pignorata di nominali € 163.317,00, interamente versati, pari al 33,33% del capitale sociale della Toscana Non Tessuti S.r.l. (C.F. e P.I. 01388370478), con sede legale in Cerreto Guidi (FI), Via della Repubblica n. 115, che ha per oggetto sociale esclusivo “la produzione di tessuto non tessuto sia con fibre sintetiche che naturali, ivi incluse le lavorazioni annesse fra cui anche l’impregnazione e la spalmatura” [Codice Ateco 13.95.00].",
+      "asset_descriptions": [
+        "Piena proprietà della quota di partecipazione sociale pignorata di nominali € 163.317,00, interamente versati, pari al 33,33% del capitale sociale della Toscana Non Tessuti S.r.l. (C.F. e P.I. 01388370478), con sede legale in Cerreto Guidi (FI), Via della Repubblica n. 115, che ha per oggetto sociale esclusivo “la produzione di tessuto non tessuto sia con fibre sintetiche che naturali, ivi incluse le lavorazioni annesse fra cui anche l’impregnazione e la spalmatura” [Codice Ateco 13.95.00]."
+      ],
+      "court_or_procedure": "Tribunale di FIRENZE - 77/2021",
+      "publication_date": "2026-10-21",
+      "sale_type": "Con Incanto",
+      "sale_date": "2026-11-23T12:00",
+      "offer_deadline": "2026-11-23T11:59",
+      "base_auction_price": "166.900,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4649045",
+      "detail_verified": true
+    },
+    {
+      "title": "Piena proprietà della quota sociale pignorata di nominali € 3.570,00, i.v. pari al 33,33% del…",
+      "credit_description": "Piena proprietà della quota sociale pignorata di nominali € 3.570,00, i.v. pari al 33,33% del capitale sociale della GBN Immobiliare S.r.l. (C.F. e P.I. 01410000473), con sede legale in Cerreto Guidi (FI), Via della Repubblica n. 115, [Codice Ateco 68.20.01].",
+      "asset_descriptions": [
+        "Piena proprietà della quota di partecipazione sociale pignorata di nominali € 3.570,00, interamente versati, pari al 33,33% del capitale sociale della GBN Immobiliare S.r.l. (C.F. e P.I. 01410000473), con sede legale in Cerreto Guidi (FI), Via della Repubblica n. 115"
+      ],
+      "court_or_procedure": "Tribunale di FIRENZE - 77/2021",
+      "publication_date": "2026-10-21",
+      "sale_type": "Con Incanto",
+      "sale_date": "2026-11-23T12:00",
+      "offer_deadline": "2026-11-23T11:59",
+      "base_auction_price": "217.500,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4649014",
+      "detail_verified": true
+    },
+    {
+      "title": "crediti d'imposta per complessivi € 255.127,20 (fruibili in rate annuali residue come da allegato)…",
+      "credit_description": "crediti d'imposta per complessivi € 255.127,20 (fruibili in rate annuali residue come da allegato) derivanti da agevolazioni edilizie (BONUS FACCIATE CEDUTO ART. 121 DL N. 34-2020 - RISTRUTTURAZIONE CEDUTO ART. 121 DL N. 34-2020 - SCONTO RISTRUTT. ART. 121 DL N. 34-2020)",
+      "asset_descriptions": [
+        "•crediti d'imposta per complessivi € 255.127,20 (fruibili in rate annuali residue come da allegato) derivanti da agevolazioni edilizie (BONUS FACCIATE CEDUTO ART. 121 DL N. 34-2020 - RISTRUTTURAZIONE CEDUTO ART. 121 DL N. 34-2020 - SCONTO RISTRUTT. ART. 121 DL N. 34-2020)"
+      ],
+      "court_or_procedure": "16488/2026",
+      "publication_date": "2026-10-21",
+      "sale_type": "Senza Incanto",
+      "sale_date": "2026-11-04T12:00",
+      "offer_deadline": "2026-11-03T12:00",
+      "base_auction_price": "80.000,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4648941",
+      "detail_verified": true
+    }
+  ]
 }
