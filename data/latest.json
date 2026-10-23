@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-10-22T23:58:27.127Z",
-  "target_date": "2026-10-22",
+  "checked_at": "2026-10-23T23:51:35.168Z",
+  "target_date": "2026-10-23",
   "source_url": "https://pvp.giustizia.it/pvp/it/lista_annunci.page?searchType=searchForm&page=0&size=48&sortProperty=dataPubblicazione,desc&sortAlpha=citta,asc&searchWith=Raggio%20d%27azione&codTipoLotto=VALORI/CREDITI&raggioAzione=25",
   "status": "success",
   "error": null,
@@ -10,14 +10,14 @@
     "complete": true,
     "pages_checked": 2,
     "listings_seen": 96,
-    "candidates_found": 2,
-    "candidates_checked": 2,
+    "candidates_found": 5,
+    "candidates_checked": 5,
     "stop_reason": "page_only_older_dates",
     "pages": [
       {
         "page": 1,
         "listings": 48,
-        "newest": "2026-10-22",
+        "newest": "2026-10-23",
         "oldest": "2026-10-08",
         "undated": 0,
         "ordered": true
@@ -26,43 +26,89 @@
         "page": 2,
         "listings": 48,
         "newest": "2026-10-08",
-        "oldest": "2026-09-22",
+        "oldest": "2026-09-24",
         "undated": 0,
         "ordered": true
       }
     ],
-    "site_newest_date": "2026-10-22"
+    "page_reloads": 1,
+    "site_newest_date": "2026-10-23"
   },
   "announcement_errors": [],
   "announcements": [
     {
-      "title": "LOTTO 2 CREDITI FISCALI DERIVANTI DA BONUS EDILIZI - FI - 5390",
-      "credit_description": "LOTTO 2 CREDITI FISCALI DERIVANTI DA BONUS EDILIZI - FI - 5390",
+      "title": "Credito verso Erario per IVA del valore nominale di € 1.028.940,00",
+      "credit_description": "Credito verso Erario per IVA del valore nominale di € 1.028.940,00",
       "asset_descriptions": [
-        "LOTTO 2 CREDITI FISCALI DERIVANTI DA BONUS EDILIZI - FI - 5390"
+        "CREDITO VERSO ERARIO PER IVA DEL VALORE NOMINALE DI € 1.028.940,00"
       ],
-      "court_or_procedure": "Tribunale di FIRENZE - 4/2024",
-      "publication_date": "2026-10-22",
+      "court_or_procedure": "Tribunale di ROMA - 24/2019",
+      "publication_date": "2026-10-23",
       "sale_type": "Competitiva",
-      "sale_date": "2026-11-16T12:00",
-      "offer_deadline": "2026-11-16T11:45",
-      "base_auction_price": "2.525,22 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4649441",
+      "sale_date": "2026-12-15T12:00",
+      "offer_deadline": "2026-12-09T12:00",
+      "base_auction_price": "874.599,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4650846",
       "detail_verified": true
     },
     {
-      "title": "LOTTO 1 CREDITI FISCALI DERIVANTI DA BONUS EDILIZI - FI - 5390",
-      "credit_description": "LOTTO 1 CREDITI FISCALI DERIVANTI DA BONUS EDILIZI - FI - 5390",
+      "title": "N° 80 TITOLI PAC.",
+      "credit_description": "N° 80 TITOLI PAC.",
       "asset_descriptions": [
-        "LOTTO 1 CREDITI FISCALI DERIVANTI DA BONUS EDILIZI - FI - 5390"
+        "N. 80 TITOLI PAC (VALORE UNITARIO € 162,36 - VALORE COMPLESSIVO € 12.988,80 - CAMPAGNA 2026).N.B.: L'ACQUIRENTE DEVE ESSERE IN POSSESSO DEI REQUISITI DI AGRICOLTORE IN ATTIVITÀ COME PREVISTO DALLA NORMATIVA VIGENTE."
       ],
-      "court_or_procedure": "Tribunale di FIRENZE - 4/2024",
-      "publication_date": "2026-10-22",
+      "court_or_procedure": "Tribunale di SASSARI - 922/2026",
+      "publication_date": "2026-10-23",
+      "sale_type": "Tramite Commissionario",
+      "sale_date": "2026-11-13T16:00",
+      "offer_deadline": "2026-11-13T09:00",
+      "base_auction_price": "3.247,20 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4650844",
+      "detail_verified": true
+    },
+    {
+      "title": "Credito fiscale per IVA formatosi ed in corso di formazione durante la procedura concorsuale pari…",
+      "credit_description": "Credito fiscale per IVA formatosi ed in corso di formazione durante la procedura concorsuale pari a circa Euro 70.000,00",
+      "asset_descriptions": [
+        "Trattasi di credito fiscale per IVA formatosi ed in corso di formazione durante la procedura concorsuale pari a circa Euro 70.000,00"
+      ],
+      "court_or_procedure": "Tribunale di BERGAMO - 49/2012",
+      "publication_date": "2026-10-23",
+      "sale_type": "Senza Incanto",
+      "sale_date": "2026-11-24T11:00",
+      "offer_deadline": "2026-11-23T12:00",
+      "base_auction_price": "32.700,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4650703",
+      "detail_verified": true
+    },
+    {
+      "title": "Raccolta di manifestazioni di interesse all'acquisto, in lotto unico ed inscindibile, previo lo…",
+      "credit_description": "Raccolta di manifestazioni di interesse all'acquisto, in lotto unico ed inscindibile, previo lo svolgimento di una procedura competitiva, da svolgersi secondo la struttura che sarà definita negli atti della fase competitiva di crediti litigiosi meglio descritti nell'avviso allegato.",
+      "asset_descriptions": [
+        "Raccolta di manifestazioni di interesse all'acquisto, in lotto unico ed inscindibile dei seguenti crediti: - Titolo e causale: Sentenza favorevole di 1 grado emessa il 15 luglio 2026; Importo nominale capitale€. 23.000,00 Interessi e accessori €. 5.077,00 liquidate in sentenza più 15% di spese legali accessori e interessi Legale officiato Avv. Guglielmo Ascenzi del foro di Viterbo; - Titolo e causale: Iscrizione ipotecaria di 1 grado su titolo esecutivo Importo nominale capitale€. 53.000,00 Procedura esecutiva n. rge 48/2019 è in corso un giudizio di divisione rg. 1204/2023 trattandosi di immobile indiviso. Inoltre essendo il debitore deceduto non essendoci stata accettazione dell’eredità si sta procedendo con la nomina del curatore dell’eredità giacente. Legale officiato Avv. Guglielmo Ascenzi del foro di Viterbo e Avv. Fabiola Cirica del foro di Viterbo; - Titolo e causale: Sentenza passata in giudicato Importo nominale capitale€. 180.000,00 Interessi e accessori€. 63.168,94 al 31 agosto 2026 Procedura esecutiva n. rge 28/2025. Unica ipoteca iscritta a favore di Immobiliare Aurelia 97 Srl. Lotti oggetto di esecuzione Immobile lotto 2 valore attribuito dal CTU euro 198.000,00; Immobile lotto 3 valore attribuito dal CTU euro 33.000,00 L’ udienza ex art. 569 cpc si terrà in data 9 settembre 2027 Azione di responsabilità nei confronti della procedura fallimentare n. 6/2019 e del curatore. L’azione di responsabilità attiene l’errata apprensione e successiva vendita del lotto n. 1 del debitore e la dichiarazione di illegittimità ovvero nullità dell’assegnazione. Legale officiato Prof. Avv. Roberto Ferri del foro di Roma"
+      ],
+      "court_or_procedure": "Tribunale di VITERBO - 5/2012",
+      "publication_date": "2026-10-23",
       "sale_type": "Competitiva",
-      "sale_date": "2026-11-16T12:00",
-      "offer_deadline": "2026-11-16T11:45",
-      "base_auction_price": "6.852,13 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4649423",
+      "sale_date": "2026-12-31T12:00",
+      "offer_deadline": "2026-12-31T11:59",
+      "base_auction_price": "d'asta",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4647493",
+      "detail_verified": true
+    },
+    {
+      "title": "Cessione di crediti vantati nei confronti di Comuni",
+      "credit_description": "Cessione di crediti vantati nei confronti di Comuni",
+      "asset_descriptions": [
+        "Cessione di crediti ventanti nei confronti di Comuni"
+      ],
+      "court_or_procedure": "Tribunale di TRENTO - 2/2017",
+      "publication_date": "2026-10-23",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-25T15:00",
+      "offer_deadline": "2026-11-24T12:00",
+      "base_auction_price": "90.000,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4650360",
       "detail_verified": true
     }
   ]
