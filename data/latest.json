@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-10-27T00:24:01.153Z",
-  "target_date": "2026-10-26",
+  "checked_at": "2026-10-28T00:29:28.192Z",
+  "target_date": "2026-10-27",
   "source_url": "https://pvp.giustizia.it/pvp/it/lista_annunci.page?searchType=searchForm&page=0&size=48&sortProperty=dataPubblicazione,desc&sortAlpha=citta,asc&searchWith=Raggio%20d%27azione&codTipoLotto=VALORI/CREDITI&raggioAzione=25",
   "status": "success",
   "error": null,
@@ -10,105 +10,119 @@
     "complete": true,
     "pages_checked": 2,
     "listings_seen": 96,
-    "candidates_found": 5,
-    "candidates_checked": 5,
+    "candidates_found": 6,
+    "candidates_checked": 6,
     "stop_reason": "page_only_older_dates",
     "pages": [
       {
         "page": 1,
         "listings": 48,
-        "newest": "2026-10-26",
-        "oldest": "2026-10-09",
+        "newest": "2026-10-27",
+        "oldest": "2026-10-12",
         "undated": 0,
         "ordered": true
       },
       {
         "page": 2,
         "listings": 48,
-        "newest": "2026-10-08",
-        "oldest": "2026-09-28",
+        "newest": "2026-10-12",
+        "oldest": "2026-09-29",
         "undated": 0,
         "ordered": true
       }
     ],
-    "page_reloads": 1,
-    "site_newest_date": "2026-10-26"
+    "site_newest_date": "2026-10-27"
   },
   "announcement_errors": [],
   "announcements": [
     {
-      "title": "LOTTO 1: cessione del credito IVA risultante dall’ultima dichiarazione IVA, per l’importo di euro…",
-      "credit_description": "LOTTO 1: cessione del credito IVA risultante dall’ultima dichiarazione IVA, per l’importo di euro 34.275,00 Vendita competitiva telematica sui portali www.doauction.it e www.astemobili.it - Gruppo Edicom",
+      "title": "Cessione dei crediti IVA chiesti a rimborso (anni d’imposta 2022, 2023, 2024e 2025) - vendita…",
+      "credit_description": "Cessione dei crediti IVA chiesti a rimborso (anni d’imposta 2022, 2023, 2024e 2025) - vendita telematica sulla piattaforma www.gobid.it n.34149",
       "asset_descriptions": [
-        "LOTTO 1: cessione del credito IVA risultante dall’ultima dichiarazione IVA, per l’importo di euro 34.275,00 Vendita competitiva telematica sui portali www.doauction.it e www.astemobili.it - Gruppo Edicom"
+        "Il lotto ha ad oggetto la cessione, in blocco e pro soluto, dei crediti IVA vantati dalla società fallita G.I. & E. S.p.A. (C.F./P.IVA 02282870423, con sede in Osimo (AN), Via di Jesi n. 162) nei confronti dell’Erario e chiesti a rimborso con le dichiarazioni IVA annuali di seguito indicate, unitamente agli interessi maturati e maturandi ed a ogni accessorio, diritto e azione ad essi relativi: Anno d’imposta (come da tabella allegata all'avviso di vendita) Per ciascuno dei suddetti rimborsi l’Agenzia delle Entrate – Direzione Provinciale di Ancona, Ufficio Territoriale di Ancona, ha avviato l’istruttoria richiedendo documentazione ai fini della verifica della spettanza del credito. La Procedura ha riscontrato le predette richieste. Alla data del presente avviso i rimborsi non risultano erogati."
       ],
-      "court_or_procedure": "Tribunale di LATINA - 56/2004",
-      "publication_date": "2026-10-26",
-      "sale_type": "Tramite Commissionario",
-      "sale_date": "2026-11-25T12:00",
-      "offer_deadline": "2026-11-24T12:00",
-      "base_auction_price": "21.936,00 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4651567",
-      "detail_verified": true
-    },
-    {
-      "title": "Titoli PAC n. 13, corrispondenti a 12,38 Superficie gruppo (ha).",
-      "credit_description": "Titoli PAC n. 13, corrispondenti a 12,38 Superficie gruppo (ha).",
-      "asset_descriptions": [
-        "Lotto unico costituito da: N. 7 titoli ordinari, valore unitario Euro 188,48, valore gruppo Euro 1.319,36, Valore Unitario BISS Euro 0,00, Valore Gruppo BISS Euro 0,00, Superf. Unitaria (ha) 1,00, Superficie Gruppo (ha) 7,00, Origine art. 24 Reg. (UE) 2021/2115, Vincolo da Riserva: NO, Vincoli Giuridici: SI, Blocco al Trasf.: SI, Pegno: NO, Identificativo titolo prog. da n. 000000618329 al n. 000000618335; N. 1 titoli ordinario, valore unitario Euro 71,62, valore gruppo Euro 71,62, Valore Unitario BISS Euro 0,00, Valore Gruppo BISS Euro 0,00, Superf. Unitaria (ha) 0,38, Superficie Gruppo (ha) 0,38, Origine art. 24 Reg. (UE) 2021/2115, Vincolo da Riserva: NO, Vincoli Giuridici: SI, Blocco al Trasf.: SI, Pegno: NO, Identificativo titolo prog. da n. 000000618336 al n. 000000618336; N. 5 titoli ordinari, valore unitario Euro 139,50, valore gruppo Euro 697,50, Valore Unitario BISS Euro 0,00, Valore Gruppo BISS Euro 0,00, Superf. Unitaria (ha) 1,00, Superficie Gruppo (ha) 5,00, Origine art. 24 Reg. (UE) 2021/2115, Vincolo da Riserva: NO, Vincoli Giuridici: SI, Blocco al Trasf.: SI, Pegno: NO, Identificativo titolo prog. da n. 000003350778 al n. 000003350782."
-      ],
-      "court_or_procedure": "Tribunale di MODENA - 530/2026",
-      "publication_date": "2026-10-26",
+      "court_or_procedure": "Tribunale di ANCONA - 66/2018",
+      "publication_date": "2026-10-27",
       "sale_type": "Competitiva",
-      "sale_date": "2026-11-06T12:00",
-      "offer_deadline": "2026-11-04T23:59",
-      "base_auction_price": "d'asta",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4651289",
+      "sale_date": "2026-11-11T17:31",
+      "offer_deadline": "2026-11-11T17:30",
+      "base_auction_price": "386.446,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4652235",
       "detail_verified": true
     },
     {
-      "title": "Asta di n. 5 lotti di pacchetti di titoli PAC",
-      "credit_description": "Asta di n. 5 lotti di pacchetti di titoli PAC",
+      "title": "CESSIONE CREDITO",
+      "credit_description": "CESSIONE CREDITO",
       "asset_descriptions": [
-        "1) N. 83 Titoli Ordinari numeri progressivi da 000001292582 a 000001292664, Valore Unitario € 163,92 € 8.095,19; 2) N. 44 Titoli Ordinari numeri progressivi da 000006511972 a 000006512015, Valore Unitario € 168,69 € 4.416,30; 3) N. 2 Titoli Ordinari numeri progressivi da 000011379898 a 000011379899, Valore Unitario € 169,15 € 201,29; 4) N. 1 Titolo Ordinario numeri progressivi da 000011379905 a 000011379905, Valore Unitario € 168,69 € 100,37; 5) N. 1 Titolo Ordinario numeri progressivi da 000011864476 a 000011864476, Valore Unitario € 168,69 € 100,37"
+        "CREDITO DEL VALORE DI EURO 23.563,84 OLTRE INTERESSI GARANTITO DA ISCRIZIONE IPOTECARIA"
       ],
-      "court_or_procedure": "Tribunale di FERRARA - 694/2026",
-      "publication_date": "2026-10-26",
-      "sale_type": "Senza Incanto",
-      "sale_date": "2026-11-10T10:00",
-      "offer_deadline": "2026-11-10T09:59",
-      "base_auction_price": "60.074,00 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4635723",
+      "court_or_procedure": "Tribunale di PADOVA - 26/2012",
+      "publication_date": "2026-10-27",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-30T11:30",
+      "offer_deadline": "2026-11-30T11:00",
+      "base_auction_price": "0,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4651993",
       "detail_verified": true
     },
     {
-      "title": "Asta di n. 3 lotti di pacchetti di titoli PAC.",
-      "credit_description": "Asta di n. 3 lotti di pacchetti di titoli PAC.",
+      "title": "AVVISO DI PROCEDURA COMPETITIVA – GARA ASINCRONA TELEMATICA PERCESSIONE DI CREDITI FISCALI…",
+      "credit_description": "AVVISO DI PROCEDURA COMPETITIVA – GARA ASINCRONA TELEMATICA PERCESSIONE DI CREDITI FISCALI PROVENIENTI DA BONUS EDILIZI LOTTO 17",
       "asset_descriptions": [
-        "1) N. 14 Titoli Ordinari numeri progressivi da 000000837258 a 000000837271, Valore Unitario € 163,92 € 955,82; 2) N. 2 Titoli Ordinari numeri progressivi da 000000837272 a 000000837273, Valore Unitario € 139,50 € 116,20; 3) N. 1 Titolo Ordinario numeri progressivi da 000014341342, Valore Unitario € 1,64 € 0,68;"
+        "0017) 10) Premesso:- che la società, anteriormente alla dichiarazione di apertura della procedura, ha eseguito interventi edilizi agevolati maturando crediti d'imposta;- che tali crediti sono attualmente disponibili nel cassetto fiscale della società ed oggetto di verifica, riscontro documentale e valutazione da parte del Dott. Andrea Nottoli, esperto indipendente nominato in data 09 settembre 2025;- che lo stesso Dott. Nottoli, in data 24 ottobre 2026, ha inviato alla curatela una propria relazione dalla quale risulta la disponibilità di una tranche di crediti maturati dalla società ex art. 121 DL/2020 di tipo \"tracciabile\" per complessivi euro 102.408,25 e crediti di tipo \"non tracciabili\" per complessivi euro 49.094,60, il tutto come da risultanze sulla piattaforma cessione crediti dell'Agenzia delle Entrate e classificati come \"cedibili\". Tali crediti sono suddivisi in 4 lotti ed elencati nell'Allegato A;- che il piano di liquidazione approvato il 18 novembre 2025 già prevede al punto 6.3, all'esito dei riscontri sulla sussistenza e validità, la vendita di tali crediti tramite asta competitiva. Prezzo base L'offerta minima per l'acquisto dei predetti crediti fiscali dovrà essere pari o superiore a:-Lotto 10: euro 4.214,25 (quattromiladuecentoquattordici/25)ULTERIORI INFORMAZIONI SONO REPERIBILI NELL'AVVISO DI VENDITA E NELLA DOCUMENTAZIONE IN ALLEGATO"
       ],
-      "court_or_procedure": "Tribunale di FERRARA - 669/2026",
-      "publication_date": "2026-10-26",
-      "sale_type": "Senza Incanto",
-      "sale_date": "2026-11-10T10:00",
-      "offer_deadline": "2026-11-10T09:59",
-      "base_auction_price": "1.075,00 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4635739",
+      "court_or_procedure": "Tribunale di LUCCA - 52/2025",
+      "publication_date": "2026-10-27",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-06T11:00",
+      "offer_deadline": "2026-11-06T10:30",
+      "base_auction_price": "4.214,25 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4651778",
       "detail_verified": true
     },
     {
-      "title": "LOTTO 1: Cessione in blocco crediti deteriorati, quali crediti portati da titoli giudiziari…",
-      "credit_description": "LOTTO 1: Cessione in blocco crediti deteriorati, quali crediti portati da titoli giudiziari divenuti definitivi in favore della società fallita in bonis vantati nei confronti di debitori persone fisiche e/o giuridiche, con due diligence svolta dal legale incaricato dal Fallimento sulla reperibilità e sulla capienza patrimoniale dei debitori, con le relative lettere di messa in mora e interruzione dei termini di prescrizione. Si precisa che sarà possibile prendere visione della documentazione",
+      "title": "AVVISO DI PROCEDURA COMPETITIVA – GARA ASINCRONA TELEMATICA PERCESSIONE DI CREDITI FISCALI…",
+      "credit_description": "AVVISO DI PROCEDURA COMPETITIVA – GARA ASINCRONA TELEMATICA PERCESSIONE DI CREDITI FISCALI PROVENIENTI DA BONUS EDILIZI LOTTO 16",
       "asset_descriptions": [
-        "LOTTO 1: Cessione in blocco crediti deteriorati, quali crediti portati da titoli giudiziari divenuti definitivi in favore della società fallita in bonis vantati nei confronti di debitori persone fisiche e/o giuridiche, con due diligence svolta dal legale incaricato dal Fallimento sulla reperibilità e sulla capienza patrimoniale dei debitori. Vendita competitiva telematica sui portali www.doauction.it e www.astemobili.it - Gruppo Edicom"
+        "0016) 09) Premesso:- che la società, anteriormente alla dichiarazione di apertura della procedura, ha eseguito interventi edilizi agevolati maturando crediti d'imposta;- che tali crediti sono attualmente disponibili nel cassetto fiscale della società ed oggetto di verifica, riscontro documentale e valutazione da parte del Dott. Andrea Nottoli, esperto indipendente nominato in data 09 settembre 2025;- che lo stesso Dott. Nottoli, in data 24 ottobre 2026, ha inviato alla curatela una propria relazione dalla quale risulta la disponibilità di una tranche di crediti maturati dalla società ex art. 121 DL/2020 di tipo \"tracciabile\" per complessivi euro 102.408,25 e crediti di tipo \"non tracciabili\" per complessivi euro 49.094,60, il tutto come da risultanze sulla piattaforma cessione crediti dell'Agenzia delle Entrate e classificati come \"cedibili\". Tali crediti sono suddivisi in 4 lotti ed elencati nell'Allegato A;- che il piano di liquidazione approvato il 18 novembre 2025 già prevede al punto 6.3, all'esito dei riscontri sulla sussistenza e validità, la vendita di tali crediti tramite asta competitiva. Prezzo base L'offerta minima per l'acquisto dei predetti crediti fiscali dovrà essere pari o superiore a:-Lotto 9: euro 1.554,98 (millecinquecentocinquantaquattro/98)ULTERIORI INFORMAZIONI SONO REPERIBILI NELL'AVVISO DI VENDITA E NELLA DOCUMENTAZIONE IN ALLEGATO"
       ],
-      "court_or_procedure": "Tribunale di ROMA - 375/2019",
-      "publication_date": "2026-10-26",
-      "sale_type": "Tramite Commissionario",
-      "sale_date": "2026-12-16T12:00",
-      "offer_deadline": "2026-12-15T12:00",
-      "base_auction_price": "184.686,36 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4651030",
+      "court_or_procedure": "Tribunale di LUCCA - 52/2025",
+      "publication_date": "2026-10-27",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-06T11:00",
+      "offer_deadline": "2026-11-06T10:30",
+      "base_auction_price": "1.554,98 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4651775",
+      "detail_verified": true
+    },
+    {
+      "title": "AVVISO DI PROCEDURA COMPETITIVA – GARA ASINCRONA TELEMATICA PERCESSIONE DI CREDITI FISCALI…",
+      "credit_description": "AVVISO DI PROCEDURA COMPETITIVA – GARA ASINCRONA TELEMATICA PERCESSIONE DI CREDITI FISCALI PROVENIENTI DA BONUS EDILIZI LOTTO 15",
+      "asset_descriptions": [
+        "0015) 08) Premesso:- che la società, anteriormente alla dichiarazione di apertura della procedura, ha eseguito interventi edilizi agevolati maturando crediti d'imposta;- che tali crediti sono attualmente disponibili nel cassetto fiscale della società ed oggetto di verifica, riscontro documentale e valutazione da parte del Dott. Andrea Nottoli, esperto indipendente nominato in data 09 settembre 2025;- che lo stesso Dott. Nottoli, in data 24 ottobre 2026, ha inviato alla curatela una propria relazione dalla quale risulta la disponibilità di una tranche di crediti maturati dalla società ex art. 121 DL/2020 di tipo \"tracciabile\" per complessivi euro 102.408,25 e crediti di tipo \"non tracciabili\" per complessivi euro 49.094,60, il tutto come da risultanze sulla piattaforma cessione crediti dell'Agenzia delle Entrate e classificati come \"cedibili\". Tali crediti sono suddivisi in 4 lotti ed elencati nell'Allegato A;- che il piano di liquidazione approvato il 18 novembre 2025 già prevede al punto 6.3, all'esito dei riscontri sulla sussistenza e validità, la vendita di tali crediti tramite asta competitiva. Prezzo base L'offerta minima per l'acquisto dei predetti crediti fiscali dovrà essere pari o superiore a:-Lotto 8: euro 31.064,36 (trentunomilasessantaquattro/36)ULTERIORI INFORMAZIONI SONO REPERIBILI NELL'AVVISO DI VENDITA E NELLA DOCUMENTAZIONE IN ALLEGATO"
+      ],
+      "court_or_procedure": "Tribunale di LUCCA - 52/2025",
+      "publication_date": "2026-10-27",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-06T11:00",
+      "offer_deadline": "2026-11-06T10:30",
+      "base_auction_price": "31.064,36 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4651751",
+      "detail_verified": true
+    },
+    {
+      "title": "AVVISO DI PROCEDURA COMPETITIVA – GARA ASINCRONA TELEMATICA PERCESSIONE DI CREDITI FISCALI…",
+      "credit_description": "AVVISO DI PROCEDURA COMPETITIVA – GARA ASINCRONA TELEMATICA PERCESSIONE DI CREDITI FISCALI PROVENIENTI DA BONUS EDILIZI LOTTO 14",
+      "asset_descriptions": [
+        "0014) 07) Premesso:- che la società, anteriormente alla dichiarazione di apertura della procedura, ha eseguito interventi edilizi agevolati maturando crediti d'imposta;- che tali crediti sono attualmente disponibili nel cassetto fiscale della società ed oggetto di verifica, riscontro documentale e valutazione da parte del Dott. Andrea Nottoli, esperto indipendente nominato in data 09 settembre 2025;- che lo stesso Dott. Nottoli, in data 24 ottobre 2026, ha inviato alla curatela una propria relazione dalla quale risulta la disponibilità di una tranche di crediti maturati dalla società ex art. 121 DL/2020 di tipo \"tracciabile\" per complessivi euro 102.408,25 e crediti di tipo \"non tracciabili\" per complessivi euro 49.094,60, il tutto come da risultanze sulla piattaforma cessione crediti dell'Agenzia delle Entrate e classificati come \"cedibili\". Tali crediti sono suddivisi in 4 lotti ed elencati nell'Allegato A;- che il piano di liquidazione approvato il 18 novembre 2025 già prevede al punto 6.3, all'esito dei riscontri sulla sussistenza e validità, la vendita di tali crediti tramite asta competitiva. Prezzo base L'offerta minima per l'acquisto dei predetti crediti fiscali dovrà essere pari o superiore a:-Lotto 7: euro 33.018,00 (trentatremiladiciotto/00)ULTERIORI INFORMAZIONI SONO REPERIBILI NELL'AVVISO DI VENDITA E NELLA DOCUMENTAZIONE IN ALLEGATO"
+      ],
+      "court_or_procedure": "Tribunale di LUCCA - 52/2025",
+      "publication_date": "2026-10-27",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-06T11:00",
+      "offer_deadline": "2026-11-06T10:30",
+      "base_auction_price": "33.018,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4651773",
       "detail_verified": true
     }
   ]
