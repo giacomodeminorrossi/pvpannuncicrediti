@@ -1,0 +1,144 @@
+{
+  "checked_at": "2026-10-29T00:52:10.387Z",
+  "target_date": "2026-10-28",
+  "source_url": "https://pvp.giustizia.it/pvp/it/lista_annunci.page?searchType=searchForm&page=0&size=48&sortProperty=dataPubblicazione,desc&sortAlpha=citta,asc&searchWith=Raggio%20d%27azione&codTipoLotto=VALORI/CREDITI&raggioAzione=25",
+  "status": "success",
+  "error": null,
+  "warnings": [],
+  "errors": [],
+  "coverage": {
+    "complete": true,
+    "pages_checked": 2,
+    "listings_seen": 96,
+    "candidates_found": 7,
+    "candidates_checked": 7,
+    "stop_reason": "page_only_older_dates",
+    "pages": [
+      {
+        "page": 1,
+        "listings": 48,
+        "newest": "2026-10-29",
+        "oldest": "2026-10-14",
+        "undated": 0,
+        "ordered": true
+      },
+      {
+        "page": 2,
+        "listings": 48,
+        "newest": "2026-10-14",
+        "oldest": "2026-10-01",
+        "undated": 0,
+        "ordered": true
+      }
+    ],
+    "site_newest_date": "2026-10-29"
+  },
+  "announcement_errors": [],
+  "announcements": [
+    {
+      "title": "N°16 TITOLI ORDINARI ISCRITTI DAL N° 000001448287 AL N°000001448302, DEL VALORE UNITARIO DI EURO…",
+      "credit_description": "N°16 TITOLI ORDINARI ISCRITTI DAL N° 000001448287 AL N°000001448302, DEL VALORE UNITARIO DI EURO 194,76; N°1 TITOLO ORDINARIO ISCRITTO AL N° 000001448303 DEL VALORE UNITARIO DI EURO 89,59; N°1 TITOLO ORDINARIO ISCRITTO AL N° 000016541745 DEL VALORE UNITARIO DI EURO 7,78",
+      "asset_descriptions": [
+        "N°16 TITOLI ORDINARI ISCRITTI DAL N° 000001448287 AL N°000001448302, DEL VALORE UNITARIO DI EURO 194,76; N°1 TITOLO ORDINARIO ISCRITTO AL N° 000001448303 DEL VALORE UNITARIO DI EURO 89,59; N°1 TITOLO ORDINARIO ISCRITTO AL N° 000016541745 DEL VALORE UNITARIO DI EURO 7,78; A NORMA DELL'ART. 12 DEL DECRETO 23 DICEMBRE 2022 N°660087 DEL MINISTRO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE, I TITOLI PAC NON UTILIZZATI DALL' INTESTATARIO PER DUE ANNI CONSECUTIVI SONO RIVERSATI NELLA RISERVA NAZIONE (CIOE' ANNULLATI); LA RESTITUZIONE ALLA RISERVA NAZIONALE E' ESEGUITA ANCHE NEL CASO IN CUI I TITOLI NON UTILIZZATI SIANO STATI NEL FRATTEMPO TRASFERITI A TERZI E, PERTANTO, QUALORA NELLE MORE DELLA PROCEDURA ESECUTIVA O SUCCESSIVAMENTE AL TRASFERIMENTO IN FAVORE DELL'ASSEGNATARIO/ACQUIRENTE, I TITOLI SIA RESTITUITI ALLA RISERVA NAZIONALE (CIOE' ANNULLATI)- PER L'EFFETTO, NULLA POTRA' ESSERE OPPOSTO AD AGEA; A NORMA DELL'ART. 27 DEL REG. (UE) N°2115/2021, L'ASSEGNATARIO/ACQUIRENTE DEI TITOLI DEVE SODDISFARE IL REQUISITO DELL'AGRICOLTORE IN ATTIVITA', A NORMA DELL'ART. 4 PAR.5, DEL MEDESIMO REGOLAMENTO E DI QUANTO PREVISTO DELL' ART.13 DEL DECRETO 23 DICEMBRE 2022 N° 660087 DEL MINISTRO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE; IN ASSENZA DI TALE REQUISITO, NON E' POSSIBILE ESEGUIRE IL TRASFERIMENTO DEI TITOLI ASSEGNATI/ACQUISTATI; IN CASO IN CUI I TITOLI PAC SUBISCANO MODIFICHE DEL NUMERO E DEL VALORE, OPPURE VARIAZIONI O MODIFICHE STABILITE DAL DIRITTO COMUNITARIO E DAGLI STRUMENTI NORMATIVI NAZIONALI DI ATTUAZIONE DI TALE NORMATIVA, SIA IL PIGNORAMENTO CHE IL SUCCESSIVO TRASFERIMENTO IN FAVORE DELL'ASSEGNATARIO/ACQUIRENTE CONTINUANO A PRODURRE EFFETTI LIMITATAMENTE AL NUMERO E AL VALORE DEI TITOLI COSI COME RICALCOLATI E PER L'EFFETTO, NULLA POTRA' ESSERE OPPOSTO AD AGEA."
+      ],
+      "court_or_procedure": "Tribunale di BRESCIA - 2140/2026",
+      "publication_date": "2026-10-28",
+      "sale_type": "Tramite Commissionario",
+      "sale_date": "2026-11-12T15:45",
+      "offer_deadline": "2026-11-12T15:40",
+      "base_auction_price": "2.153,06 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4653057",
+      "detail_verified": true
+    },
+    {
+      "title": "Crediti fiscali da Superbonus",
+      "credit_description": "Crediti fiscali da Superbonus",
+      "asset_descriptions": [
+        "Crediti fiscali da Superbonus"
+      ],
+      "court_or_procedure": "Tribunale di ROMA - 455/2026",
+      "publication_date": "2026-10-28",
+      "sale_type": "Tramite Commissionario",
+      "sale_date": "2026-11-18T12:00",
+      "offer_deadline": "2026-11-16T12:00",
+      "base_auction_price": "82.392,75 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4653020",
+      "detail_verified": true
+    },
+    {
+      "title": "Cessione credito IRES",
+      "credit_description": "Cessione credito IRES",
+      "asset_descriptions": [
+        "Credito IRES per ritenute d’acconto su interessi attivi bancari maturati in corso di procedura sulle somme depositate nel conto corrente intestato al fallimento (quantificato in euro 6.016,55 alla data del 30/09/2026), che verrà chiesto a rimborso con la dichiarazione dei redditi finale dopo la chiusura del fallimento"
+      ],
+      "court_or_procedure": "Tribunale di TREVISO - 57/2012",
+      "publication_date": "2026-10-28",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-12-03T10:00",
+      "offer_deadline": "2026-12-02T12:00",
+      "base_auction_price": "2.000,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4652815",
+      "detail_verified": true
+    },
+    {
+      "title": "LOTTO UNICO COMPOSTO DA DEPOSITO TITOLI INDENTIFICATO CON NUMERO 2577... PER TITOLI AZIONI BCP SPA…",
+      "credit_description": "LOTTO UNICO COMPOSTO DA DEPOSITO TITOLI INDENTIFICATO CON NUMERO 2577... PER TITOLI AZIONI BCP SPA NON QUOTATE IN MERCATI REGOLAMENTATI",
+      "asset_descriptions": [
+        "LOTTO UNICO COMPOSTO DA DEPOSITO TITOLI INDENTIFICATO CON NUMERO 2577... PER TITOLI AZIONI BCP SPA NON QUOTATE IN MERCATI REGOLAMENTATI"
+      ],
+      "court_or_procedure": "Tribunale di NOCERA INFERIORE - 1051/2025",
+      "publication_date": "2026-10-28",
+      "sale_type": "Tramite Commissionario",
+      "sale_date": "2026-11-06T15:00",
+      "offer_deadline": "2026-11-06T12:00",
+      "base_auction_price": "3.500,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4652817",
+      "detail_verified": true
+    },
+    {
+      "title": "Quota del 54% di partecipazione al capitale sociale della INKGENIO Srl, macchine da ufficio…",
+      "credit_description": "Quota del 54% di partecipazione al capitale sociale della INKGENIO Srl, macchine da ufficio, attrezzature varie e n.1 furgone targato FW590CP, n.5 server 2U Dual Socket Intel -4 bay e crediti da finanziamento soci e crediti commerciali.",
+      "asset_descriptions": [
+        "Quota del 54% di partecipazione al capitale sociale della INKGENIO Srl, macchine da ufficio, attrezzature varie e n.1 furgone targato FW590CP, n.5 server 2U Dual Socket Intel -4 bay e crediti da finanziamento soci e crediti commerciali."
+      ],
+      "court_or_procedure": "Tribunale di MODENA - 48/2026",
+      "publication_date": "2026-10-28",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-12-03T16:00",
+      "offer_deadline": "2026-12-02T12:00",
+      "base_auction_price": "1.023.140,54 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4652569",
+      "detail_verified": true
+    },
+    {
+      "title": "- 43 TITOLI PAC DAL NUMERO 000005900539 AL NUMERO 00000590058 (PER LA PARTECIPAZIONE LEGGERE LA…",
+      "credit_description": "- 43 TITOLI PAC DAL NUMERO 000005900539 AL NUMERO 00000590058 (PER LA PARTECIPAZIONE LEGGERE LA NORMATIVA SULL'AVVISO DI VENDITA E SULL'ORDINANZA DI VENDITA ALLEGATI)",
+      "asset_descriptions": [
+        "- 43 TITOLI PAC DAL NUMERO 000005900539 AL NUMERO 00000590058 (PER LA PARTECIPAZIONE LEGGERE LA NORMATIVA SULL'AVVISO DI VENDITA E SULL'ORDINANZA DI VENDITA ALLEGATI)"
+      ],
+      "court_or_procedure": "Tribunale di VERCELLI - 287/2026",
+      "publication_date": "2026-10-28",
+      "sale_type": "Senza Incanto",
+      "sale_date": "2026-12-14T12:00",
+      "offer_deadline": "2026-12-11T12:00",
+      "base_auction_price": "4.889,10 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4652724",
+      "detail_verified": true
+    },
+    {
+      "title": "Quote societarie settore riparazione e manutenzione natanti da riporto",
+      "credit_description": "Quote societarie settore riparazione e manutenzione natanti da riporto",
+      "asset_descriptions": [
+        "Quote societarie settore riparazione e manutenzione natanti da riporto"
+      ],
+      "court_or_procedure": "Tribunale di CASTROVILLARI - 1016/2025",
+      "publication_date": "2026-10-28",
+      "sale_type": "Senza Incanto",
+      "sale_date": "2026-12-04T15:00",
+      "offer_deadline": "2026-12-04T14:30",
+      "base_auction_price": "0,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4652454",
+      "detail_verified": true
+    }
+  ]
+}
