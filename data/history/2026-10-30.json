@@ -1,0 +1,85 @@
+{
+  "checked_at": "2026-10-31T00:43:40.595Z",
+  "target_date": "2026-10-30",
+  "source_url": "https://pvp.giustizia.it/pvp/it/lista_annunci.page?searchType=searchForm&page=0&size=48&sortProperty=dataPubblicazione,desc&sortAlpha=citta,asc&searchWith=Raggio%20d%27azione&codTipoLotto=VALORI/CREDITI&raggioAzione=25",
+  "status": "success",
+  "error": null,
+  "warnings": [],
+  "errors": [],
+  "coverage": {
+    "complete": true,
+    "pages_checked": 2,
+    "listings_seen": 96,
+    "candidates_found": 3,
+    "candidates_checked": 3,
+    "stop_reason": "page_only_older_dates",
+    "pages": [
+      {
+        "page": 1,
+        "listings": 48,
+        "newest": "2026-10-30",
+        "oldest": "2026-10-15",
+        "undated": 0,
+        "ordered": true
+      },
+      {
+        "page": 2,
+        "listings": 48,
+        "newest": "2026-10-15",
+        "oldest": "2026-10-05",
+        "undated": 0,
+        "ordered": true
+      }
+    ],
+    "page_reloads": 1,
+    "site_newest_date": "2026-10-30"
+  },
+  "announcement_errors": [],
+  "announcements": [
+    {
+      "title": "Credito tributario IVA, ad oggi pari ad € 6.282,98, oltre al credito IVA di futura formazione",
+      "credit_description": "Credito tributario IVA, ad oggi pari ad € 6.282,98, oltre al credito IVA di futura formazione",
+      "asset_descriptions": [
+        "Credito tributario IVA, ad oggi pari ad € 6.282,98, oltre al credito IVA di futura formazione"
+      ],
+      "court_or_procedure": "Tribunale di VICENZA - 247/2015",
+      "publication_date": "2026-10-30",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-12-09T15:00",
+      "offer_deadline": "2026-12-07T15:00",
+      "base_auction_price": "2.000,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4653400",
+      "detail_verified": true
+    },
+    {
+      "title": "Crediti fiscali derivanti da bonus edilizi",
+      "credit_description": "Crediti fiscali derivanti da bonus edilizi",
+      "asset_descriptions": [
+        "LIQUIDAZIONE GIUDIZIALE REON SRL - LOTTO 4: Crediti fiscali derivanti da Bonus edilizi ex D.L. 34/2020, codice tributo 7706, anni di riferimento dal 2026 al 2032, di complessivi nominali Euro 100.409,47, e precisamente i crediti dettagliatamente descritti nel tabulato allegato all'avviso di vendita, consultabile e scaricabile nella sezione \"Documenti\" della presente scheda pubblicitaria. Si invitano gli interessati a prenderne visione. *** Si precisa che la partecipazione alla cessione di crediti in oggetto è riservata agli Istituti Bancari ed agli intermediari finanziari iscritti all’albo di cui all’art. 106 del T.U.B. e pertanto i crediti medesimi potranno essere trasferiti solo ed esclusivamente alle predette categorie di soggetti. Laddove un soggetto diverso da Istituti Bancari ed intermediari finanziari iscritti all’albo di cui all’art. 106 del T.U.B. dovesse decidere comunque di partecipare all’asta e aggiudicarsi i crediti fiscali, il mancato trasferimento non sarà addebitabile alla Procedura o a IVG Modena e il deposito cauzionale versato, l’eventuale saldo prezzo di aggiudicazione e gli onorari di IVG Modena verranno definitivamente trattenuti dalla Procedura.***"
+      ],
+      "court_or_procedure": "Tribunale di MODENA - 11/2026",
+      "publication_date": "2026-10-30",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-06T15:00",
+      "offer_deadline": "2026-11-05T23:59",
+      "base_auction_price": "70.286,63 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4573861",
+      "detail_verified": true
+    },
+    {
+      "title": "Titoli PAC",
+      "credit_description": "Titoli PAC",
+      "asset_descriptions": [
+        "N. 1 Titolo Ordinario identificato con il numero 000005280885; N. 1 Titolo Ordinario identificato con il numero 000005280886. Per ulteriori dettagli si rimanda alla documentazione allegata: Ordinanza di vendita, Nota AGEA ed estratto titoli AGEA e avviso di vendita. Si consiglia, altresì, una visura aggiornata presso gli enti competenti."
+      ],
+      "court_or_procedure": "Tribunale di BENEVENTO - 532/2026",
+      "publication_date": "2026-10-30",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-12T15:00",
+      "offer_deadline": "2026-11-12T12:00",
+      "base_auction_price": "145,29 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4642712",
+      "detail_verified": true
+    }
+  ]
+}
