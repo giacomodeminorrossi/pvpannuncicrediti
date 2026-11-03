@@ -1,0 +1,85 @@
+{
+  "checked_at": "2026-11-03T02:53:44.722Z",
+  "target_date": "2026-11-02",
+  "source_url": "https://pvp.giustizia.it/pvp/it/lista_annunci.page?searchType=searchForm&page=0&size=48&sortProperty=dataPubblicazione,desc&sortAlpha=citta,asc&searchWith=Raggio%20d%27azione&codTipoLotto=VALORI/CREDITI&raggioAzione=25",
+  "status": "success",
+  "error": null,
+  "warnings": [],
+  "errors": [],
+  "coverage": {
+    "complete": true,
+    "pages_checked": 2,
+    "listings_seen": 96,
+    "candidates_found": 3,
+    "candidates_checked": 3,
+    "stop_reason": "page_only_older_dates",
+    "pages": [
+      {
+        "page": 1,
+        "listings": 48,
+        "newest": "2026-11-02",
+        "oldest": "2026-10-16",
+        "undated": 0,
+        "ordered": true
+      },
+      {
+        "page": 2,
+        "listings": 48,
+        "newest": "2026-10-15",
+        "oldest": "2026-10-05",
+        "undated": 0,
+        "ordered": true
+      }
+    ],
+    "page_reloads": 1,
+    "site_newest_date": "2026-11-02"
+  },
+  "announcement_errors": [],
+  "announcements": [
+    {
+      "title": "Cessione dei crediti IVA chiesti a rimborso (anni d’imposta 2022, 2023, 2024e 2025) - vendita…",
+      "credit_description": "Cessione dei crediti IVA chiesti a rimborso (anni d’imposta 2022, 2023, 2024e 2025) - vendita telematica sulla piattaforma www.gobid.it n.34149",
+      "asset_descriptions": [
+        "Il lotto ha ad oggetto la cessione, in blocco e pro soluto, dei crediti IVA vantati dalla società fallita G.I. & E. S.p.A. (C.F./P.IVA 02282870423, con sede in Osimo (AN), Via di Jesi n. 162) nei confronti dell’Erario e chiesti a rimborso con le dichiarazioni IVA annuali di seguito indicate, unitamente agli interessi maturati e maturandi ed a ogni accessorio, diritto e azione ad essi relativi: Anno d’imposta (come da tabella allegata all'avviso di vendita) Per ciascuno dei suddetti rimborsi l’Agenzia delle Entrate – Direzione Provinciale di Ancona, Ufficio Territoriale di Ancona, ha avviato l’istruttoria richiedendo documentazione ai fini della verifica della spettanza del credito. La Procedura ha riscontrato le predette richieste. Alla data del presente avviso i rimborsi non risultano erogati."
+      ],
+      "court_or_procedure": "Tribunale di ANCONA - 66/2018",
+      "publication_date": "2026-11-02",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-23T17:02",
+      "offer_deadline": "2026-11-23T17:00",
+      "base_auction_price": "d'asta",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4654838",
+      "detail_verified": true
+    },
+    {
+      "title": "Quote sociali costituenti il 100% (cento per cento) dell’intero capitale sociale della società…",
+      "credit_description": "Quote sociali costituenti il 100% (cento per cento) dell’intero capitale sociale della società S.MER.IM. Società Meridionale Immobiliare S.r.l., con sede in Catania (CT) via Passo Gravina 137/A, C.F., numero di iscrizione al Registro Imprese del Sud Est Sicilia e P.IVA 01192020871",
+      "asset_descriptions": [
+        "Quote sociali costituenti il 100% (cento per cento) dell’intero capitale sociale della società S.MER.IM. Società Meridionale Immobiliare S.r.l., con sede in Catania (CT) via Passo Gravina 137/A, C.F., numero di iscrizione al Registro Imprese del Sud Est Sicilia e P.IVA 01192020871"
+      ],
+      "court_or_procedure": "Tribunale di SIRACUSA - 1/2022",
+      "publication_date": "2026-11-02",
+      "sale_type": "Senza Incanto",
+      "sale_date": "2026-12-29T10:00",
+      "offer_deadline": "2026-12-28T12:00",
+      "base_auction_price": "27.243,13 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4654595",
+      "detail_verified": true
+    },
+    {
+      "title": "Quote sociali costituenti il 50% (cinquanta per cento) dell’intero capitale sociale della società…",
+      "credit_description": "Quote sociali costituenti il 50% (cinquanta per cento) dell’intero capitale sociale della società SAUDI ECODEM FOR ENVIROMENTAL SERVICE LTD, con sede in Arabia Saudita",
+      "asset_descriptions": [
+        "Quote sociali costituenti il 50% (cinquanta per cento) dell’intero capitale sociale della società SAUDI ECODEM FOR ENVIROMENTAL SERVICE LTD, con sede in Arabia Saudita"
+      ],
+      "court_or_procedure": "Tribunale di SIRACUSA - 3/2022",
+      "publication_date": "2026-11-02",
+      "sale_type": "Senza Incanto",
+      "sale_date": "2026-12-29T11:00",
+      "offer_deadline": "2026-12-28T12:00",
+      "base_auction_price": "3.535,83 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4654558",
+      "detail_verified": true
+    }
+  ]
+}
