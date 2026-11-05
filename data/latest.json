@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-04T01:20:15.628Z",
-  "target_date": "2026-11-03",
+  "checked_at": "2026-11-05T01:31:50.358Z",
+  "target_date": "2026-11-04",
   "source_url": "https://pvp.giustizia.it/pvp/it/lista_annunci.page?searchType=searchForm&page=0&size=48&sortProperty=dataPubblicazione,desc&sortAlpha=citta,asc&searchWith=Raggio%20d%27azione&codTipoLotto=VALORI/CREDITI&raggioAzione=25",
   "status": "success",
   "error": null,
@@ -10,359 +10,239 @@
     "complete": true,
     "pages_checked": 2,
     "listings_seen": 96,
-    "candidates_found": 22,
-    "candidates_checked": 22,
+    "candidates_found": 14,
+    "candidates_checked": 14,
     "stop_reason": "page_only_older_dates",
     "pages": [
       {
         "page": 1,
         "listings": 48,
-        "newest": "2026-11-03",
-        "oldest": "2026-10-23",
+        "newest": "2026-11-04",
+        "oldest": "2026-10-28",
         "undated": 0,
         "ordered": true
       },
       {
         "page": 2,
         "listings": 48,
-        "newest": "2026-10-23",
-        "oldest": "2026-10-08",
+        "newest": "2026-10-28",
+        "oldest": "2026-10-13",
         "undated": 0,
         "ordered": true
       }
     ],
-    "site_newest_date": "2026-11-03"
+    "site_newest_date": "2026-11-04"
   },
   "announcement_errors": [],
   "announcements": [
     {
-      "title": "Titoli PAC, come da registro nazionale titoli allegato.",
-      "credit_description": "Titoli PAC, come da registro nazionale titoli allegato.",
+      "title": "VENDITA GIUDIZIARIA 25/11/2026 ORE 12:00 – CESSIONE CREDITI FISCALI: vendita pro soluto di crediti…",
+      "credit_description": "VENDITA GIUDIZIARIA 25/11/2026 ORE 12:00 – CESSIONE CREDITI FISCALI: vendita pro soluto di crediti fiscali derivanti da Sconto Ecobonus ed Exobonus Ceduto ai sensi dell'ar L 121 del D.L n. 34/2020. Per ulteriori informazioni contattare il Team Specialistico Procedure Concorsuali Immobiliari (0731.605180 – 337.1663877) - info@istitutovenditegiudiziarie.net",
       "asset_descriptions": [
-        "Titoli PAC, come da registro nazionale titoli allegato."
+        "Il Lotto Unico è costituito dai crediti fiscali risultanti, alla data del 28 luglio 2026, dalla Piattaforma Cessione Crediti dell'Agenzia delle Entrate, con riferimento al cassetto fiscale della società in liquidazione giudiziale, come di seguito descritto: Credito fiscale derivante da Ecobonus - codice tributo 7712 — credito tracciabile. Il credito, identificato dal codice tributo 7712, deriva da Sconto Ecobonus ai sensi dell'art. 121 del D.L n. 34/2020 e si alle annualità dal 2026 al 2(B2, per un valore nominale complessivo di € pari a € 5.297,80 per ciascuna annualità. Il credito risulta classificato nella piattaforma Cessione Crediti dell'Agenzia delle Entrate nell'ambito del monitoraggio dei crediti tracciabili ed è cedibile la presente prima cessione. a chiunque e poi, a sua volta. nuovamente cedibile ulteriori tre volte a soggetti qualificati. Credito fiscale derivante da Ecobonus ceduto — Codice tributo 6922 — Credito non tracciabile. Il credito, identificato dal codiœ tributo 6922, deriva da Ceduto ai sensi dell'art. 121 del DL. n. 34/2020 e si alle annualità dal 2026 al 2031, per un valore nominale complessivo di € 3.000,oo pari a € 500,oo per ciascuna annualità. Il credito risulta nella Piattaforma Cessione Crediti dell'Agenzia delle Entrate nell'ambito della sezione relativa al monitoraggio dei crediti non tracciabili ed è cedibile, con la presente prima cessione. a chiunque e poi, a sua volta. nuovamente cedibile ulteriori tre volte a soggetti qualificati. La cessione dei crediti fiscali sopra indicati avverrà con la formula pro-soluto, ossia senza garanzia della procedura indicata in epigrafe circa la solvenza del debitore ceduto ai sensi dell'art. 1267 c.c., e con l'espressa condizione che la cessionaria rinuncia ad ogni pretesa nei confronti della procedura concorsuale, del suo curatore ed ausiliari, qualora l'amministrazione finanziaria dovese in ogni tempo e per qualsiasi motivo rettificare il credito fiscale in oggetto. In particolare, l'aggiudicataria dà atto, con il deposito dell'offerta irrevocabile di acquisto e comunque con la partecipazione alla procedura di vendita, di aver effettuato ogni indagine ritenuta opportuna per procedere consapevolmente all'acquisto, di aver avuto accesso a tutta la richiesta e di assumersi pertanto i conseguenti rischi in merito all'esigibilità del credito e alle tempistiche di incasso. Tutta la documentazione necessaria ad eseguire la due diligence in relazione al credito fiscale oggetto di vendita verrà messa a disposizione di ciascun interessato, mediante l'invio a mezzo wetransfert della cartella file denominata “Crediti Fiscali\" previa la compilazione e sottoscrizione del modulo denominato \"Richiesta Accreditamento per Accesso Documenti Crediti Fiscali\" corredato dall'ulteriore modulo denominato \"Impegno alla Riservatezza\" anch'esso da sottoscrivere ed inviare con le modalità poc’anzi indicate."
       ],
-      "court_or_procedure": "Tribunale di SANTA MARIA CAPUA VETERE - 1525/2026",
-      "publication_date": "2026-11-03",
+      "court_or_procedure": "Tribunale di ANCONA - 27/2026",
+      "publication_date": "2026-11-04",
       "sale_type": "Competitiva",
-      "sale_date": "2027-01-14T15:00",
-      "offer_deadline": "2027-01-14T13:00",
-      "base_auction_price": "1.341,19 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4655390",
+      "sale_date": "2026-11-25T12:00",
+      "offer_deadline": "2026-11-24T12:00",
+      "base_auction_price": "34.072,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4656210",
       "detail_verified": true
     },
     {
-      "title": "Titoli PAC, come da registro nazionale titoli allegato.",
-      "credit_description": "Titoli PAC, come da registro nazionale titoli allegato.",
+      "title": "LIQUIDAZIONE GIUDIZIALE N.93/2024 DELLA SOCIETA' IMPRESA CIAO S.R.L. - LOTTO 1 COSTITUITO DA…",
+      "credit_description": "LIQUIDAZIONE GIUDIZIALE N.93/2024 DELLA SOCIETA' IMPRESA CIAO S.R.L. - LOTTO 1 COSTITUITO DA: CREDITI FISCALI DERIVANTI DA \"SCONTO SUPERBONUS 110\" EX ART. 119 D.L.34/2020 - ART. 121 D.L. 34/2020 - OPZIONI DAL 1/4/2023, ISTITUITO CON LA RISOLUZIONE DELL' ADE DEL 2 MAGGIO 2023, CODICE TRIBUTO 7719, ANNO DI RIFERIMENTO 2026, DI COMPLESSIVI EURO 25.606,00, COME MEGLIO DESCRITTI NELL'AVVISO DI VENDITA PUBBLICATO.",
       "asset_descriptions": [
-        "Titoli PAC, come da registro nazionale titoli allegato."
+        "LIQUIDAZIONE GIUDIZIALE N.93/2024 DELLA SOCIETA' IMPRESA CIAO S.R.L. - LOTTO 1 COSTITUITO DA: CREDITI FISCALI DERIVANTI DA \"SCONTO SUPERBONUS 110\" EX ART. 119 D.L.34/2020 - ART. 121 D.L. 34/2020 - OPZIONI DAL 1/4/2023, ISTITUITO CON LA RISOLUZIONE DELL' ADE DEL 2 MAGGIO 2023, CODICE TRIBUTO 7719, ANNO DI RIFERIMENTO 2026, DI COMPLESSIVI EURO 25.606,00, COME MEGLIO DESCRITTI NELL'AVVISO DI VENDITA PUBBLICATO."
       ],
-      "court_or_procedure": "Tribunale di SANTA MARIA CAPUA VETERE - 1532/2026",
-      "publication_date": "2026-11-03",
+      "court_or_procedure": "Tribunale di MODENA - 93/2024",
+      "publication_date": "2026-11-04",
       "sale_type": "Competitiva",
-      "sale_date": "2027-01-14T15:00",
-      "offer_deadline": "2027-01-14T13:00",
-      "base_auction_price": "648,90 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4655389",
+      "sale_date": "2026-11-19T12:00",
+      "offer_deadline": "2026-11-18T23:59",
+      "base_auction_price": "10.242,40 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4656209",
       "detail_verified": true
     },
     {
-      "title": "LOTTO 6: crediti fiscali – scadenza al 31 dicembre 2031Valore nominale complessivo: € 63.956,20",
-      "credit_description": "LOTTO 6: crediti fiscali – scadenza al 31 dicembre 2031Valore nominale complessivo: € 63.956,20",
+      "title": "LIQUIDAZIONE GIUDIZIALE N.93/2024 DELLA SOCIETA' IMPRESA CIAO S.R.L. - LOTTO 2 COSTITUITO DA…",
+      "credit_description": "LIQUIDAZIONE GIUDIZIALE N.93/2024 DELLA SOCIETA' IMPRESA CIAO S.R.L. - LOTTO 2 COSTITUITO DA: CREDITI FISCALI DERIVANTI DA \"SCONTO SUPERBONUS 110\" EX ART. 119 D.L.34/2020 - ART. 121 D.L. 34/2020 - OPZIONI DAL 1/4/2023, ISTITUITO CON LA RISOLUZIONE DELL' ADE DEL 2 MAGGIO 2023, CODICE TRIBUTO 7719, ANNO DI RIFERIMENTO 2026, DI COMPLESSIVI EURO 53.047,25, COME MEGLIO DESCRITTI NELL'AVVISO DI VENDITA PUBBLICATO.",
       "asset_descriptions": [
-        "LOTTO 6: crediti fiscali – scadenza al 31 dicembre 2031:• tracciabili – per un valore nominale complessivo di € 4.937,90.• non tracciabili – per un valore nominale complessivo di € 59.018,30. Si precisa che la cessione del credito si intende effettuata pro soluto, ossia senza garanzia da parte della Procedura. In particolare, con la presentazione dell’offerta, ciascun offerente dichiara di avere effettuato ogni indagine ritenuta opportuna per procedere all’acquisto e di avere avuto accesso, sotto vincolo di confidenzialità, alla documentazione richiesta, nonché di assumersi il rischio del pagamento e delle tempistiche di pagamento dell’Amministrazione Finanziaria. Verrà messa a disposizione degli interessati la stessa documentazione predisposta dalla Procedura per ciascun credito."
+        "LIQUIDAZIONE GIUDIZIALE N.93/2024 DELLA SOCIETA' IMPRESA CIAO S.R.L. - LOTTO 2 COSTITUITO DA: CREDITI FISCALI DERIVANTI DA \"SCONTO SUPERBONUS 110\" EX ART. 119 D.L.34/2020 - ART. 121 D.L. 34/2020 - OPZIONI DAL 1/4/2023, ISTITUITO CON LA RISOLUZIONE DELL' ADE DEL 2 MAGGIO 2023, CODICE TRIBUTO 7719, ANNO DI RIFERIMENTO 2026, DI COMPLESSIVI EURO 53.047,25, COME MEGLIO DESCRITTI NELL'AVVISO DI VENDITA PUBBLICATO."
       ],
-      "court_or_procedure": "Tribunale di MILANO - 223/2025",
-      "publication_date": "2026-11-03",
+      "court_or_procedure": "Tribunale di MODENA - 93/2024",
+      "publication_date": "2026-11-04",
       "sale_type": "Competitiva",
-      "sale_date": "2026-12-02T10:00",
-      "offer_deadline": "2026-12-01T13:00",
-      "base_auction_price": "44.770,00 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4655235",
+      "sale_date": "2026-11-19T12:30",
+      "offer_deadline": "2026-11-18T23:59",
+      "base_auction_price": "14.147,70 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4656212",
       "detail_verified": true
     },
     {
-      "title": "LOTTO 7: crediti fiscali – scadenza al 31 dicembre 2032Valore nominale complessivo: € 4.937,90",
-      "credit_description": "LOTTO 7: crediti fiscali – scadenza al 31 dicembre 2032Valore nominale complessivo: € 4.937,90",
+      "title": "LIQUIDAZIONE GIUDIZIALE N.93/2024 DELLA SOCIETA' IMPRESA CIAO S.R.L. - LOTTO 12 COSTITUITO DA…",
+      "credit_description": "LIQUIDAZIONE GIUDIZIALE N.93/2024 DELLA SOCIETA' IMPRESA CIAO S.R.L. - LOTTO 12 COSTITUITO DA: CREDITI FISCALI DERIVANTI DA \"SCONTO SUPERBONUS 110\" EX ART. 119 D.L.34/2020 - ART. 121 D.L. 34/2020 - OPZIONI DAL 1/4/2023, ISTITUITO CON LA RISOLUZIONE DELL' ADE DEL 2 MAGGIO 2023, CODICE TRIBUTO 7719, ANNO DI RIFERIMENTO 2026, DI COMPLESSIVI EURO 66.652,25, COME MEGLIO DESCRITTI NELL'AVVISO DI VENDITA PUBBLICATO.",
       "asset_descriptions": [
-        "LOTTO 7: crediti fiscali – scadenza al 31 dicembre 2032:• tracciabili – per un valore nominale complessivo di € 4.937,90. Si precisa che la cessione del credito si intende effettuata pro soluto, ossia senza garanzia da parte della Procedura. In particolare, con la presentazione dell’offerta, ciascun offerente dichiara di avere effettuato ogni indagine ritenuta opportuna per procedere all’acquisto e di avere avuto accesso, sotto vincolo di confidenzialità, alla documentazione richiesta, nonché di assumersi il rischio del pagamento e delle tempistiche di pagamento dell’Amministrazione Finanziaria. Verrà messa a disposizione degli interessati la stessa documentazione predisposta dalla Procedura per ciascun credito."
+        "LIQUIDAZIONE GIUDIZIALE N.93/2024 DELLA SOCIETA' IMPRESA CIAO S.R.L. - LOTTO 12 COSTITUITO DA: CREDITI FISCALI DERIVANTI DA \"SCONTO SUPERBONUS 110\" EX ART. 119 D.L.34/2020 - ART. 121 D.L. 34/2020 - OPZIONI DAL 1/4/2023, ISTITUITO CON LA RISOLUZIONE DELL' ADE DEL 2 MAGGIO 2023, CODICE TRIBUTO 7719, ANNO DI RIFERIMENTO 2026, DI COMPLESSIVI EURO 66.652,25, COME MEGLIO DESCRITTI NELL'AVVISO DI VENDITA PUBBLICATO."
       ],
-      "court_or_procedure": "Tribunale di MILANO - 223/2025",
-      "publication_date": "2026-11-03",
+      "court_or_procedure": "Tribunale di MODENA - 93/2024",
+      "publication_date": "2026-11-04",
       "sale_type": "Competitiva",
-      "sale_date": "2026-12-02T10:00",
-      "offer_deadline": "2026-12-01T13:00",
-      "base_auction_price": "3.460,00 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4655247",
+      "sale_date": "2026-11-19T17:30",
+      "offer_deadline": "2026-11-18T23:59",
+      "base_auction_price": "26.660,90 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4656301",
       "detail_verified": true
     },
     {
-      "title": "LOTTO 5: crediti fiscali – scadenza al 31 dicembre 2030Valore nominale complessivo: € 63.956,20",
-      "credit_description": "LOTTO 5: crediti fiscali – scadenza al 31 dicembre 2030Valore nominale complessivo: € 63.956,20",
+      "title": "LIQUIDAZIONE GIUDIZIALE N.93/2024 DELLA SOCIETA' IMPRESA CIAO S.R.L. - LOTTO 11 COSTITUITO DA…",
+      "credit_description": "LIQUIDAZIONE GIUDIZIALE N.93/2024 DELLA SOCIETA' IMPRESA CIAO S.R.L. - LOTTO 11 COSTITUITO DA: CREDITI FISCALI DERIVANTI DA \"SCONTO SUPERBONUS 110\" EX ART. 119 D.L.34/2020 - ART. 121 D.L. 34/2020 - OPZIONI DAL 1/4/2023, ISTITUITO CON LA RISOLUZIONE DELL' ADE DEL 2 MAGGIO 2023, CODICE TRIBUTO 7719, ANNO DI RIFERIMENTO 2026, DI COMPLESSIVI EURO 26.629,00, COME MEGLIO DESCRITTI NELL'AVVISO DI VENDITA PUBBLICATO.",
       "asset_descriptions": [
-        "LOTTO 5: crediti fiscali – scadenza al 31 dicembre 2030:• tracciabili – per un valore nominale complessivo di € 4.937,90.• non tracciabili – per un valore nominale complessivo di € 59.018,30. Si precisa che la cessione del credito si intende effettuata pro soluto, ossia senza garanzia da parte della Procedura. In particolare, con la presentazione dell’offerta, ciascun offerente dichiara di avere effettuato ogni indagine ritenuta opportuna per procedere all’acquisto e di avere avuto accesso, sotto vincolo di confidenzialità, alla documentazione richiesta, nonché di assumersi il rischio del pagamento e delle tempistiche di pagamento dell’Amministrazione Finanziaria. Verrà messa a disposizione degli interessati la stessa documentazione predisposta dalla Procedura per ciascun credito."
+        "LIQUIDAZIONE GIUDIZIALE N.93/2024 DELLA SOCIETA' IMPRESA CIAO S.R.L. - LOTTO 11 COSTITUITO DA: CREDITI FISCALI DERIVANTI DA \"SCONTO SUPERBONUS 110\" EX ART. 119 D.L.34/2020 - ART. 121 D.L. 34/2020 - OPZIONI DAL 1/4/2023, ISTITUITO CON LA RISOLUZIONE DELL' ADE DEL 2 MAGGIO 2023, CODICE TRIBUTO 7719, ANNO DI RIFERIMENTO 2026, DI COMPLESSIVI EURO 26.629,00, COME MEGLIO DESCRITTI NELL'AVVISO DI VENDITA PUBBLICATO."
       ],
-      "court_or_procedure": "Tribunale di MILANO - 223/2025",
-      "publication_date": "2026-11-03",
+      "court_or_procedure": "Tribunale di MODENA - 93/2024",
+      "publication_date": "2026-11-04",
       "sale_type": "Competitiva",
-      "sale_date": "2026-12-02T10:00",
-      "offer_deadline": "2026-12-01T13:00",
-      "base_auction_price": "44.770,00 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4655246",
+      "sale_date": "2026-11-19T17:00",
+      "offer_deadline": "2026-11-18T23:59",
+      "base_auction_price": "10.651,60 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4656275",
       "detail_verified": true
     },
     {
-      "title": "LOTTO 4: crediti fiscali – scadenza al 31 dicembre 2029Valore nominale complessivo: € 63.956,20",
-      "credit_description": "LOTTO 4: crediti fiscali – scadenza al 31 dicembre 2029Valore nominale complessivo: € 63.956,20",
+      "title": "LIQUIDAZIONE GIUDIZIALE N.93/2024 DELLA SOCIETA' IMPRESA CIAO S.R.L. - LOTTO 10 COSTITUITO DA…",
+      "credit_description": "LIQUIDAZIONE GIUDIZIALE N.93/2024 DELLA SOCIETA' IMPRESA CIAO S.R.L. - LOTTO 10 COSTITUITO DA: CREDITI FISCALI DERIVANTI DA \"SCONTO SUPERBONUS 110\" EX ART. 119 D.L.34/2020 - ART. 121 D.L. 34/2020 - OPZIONI DAL 1/4/2023, ISTITUITO CON LA RISOLUZIONE DELL' ADE DEL 2 MAGGIO 2023, CODICE TRIBUTO 7719, ANNO DI RIFERIMENTO 2026, DI COMPLESSIVI EURO 63.744,75, COME MEGLIO DESCRITTI NELL'AVVISO DI VENDITA PUBBLICATO.",
       "asset_descriptions": [
-        "LOTTO 4: crediti fiscali – scadenza al 31 dicembre 2029:• tracciabili – per un valore nominale complessivo di € 4.937,90.• non tracciabili – per un valore nominale complessivo di € 59.018,30. Si precisa che la cessione del credito si intende effettuata pro soluto, ossia senza garanzia da parte della Procedura. In particolare, con la presentazione dell’offerta, ciascun offerente dichiara di avere effettuato ogni indagine ritenuta opportuna per procedere all’acquisto e di avere avuto accesso, sotto vincolo di confidenzialità, alla documentazione richiesta, nonché di assumersi il rischio del pagamento e delle tempistiche di pagamento dell’Amministrazione Finanziaria. Verrà messa a disposizione degli interessati la stessa documentazione predisposta dalla Procedura per ciascun credito."
+        "LIQUIDAZIONE GIUDIZIALE N.93/2024 DELLA SOCIETA' IMPRESA CIAO S.R.L. - LOTTO 10 COSTITUITO DA: CREDITI FISCALI DERIVANTI DA \"SCONTO SUPERBONUS 110\" EX ART. 119 D.L.34/2020 - ART. 121 D.L. 34/2020 - OPZIONI DAL 1/4/2023, ISTITUITO CON LA RISOLUZIONE DELL' ADE DEL 2 MAGGIO 2023, CODICE TRIBUTO 7719, ANNO DI RIFERIMENTO 2026, DI COMPLESSIVI EURO 63.744,75, COME MEGLIO DESCRITTI NELL'AVVISO DI VENDITA PUBBLICATO."
       ],
-      "court_or_procedure": "Tribunale di MILANO - 223/2025",
-      "publication_date": "2026-11-03",
+      "court_or_procedure": "Tribunale di MODENA - 93/2024",
+      "publication_date": "2026-11-04",
       "sale_type": "Competitiva",
-      "sale_date": "2026-12-02T10:00",
-      "offer_deadline": "2026-12-01T13:00",
-      "base_auction_price": "44.770,00 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4655234",
+      "sale_date": "2026-11-19T16:30",
+      "offer_deadline": "2026-11-18T23:59",
+      "base_auction_price": "25.497,90 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4656254",
       "detail_verified": true
     },
     {
-      "title": "LOTTO 3: crediti fiscali – scadenza al 31 dicembre 2028Valore nominale complessivo: € 63.956,20",
-      "credit_description": "LOTTO 3: crediti fiscali – scadenza al 31 dicembre 2028Valore nominale complessivo: € 63.956,20",
+      "title": "LIQUIDAZIONE GIUDIZIALE N.93/2024 DELLA SOCIETA' IMPRESA CIAO S.R.L. - LOTTO 9 COSTITUITO DA…",
+      "credit_description": "LIQUIDAZIONE GIUDIZIALE N.93/2024 DELLA SOCIETA' IMPRESA CIAO S.R.L. - LOTTO 9 COSTITUITO DA: CREDITI FISCALI DERIVANTI DA \"SCONTO SUPERBONUS 110\" EX ART. 119 D.L.34/2020 - ART. 121 D.L. 34/2020 - OPZIONI DAL 1/4/2023, ISTITUITO CON LA RISOLUZIONE DELL' ADE DEL 2 MAGGIO 2023, CODICE TRIBUTO 7719, ANNO DI RIFERIMENTO 2026, DI COMPLESSIVI EURO 54.885,00, COME MEGLIO DESCRITTI NELL'AVVISO DI VENDITA PUBBLICATO.",
       "asset_descriptions": [
-        "LOTTO 3: crediti fiscali – scadenza al 31 dicembre 2028:• tracciabili – per un valore nominale complessivo di € 4.937,90.• non tracciabili – per un valore nominale complessivo di € 59.018,30. Si precisa che la cessione del credito si intende effettuata pro soluto, ossia senza garanzia da parte della Procedura. In particolare, con la presentazione dell’offerta, ciascun offerente dichiara di avere effettuato ogni indagine ritenuta opportuna per procedere all’acquisto e di avere avuto accesso, sotto vincolo di confidenzialità, alla documentazione richiesta, nonché di assumersi il rischio del pagamento e delle tempistiche di pagamento dell’Amministrazione Finanziaria. Verrà messa a disposizione degli interessati la stessa documentazione predisposta dalla Procedura per ciascun credito."
+        "LIQUIDAZIONE GIUDIZIALE N.93/2024 DELLA SOCIETA' IMPRESA CIAO S.R.L. - LOTTO 9 COSTITUITO DA: CREDITI FISCALI DERIVANTI DA \"SCONTO SUPERBONUS 110\" EX ART. 119 D.L.34/2020 - ART. 121 D.L. 34/2020 - OPZIONI DAL 1/4/2023, ISTITUITO CON LA RISOLUZIONE DELL' ADE DEL 2 MAGGIO 2023, CODICE TRIBUTO 7719, ANNO DI RIFERIMENTO 2026, DI COMPLESSIVI EURO 54.885,00, COME MEGLIO DESCRITTI NELL'AVVISO DI VENDITA PUBBLICATO."
       ],
-      "court_or_procedure": "Tribunale di MILANO - 223/2025",
-      "publication_date": "2026-11-03",
+      "court_or_procedure": "Tribunale di MODENA - 93/2024",
+      "publication_date": "2026-11-04",
       "sale_type": "Competitiva",
-      "sale_date": "2026-12-02T10:00",
-      "offer_deadline": "2026-12-01T13:00",
-      "base_auction_price": "44.770,00 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4655233",
+      "sale_date": "2026-11-19T16:00",
+      "offer_deadline": "2026-11-18T23:59",
+      "base_auction_price": "21.954,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4656250",
       "detail_verified": true
     },
     {
-      "title": "LOTTO 2: crediti fiscali – scadenza al 31 dicembre 2027Valore nominale complessivo: € 82.778,20",
-      "credit_description": "LOTTO 2: crediti fiscali – scadenza al 31 dicembre 2027Valore nominale complessivo: € 82.778,20",
+      "title": "LIQUIDAZIONE GIUDIZIALE N.93/2024 DELLA SOCIETA' IMPRESA CIAO S.R.L. - LOTTO 8 COSTITUITO DA…",
+      "credit_description": "LIQUIDAZIONE GIUDIZIALE N.93/2024 DELLA SOCIETA' IMPRESA CIAO S.R.L. - LOTTO 8 COSTITUITO DA: CREDITI FISCALI DERIVANTI DA \"SCONTO SUPERBONUS 110\" EX ART. 119 D.L.34/2020 - ART. 121 D.L. 34/2020 - OPZIONI DAL 1/4/2023, ISTITUITO CON LA RISOLUZIONE DELL' ADE DEL 2 MAGGIO 2023, CODICE TRIBUTO 7719, ANNO DI RIFERIMENTO 2026, DI COMPLESSIVI EURO 26.924,50, COME MEGLIO DESCRITTI NELL'AVVISO DI VENDITA PUBBLICATO.",
       "asset_descriptions": [
-        "LOTTO 2: crediti fiscali – scadenza al 31 dicembre 2027:• tracciabili – per un valore nominale complessivo di € 23.759,90.• non tracciabili – per un valore nominale complessivo di € 59.018,30. Si precisa che la cessione del credito si intende effettuata pro soluto, ossia senza garanzia da parte della Procedura. In particolare, con la presentazione dell’offerta, ciascun offerente dichiara di avere effettuato ogni indagine ritenuta opportuna per procedere all’acquisto e di avere avuto accesso, sotto vincolo di confidenzialità, alla documentazione richiesta, nonché di assumersi il rischio del pagamento e delle tempistiche di pagamento dell’Amministrazione Finanziaria. Verrà messa a disposizione degli interessati la stessa documentazione predisposta dalla Procedura per ciascun credito."
+        "LIQUIDAZIONE GIUDIZIALE N.93/2024 DELLA SOCIETA' IMPRESA CIAO S.R.L. - LOTTO 8 COSTITUITO DA: CREDITI FISCALI DERIVANTI DA \"SCONTO SUPERBONUS 110\" EX ART. 119 D.L.34/2020 - ART. 121 D.L. 34/2020 - OPZIONI DAL 1/4/2023, ISTITUITO CON LA RISOLUZIONE DELL' ADE DEL 2 MAGGIO 2023, CODICE TRIBUTO 7719, ANNO DI RIFERIMENTO 2026, DI COMPLESSIVI EURO 26.924,50, COME MEGLIO DESCRITTI NELL'AVVISO DI VENDITA PUBBLICATO."
       ],
-      "court_or_procedure": "Tribunale di MILANO - 223/2025",
-      "publication_date": "2026-11-03",
+      "court_or_procedure": "Tribunale di MODENA - 93/2024",
+      "publication_date": "2026-11-04",
       "sale_type": "Competitiva",
-      "sale_date": "2026-12-02T10:00",
-      "offer_deadline": "2026-12-01T13:00",
-      "base_auction_price": "57.945,00 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4655245",
+      "sale_date": "2026-11-19T15:30",
+      "offer_deadline": "2026-11-18T23:59",
+      "base_auction_price": "10.769,80 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4656223",
       "detail_verified": true
     },
     {
-      "title": "LOTTO 1: crediti fiscali – scadenza al 31 dicembre 2026Valore nominale complessivo: € 62.682,50",
-      "credit_description": "LOTTO 1: crediti fiscali – scadenza al 31 dicembre 2026Valore nominale complessivo: € 62.682,50",
+      "title": "LIQUIDAZIONE GIUDIZIALE N.93/2024 DELLA SOCIETA' IMPRESA CIAO S.R.L. - LOTTO 7 COSTITUITO DA…",
+      "credit_description": "LIQUIDAZIONE GIUDIZIALE N.93/2024 DELLA SOCIETA' IMPRESA CIAO S.R.L. - LOTTO 7 COSTITUITO DA: CREDITI FISCALI DERIVANTI DA \"SCONTO SUPERBONUS 110\" EX ART. 119 D.L.34/2020 - ART. 121 D.L. 34/2020 - OPZIONI DAL 1/4/2023, ISTITUITO CON LA RISOLUZIONE DELL' ADE DEL 2 MAGGIO 2023, CODICE TRIBUTO 7719, ANNO DI RIFERIMENTO 2026, DI COMPLESSIVI EURO 31.628,25, COME MEGLIO DESCRITTI NELL'AVVISO DI VENDITA PUBBLICATO.",
       "asset_descriptions": [
-        "LOTTO 1: crediti fiscali – scadenza al 31 dicembre 2026:• tracciabili – per un valore nominale complessivo di € 4.937,90.• non tracciabili – per un valore nominale complessivo di € 57.744,60. Si precisa che la cessione del credito si intende effettuata pro soluto, ossia senza garanzia da parte della Procedura. In particolare, con la presentazione dell’offerta, ciascun offerente dichiara di avere effettuato ogni indagine ritenuta opportuna per procedere all’acquisto e di avere avuto accesso, sotto vincolo di confidenzialità, alla documentazione richiesta, nonché di assumersi il rischio del pagamento e delle tempistiche di pagamento dell’Amministrazione Finanziaria. Verrà messa a disposizione degli interessati la stessa documentazione predisposta dalla Procedura per ciascun credito."
+        "LIQUIDAZIONE GIUDIZIALE N.93/2024 DELLA SOCIETA' IMPRESA CIAO S.R.L. - LOTTO 7 COSTITUITO DA: CREDITI FISCALI DERIVANTI DA \"SCONTO SUPERBONUS 110\" EX ART. 119 D.L.34/2020 - ART. 121 D.L. 34/2020 - OPZIONI DAL 1/4/2023, ISTITUITO CON LA RISOLUZIONE DELL' ADE DEL 2 MAGGIO 2023, CODICE TRIBUTO 7719, ANNO DI RIFERIMENTO 2026, DI COMPLESSIVI EURO 31.628,25, COME MEGLIO DESCRITTI NELL'AVVISO DI VENDITA PUBBLICATO."
       ],
-      "court_or_procedure": "Tribunale di MILANO - 223/2025",
-      "publication_date": "2026-11-03",
+      "court_or_procedure": "Tribunale di MODENA - 93/2024",
+      "publication_date": "2026-11-04",
       "sale_type": "Competitiva",
-      "sale_date": "2026-12-02T10:00",
-      "offer_deadline": "2026-12-01T13:00",
-      "base_auction_price": "31.342,00 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4581367",
+      "sale_date": "2026-11-19T15:00",
+      "offer_deadline": "2026-11-18T23:59",
+      "base_auction_price": "12.651,30 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4656218",
       "detail_verified": true
     },
     {
-      "title": "Lotto 6: Crediti fiscali anno 2031 da bonus facciate",
-      "credit_description": "Lotto 6: Crediti fiscali anno 2031 da bonus facciate",
+      "title": "LIQUIDAZIONE GIUDIZIALE N.93/2024 DELLA SOCIETA' IMPRESA CIAO S.R.L. - LOTTO 6 COSTITUITO DA…",
+      "credit_description": "LIQUIDAZIONE GIUDIZIALE N.93/2024 DELLA SOCIETA' IMPRESA CIAO S.R.L. - LOTTO 6 COSTITUITO DA: CREDITI FISCALI DERIVANTI DA \"SCONTO SUPERBONUS 110\" EX ART. 119 D.L.34/2020 - ART. 121 D.L. 34/2020 - OPZIONI DAL 1/4/2023, ISTITUITO CON LA RISOLUZIONE DELL' ADE DEL 2 MAGGIO 2023, CODICE TRIBUTO 7719, ANNO DI RIFERIMENTO 2026, DI COMPLESSIVI EURO 38.768,25, COME MEGLIO DESCRITTI NELL'AVVISO DI VENDITA PUBBLICATO.",
       "asset_descriptions": [
-        "a) Valore nominale crediti fiscali anno 2031 da bonus facciate ceduto art. 121 DL 34-2020 (codice tributo 6925) = € 32.483,10; b) Valore nominale crediti fiscali anno 2031 da sconto bonus facciate art. 121 DL 34-2020 (codice tributo 7715) = € 1.532,90;"
+        "LIQUIDAZIONE GIUDIZIALE N.93/2024 DELLA SOCIETA' IMPRESA CIAO S.R.L. - LOTTO 6 COSTITUITO DA: CREDITI FISCALI DERIVANTI DA \"SCONTO SUPERBONUS 110\" EX ART. 119 D.L.34/2020 - ART. 121 D.L. 34/2020 - OPZIONI DAL 1/4/2023, ISTITUITO CON LA RISOLUZIONE DELL' ADE DEL 2 MAGGIO 2023, CODICE TRIBUTO 7719, ANNO DI RIFERIMENTO 2026, DI COMPLESSIVI EURO 38.768,25, COME MEGLIO DESCRITTI NELL'AVVISO DI VENDITA PUBBLICATO."
       ],
-      "court_or_procedure": "Tribunale di BENEVENTO - 66/2025",
-      "publication_date": "2026-11-03",
+      "court_or_procedure": "Tribunale di MODENA - 93/2024",
+      "publication_date": "2026-11-04",
       "sale_type": "Competitiva",
-      "sale_date": "2026-12-18T15:00",
-      "offer_deadline": "2026-12-18T12:00",
-      "base_auction_price": "19.287,07 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4655194",
+      "sale_date": "2026-11-19T14:30",
+      "offer_deadline": "2026-11-18T23:59",
+      "base_auction_price": "10.339,50 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4656226",
       "detail_verified": true
     },
     {
-      "title": "Lotto 5: Crediti fiscali anno 2030 da bonus facciate",
-      "credit_description": "Lotto 5: Crediti fiscali anno 2030 da bonus facciate",
+      "title": "LIQUIDAZIONE GIUDIZIALE N.93/2024 DELLA SOCIETA' IMPRESA CIAO S.R.L. - LOTTO 5 COSTITUITO DA…",
+      "credit_description": "LIQUIDAZIONE GIUDIZIALE N.93/2024 DELLA SOCIETA' IMPRESA CIAO S.R.L. - LOTTO 5 COSTITUITO DA: CREDITI FISCALI DERIVANTI DA \"SCONTO SUPERBONUS 110\" EX ART. 119 D.L.34/2020 - ART. 121 D.L. 34/2020 - OPZIONI DAL 1/4/2023, ISTITUITO CON LA RISOLUZIONE DELL' ADE DEL 2 MAGGIO 2023, CODICE TRIBUTO 7719, ANNO DI RIFERIMENTO 2026, DI COMPLESSIVI EURO 24.286,75, COME MEGLIO DESCRITTI NELL'AVVISO DI VENDITA PUBBLICATO.",
       "asset_descriptions": [
-        "a) Valore nominale crediti fiscali anno 2030 da bonus facciate ceduto art. 121 DL 34-2020 (codice tributo 6925) = € 32.483,10; b) Valore nominale crediti fiscali anno 2030 da sconto bonus facciate art. 121 DL 34-2020 (codice tributo 7715) = € 1.532,90; Per ogni altra informazione inerente la natura e lo stato dei Crediti, sarà possibile contattare il Liquidatore Giudiziale per il tramite dell'I.V.G. Napoli."
+        "LIQUIDAZIONE GIUDIZIALE N.93/2024 DELLA SOCIETA' IMPRESA CIAO S.R.L. - LOTTO 5 COSTITUITO DA: CREDITI FISCALI DERIVANTI DA \"SCONTO SUPERBONUS 110\" EX ART. 119 D.L.34/2020 - ART. 121 D.L. 34/2020 - OPZIONI DAL 1/4/2023, ISTITUITO CON LA RISOLUZIONE DELL' ADE DEL 2 MAGGIO 2023, CODICE TRIBUTO 7719, ANNO DI RIFERIMENTO 2026, DI COMPLESSIVI EURO 24.286,75, COME MEGLIO DESCRITTI NELL'AVVISO DI VENDITA PUBBLICATO."
       ],
-      "court_or_procedure": "Tribunale di BENEVENTO - 66/2025",
-      "publication_date": "2026-11-03",
+      "court_or_procedure": "Tribunale di MODENA - 93/2024",
+      "publication_date": "2026-11-04",
       "sale_type": "Competitiva",
-      "sale_date": "2026-12-18T15:00",
-      "offer_deadline": "2026-12-18T12:00",
-      "base_auction_price": "19.838,13 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4655207",
+      "sale_date": "2026-11-19T14:00",
+      "offer_deadline": "2026-11-18T23:59",
+      "base_auction_price": "9.714,70 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4656203",
       "detail_verified": true
     },
     {
-      "title": "Lotto 4: Crediti fiscali anno 2029 da bonus facciate",
-      "credit_description": "Lotto 4: Crediti fiscali anno 2029 da bonus facciate",
+      "title": "LIQUIDAZIONE GIUDIZIALE N.93/2024 DELLA SOCIETA' IMPRESA CIAO S.R.L. - LOTTO 4 COSTITUITO DA…",
+      "credit_description": "LIQUIDAZIONE GIUDIZIALE N.93/2024 DELLA SOCIETA' IMPRESA CIAO S.R.L. - LOTTO 4 COSTITUITO DA: CREDITI FISCALI DERIVANTI DA \"SCONTO SUPERBONUS 110\" EX ART. 119 D.L.34/2020 - ART. 121 D.L. 34/2020 - OPZIONI DAL 1/4/2023, ISTITUITO CON LA RISOLUZIONE DELL' ADE DEL 2 MAGGIO 2023, CODICE TRIBUTO 7719, ANNO DI RIFERIMENTO 2026, DI COMPLESSIVI EURO 23.080,25, COME MEGLIO DESCRITTI NELL'AVVISO DI VENDITA PUBBLICATO.",
       "asset_descriptions": [
-        "a) Valore nominale crediti fiscali anno 2029 da bonus facciate ceduto art. 121 DL 34-2020 (codice tributo 6925) = € 32.483,10; b) Valore nominale crediti fiscali anno 2029 da sconto bonus facciate art. 121 DL 34-2020 (codice tributo 7715) = € 1.532,90; Per ogni altra informazione inerente la natura e lo stato dei Crediti, sarà possibile contattare il Liquidatore Giudiziale per il tramite dell'I.V.G. Napoli."
+        "LIQUIDAZIONE GIUDIZIALE N.93/2024 DELLA SOCIETA' IMPRESA CIAO S.R.L. - LOTTO 4 COSTITUITO DA: CREDITI FISCALI DERIVANTI DA \"SCONTO SUPERBONUS 110\" EX ART. 119 D.L.34/2020 - ART. 121 D.L. 34/2020 - OPZIONI DAL 1/4/2023, ISTITUITO CON LA RISOLUZIONE DELL' ADE DEL 2 MAGGIO 2023, CODICE TRIBUTO 7719, ANNO DI RIFERIMENTO 2026, DI COMPLESSIVI EURO 23.080,25, COME MEGLIO DESCRITTI NELL'AVVISO DI VENDITA PUBBLICATO."
       ],
-      "court_or_procedure": "Tribunale di BENEVENTO - 66/2025",
-      "publication_date": "2026-11-03",
+      "court_or_procedure": "Tribunale di MODENA - 93/2024",
+      "publication_date": "2026-11-04",
       "sale_type": "Competitiva",
-      "sale_date": "2026-12-18T15:00",
-      "offer_deadline": "2026-12-18T12:00",
-      "base_auction_price": "20.389,19 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4655205",
+      "sale_date": "2026-11-19T13:30",
+      "offer_deadline": "2026-11-18T23:59",
+      "base_auction_price": "6.155,50 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4656199",
       "detail_verified": true
     },
     {
-      "title": "Lotto 3: Crediti fiscali anno 2028 da bonus facciate",
-      "credit_description": "Lotto 3: Crediti fiscali anno 2028 da bonus facciate",
+      "title": "LIQUIDAZIONE GIUDIZIALE N.93/2024 DELLA SOCIETA' IMPRESA CIAO S.R.L. - LOTTO 3 COSTITUITO DA…",
+      "credit_description": "LIQUIDAZIONE GIUDIZIALE N.93/2024 DELLA SOCIETA' IMPRESA CIAO S.R.L. - LOTTO 3 COSTITUITO DA: CREDITI FISCALI DERIVANTI DA \"SCONTO SUPERBONUS 110\" EX ART. 119 D.L.34/2020 - ART. 121 D.L. 34/2020 - OPZIONI DAL 1/4/2023, ISTITUITO CON LA RISOLUZIONE DELL' ADE DEL 2 MAGGIO 2023, CODICE TRIBUTO 7719, ANNO DI RIFERIMENTO 2026, DI COMPLESSIVI EURO 26.329,50, COME MEGLIO DESCRITTI NELL'AVVISO DI VENDITA PUBBLICATO.",
       "asset_descriptions": [
-        "a) Valore nominale crediti fiscali anno 2028 da bonus facciate ceduto art. 121 DL 34-2020 (codice tributo 6925) = € 32.483,10; b) Valore nominale crediti fiscali anno 2028 da sconto bonus facciate art. 121 DL 34-2020 (codice tributo 7715) = € 1.532,90; Per ogni altra informazione inerente la natura e lo stato dei Crediti, sarà possibile contattare il Liquidatore Giudiziale per il tramite dell'I.V.G. Napoli."
+        "LIQUIDAZIONE GIUDIZIALE N.93/2024 DELLA SOCIETA' IMPRESA CIAO S.R.L. - LOTTO 3 COSTITUITO DA: CREDITI FISCALI DERIVANTI DA \"SCONTO SUPERBONUS 110\" EX ART. 119 D.L.34/2020 - ART. 121 D.L. 34/2020 - OPZIONI DAL 1/4/2023, ISTITUITO CON LA RISOLUZIONE DELL' ADE DEL 2 MAGGIO 2023, CODICE TRIBUTO 7719, ANNO DI RIFERIMENTO 2026, DI COMPLESSIVI EURO 26.329,50, COME MEGLIO DESCRITTI NELL'AVVISO DI VENDITA PUBBLICATO."
       ],
-      "court_or_procedure": "Tribunale di BENEVENTO - 66/2025",
-      "publication_date": "2026-11-03",
+      "court_or_procedure": "Tribunale di MODENA - 93/2024",
+      "publication_date": "2026-11-04",
       "sale_type": "Competitiva",
-      "sale_date": "2026-12-18T15:00",
-      "offer_deadline": "2026-12-18T12:00",
-      "base_auction_price": "20.940,25 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4655183",
+      "sale_date": "2026-11-19T13:00",
+      "offer_deadline": "2026-11-18T23:59",
+      "base_auction_price": "7.022,08 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4656213",
       "detail_verified": true
     },
     {
-      "title": "Lotto 2: Crediti fiscali anno 2027 da bonus facciate",
-      "credit_description": "Lotto 2: Crediti fiscali anno 2027 da bonus facciate",
+      "title": "GARA ASINCRONA TELEMATICA PER LA CESSIONE DI CREDITO ERARIALE LOTTO UNICO",
+      "credit_description": "GARA ASINCRONA TELEMATICA PER LA CESSIONE DI CREDITO ERARIALE LOTTO UNICO",
       "asset_descriptions": [
-        "a) Valore nominale crediti fiscali anno 2027 da bonus facciate ceduto art. 121 DL 34-2020 (codice tributo 6925) = € 32.483,10; b) Valore nominale crediti fiscali anno 2027 da sconto bonus facciate art. 121 DL 34-2020 (codice tributo 7715) = € 1.532,90; Per ogni altra informazione inerente la natura e lo stato dei Crediti, sarà possibile contattare il Liquidatore Giudiziale per il tramite dell'I.V.G. Napoli."
+        "0001) L'attivo della procedura è stato interamente liquidato, ad eccezione del credito erariale maturato nel corso della procedura, al netto delle compensazione, cosi costituito:- Erario c/iva € 8.770,82 credito maturato alla data odierna. (ANNI 2020-2021-2022-2023-2024-2025-2026)PREZZO BASE EURO 3.500,00 (tremilacinquecento/00) ULTERIORI INFORMAZIONI SONO REPERIBILI NELLA DOCUMENTAZIONE IN ALLEGATOLa vendita sarà perfezionata decorsi 10 gg. dal deposito in Cancelleria del verbale di aggiudicazione, di conseguenza la consegna dei beni potrà avvenire solo decorso tale termine, in modo da consentire la valutazione del Curatore in ordine ad eventuali rilanci ex art. 107 4^ comma l.f. nonché l' eventuale sospensione del G.D. ex art. 108 1^ comma l.f., come da ordinanza del Giudice Delegato del 19/12/14."
       ],
-      "court_or_procedure": "Tribunale di BENEVENTO - 66/2025",
-      "publication_date": "2026-11-03",
+      "court_or_procedure": "Tribunale di LUCCA - 75/2018",
+      "publication_date": "2026-11-04",
       "sale_type": "Competitiva",
-      "sale_date": "2026-12-18T15:00",
-      "offer_deadline": "2026-12-18T12:00",
-      "base_auction_price": "21.491,31 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4655178",
-      "detail_verified": true
-    },
-    {
-      "title": "Crediti fiscali non tracciabili cedibili per tre volte a soggetti qualificati per un valore…",
-      "credit_description": "Crediti fiscali non tracciabili cedibili per tre volte a soggetti qualificati per un valore nominale di €58.925,00, utilizzabili quanto a € 38.987,50 nel 2026 e quanto al resto fra il 2027 e il 2031.",
-      "asset_descriptions": [
-        "Crediti fiscali non tracciabili cedibili per tre volte a soggetti qualificati per un valore nominale di €58.925,00, utilizzabili quanto a € 38.987,50 nel 2026 e quanto al resto fra il 2027 e il 2031."
-      ],
-      "court_or_procedure": "Tribunale di PISTOIA - 33/2026",
-      "publication_date": "2026-11-03",
-      "sale_type": "Senza Incanto",
-      "sale_date": "2026-11-24T12:00",
-      "offer_deadline": "2026-11-23T12:00",
-      "base_auction_price": "13.000,00 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4655128",
-      "detail_verified": true
-    },
-    {
-      "title": "Crediti presenti nella “Piattaforma cessione crediti” dell’Agenzia delle Entrate come “cedibili…",
-      "credit_description": "Crediti presenti nella “Piattaforma cessione crediti” dell’Agenzia delle Entrate come “cedibili tre volte a soggetti qualificati”. Codici tributo 7702 e 7706 – anni dal 2026 al 2032.",
-      "asset_descriptions": [
-        "Crediti presenti nella “Piattaforma cessione crediti” dell’Agenzia delle Entrate come “cedibili tre volte a soggetti qualificati”. Codici tributo 7702 e 7706 – anni dal 2026 al 2032."
-      ],
-      "court_or_procedure": "Tribunale di PISTOIA - 28/2026",
-      "publication_date": "2026-11-03",
-      "sale_type": "Senza Incanto",
-      "sale_date": "2026-12-10T10:00",
-      "offer_deadline": "2026-12-09T12:00",
-      "base_auction_price": "5.290,88 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4655109",
-      "detail_verified": true
-    },
-    {
-      "title": "Crediti presenti nella “Piattaforma cessione crediti” dell’Agenzia delle Entrate come “cedibili a…",
-      "credit_description": "Crediti presenti nella “Piattaforma cessione crediti” dell’Agenzia delle Entrate come “cedibili a chiunque e poi tre volte a soggetti qualificati”. Codici tributo 7712, 7715 E 7716 – anno 2032.",
-      "asset_descriptions": [
-        "Crediti presenti nella “Piattaforma cessione crediti” dell’Agenzia delle Entrate come “cedibili a chiunque e poi tre volte a soggetti qualificati”. Codici tributo 7712, 7715 E 7716 – anno 2032."
-      ],
-      "court_or_procedure": "Tribunale di PISTOIA - 28/2026",
-      "publication_date": "2026-11-03",
-      "sale_type": "Senza Incanto",
-      "sale_date": "2026-12-10T10:00",
-      "offer_deadline": "2026-12-09T12:00",
-      "base_auction_price": "3.544,17 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4655108",
-      "detail_verified": true
-    },
-    {
-      "title": "Crediti presenti nella “Piattaforma cessione crediti” dell’Agenzia delle Entrate come “cedibili a…",
-      "credit_description": "Crediti presenti nella “Piattaforma cessione crediti” dell’Agenzia delle Entrate come “cedibili a chiunque e poi tre volte a soggetti qualificati”. Codici tributo 7712, 7715 E 7716 – anno 2031.",
-      "asset_descriptions": [
-        "Crediti presenti nella “Piattaforma cessione crediti” dell’Agenzia delle Entrate come “cedibili a chiunque e poi tre volte a soggetti qualificati”. Codici tributo 7712, 7715 E 7716 – anno 2031."
-      ],
-      "court_or_procedure": "Tribunale di PISTOIA - 28/2026",
-      "publication_date": "2026-11-03",
-      "sale_type": "Senza Incanto",
-      "sale_date": "2026-12-10T10:00",
-      "offer_deadline": "2026-12-09T12:00",
-      "base_auction_price": "9.580,34 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4655107",
-      "detail_verified": true
-    },
-    {
-      "title": "Crediti presenti nella “Piattaforma cessione crediti” dell’Agenzia delle Entrate come “cedibili a…",
-      "credit_description": "Crediti presenti nella “Piattaforma cessione crediti” dell’Agenzia delle Entrate come “cedibili a chiunque e poi tre volte a soggetti qualificati”. Codici tributo 6925, 6926, 7712, 7715 E 7716 – anno 2030.",
-      "asset_descriptions": [
-        "Crediti presenti nella “Piattaforma cessione crediti” dell’Agenzia delle Entrate come “cedibili a chiunque e poi tre volte a soggetti qualificati”. Codici tributo 6925, 6926, 7712, 7715 E 7716 – anno 2030."
-      ],
-      "court_or_procedure": "Tribunale di PISTOIA - 28/2026",
-      "publication_date": "2026-11-03",
-      "sale_type": "Senza Incanto",
-      "sale_date": "2026-12-10T10:00",
-      "offer_deadline": "2026-12-09T12:00",
-      "base_auction_price": "13.881,14 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4655106",
-      "detail_verified": true
-    },
-    {
-      "title": "Crediti presenti nella “Piattaforma cessione crediti” dell’Agenzia delle Entrate come “cedibili a…",
-      "credit_description": "Crediti presenti nella “Piattaforma cessione crediti” dell’Agenzia delle Entrate come “cedibili a chiunque e poi tre volte a soggetti qualificati”. Codici tributo 6925, 6926, 7712, 7715 E 7716 – anno 2029.",
-      "asset_descriptions": [
-        "Crediti presenti nella “Piattaforma cessione crediti” dell’Agenzia delle Entrate come “cedibili a chiunque e poi tre volte a soggetti qualificati”. Codici tributo 6925, 6926, 7712, 7715 E 7716 – anno 2029."
-      ],
-      "court_or_procedure": "Tribunale di PISTOIA - 28/2026",
-      "publication_date": "2026-11-03",
-      "sale_type": "Senza Incanto",
-      "sale_date": "2026-12-10T10:00",
-      "offer_deadline": "2026-12-09T12:00",
-      "base_auction_price": "14.359,80 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4655105",
-      "detail_verified": true
-    },
-    {
-      "title": "Crediti presenti nella “Piattaforma cessione crediti” dell’Agenzia delle Entrate come “cedibili a…",
-      "credit_description": "Crediti presenti nella “Piattaforma cessione crediti” dell’Agenzia delle Entrate come “cedibili a chiunque e poi tre volte a soggetti qualificati”. Codici tributo 6925, 6926, 7712, 7715 E 7716 – anno 2028.",
-      "asset_descriptions": [
-        "Crediti presenti nella “Piattaforma cessione crediti” dell’Agenzia delle Entrate come “cedibili a chiunque e poi tre volte a soggetti qualificati”. Codici tributo 6925, 6926, 7712, 7715 E 7716 – anno 2028."
-      ],
-      "court_or_procedure": "Tribunale di PISTOIA - 28/2026",
-      "publication_date": "2026-11-03",
-      "sale_type": "Senza Incanto",
-      "sale_date": "2026-12-10T10:00",
-      "offer_deadline": "2026-12-09T12:00",
-      "base_auction_price": "15.317,12 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4655084",
-      "detail_verified": true
-    },
-    {
-      "title": "Crediti presenti nella “Piattaforma cessione crediti” dell’Agenzia delle Entrate come “cedibili a…",
-      "credit_description": "Crediti presenti nella “Piattaforma cessione crediti” dell’Agenzia delle Entrate come “cedibili a chiunque e poi tre volte a soggetti qualificati”. Codici tributo 6925, 6926, 7712, 7715 E 7716 – anno 2027.",
-      "asset_descriptions": [
-        "Crediti presenti nella “Piattaforma cessione crediti” dell’Agenzia delle Entrate come “cedibili a chiunque e poi tre volte a soggetti qualificati”. Codici tributo 6925, 6926, 7712, 7715 E 7716 – anno 2027."
-      ],
-      "court_or_procedure": "Tribunale di PISTOIA - 28/2026",
-      "publication_date": "2026-11-03",
-      "sale_type": "Senza Incanto",
-      "sale_date": "2026-12-10T10:00",
-      "offer_deadline": "2026-12-09T12:00",
-      "base_auction_price": "16.274,44 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4655075",
+      "sale_date": "2026-12-04T11:00",
+      "offer_deadline": "2026-12-04T10:30",
+      "base_auction_price": "3.500,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4656016",
       "detail_verified": true
     }
   ]
