@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-06T01:31:00.291Z",
-  "target_date": "2026-11-05",
+  "checked_at": "2026-11-07T00:52:55.885Z",
+  "target_date": "2026-11-06",
   "source_url": "https://pvp.giustizia.it/pvp/it/lista_annunci.page?searchType=searchForm&page=0&size=48&sortProperty=dataPubblicazione,desc&sortAlpha=citta,asc&searchWith=Raggio%20d%27azione&codTipoLotto=VALORI/CREDITI&raggioAzione=25",
   "status": "success",
   "error": null,
@@ -10,90 +10,74 @@
     "complete": true,
     "pages_checked": 2,
     "listings_seen": 96,
-    "candidates_found": 4,
-    "candidates_checked": 4,
+    "candidates_found": 3,
+    "candidates_checked": 3,
     "stop_reason": "page_only_older_dates",
     "pages": [
       {
         "page": 1,
         "listings": 48,
-        "newest": "2026-11-05",
-        "oldest": "2026-10-29",
+        "newest": "2026-11-06",
+        "oldest": "2026-10-30",
         "undated": 0,
         "ordered": true
       },
       {
         "page": 2,
         "listings": 48,
-        "newest": "2026-10-28",
+        "newest": "2026-10-30",
         "oldest": "2026-10-14",
         "undated": 0,
         "ordered": true
       }
     ],
-    "page_reloads": 1,
-    "site_newest_date": "2026-11-05"
+    "site_newest_date": "2026-11-06"
   },
   "announcement_errors": [],
   "announcements": [
     {
-      "title": "Crediti fiscali per Bonus facciate, sconto facciate e sconto ristrutturazione ai sensi dell'art.…",
-      "credit_description": "Crediti fiscali per Bonus facciate, sconto facciate e sconto ristrutturazione ai sensi dell'art. 121 Dl 34/2020, di Euro 195.747,50 per un valore nominale pari al 70% e quindi pari ad Euro 137.023,25. Il tutto meglio specificato nel bando in allegato.",
+      "title": "Crediti fiscali presenti nel cassetto fiscale della società in Liquidazione Giudiziale: Crediti…",
+      "credit_description": "Crediti fiscali presenti nel cassetto fiscale della società in Liquidazione Giudiziale: Crediti tracciabili - codice tributo 7719 (attualmente cedibili a chiunque e poi tre volte a soggetti qualificati) - pari ad Euro 297.875,00, di cui Euro 74.468,75 in scadenza nel 2026, Euro 74.468,75 con anno di riferimento 2027, Euro 74.468,75 con anno di riferimento 2028 ed Euro 74.468,75 con anno di riferimento 2029. Si veda l'avviso di vendita e l'ulteriore documentazione pubblicata.",
       "asset_descriptions": [
-        "Crediti fiscali per Bonus facciate, sconto facciate e sconto ristrutturazione ai sensi dell'art. 121 Dl 34/2020, di Euro 195.747,50 per un valore nominale pari al 70% e quindi pari ad Euro 137.023,25. Il tutto meglio specificato nel bando in allegato."
+        "Crediti fiscali presenti nel cassetto fiscale della società in Liquidazione Giudiziale: Crediti tracciabili - codice tributo 7719 (attualmente cedibili a chiunque e poi tre volte a soggetti qualificati) - pari ad Euro 297.875,00, di cui Euro 74.468,75 in scadenza nel 2026, Euro 74.468,75 con anno di riferimento 2027, Euro 74.468,75 con anno di riferimento 2028 ed Euro 74.468,75 con anno di riferimento 2029. Si veda l'avviso di vendita e l'ulteriore documentazione pubblicata."
       ],
-      "court_or_procedure": "Tribunale di ROMA - 453/2026",
-      "publication_date": "2026-11-05",
-      "sale_type": "Competitiva",
-      "sale_date": "2026-12-16T12:00",
-      "offer_deadline": "2026-12-16T11:45",
-      "base_auction_price": "137.000,00 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4656966",
-      "detail_verified": true
-    },
-    {
-      "title": "acquisizione di offerte irrevocabili per acquisto di partecipazione pari al 50% del capitale…",
-      "credit_description": "acquisizione di offerte irrevocabili per acquisto di partecipazione pari al 50% del capitale sociale di s.r.l.",
-      "asset_descriptions": [
-        "acquisizione di offerte irrevocabili per acquisto di partecipazione pari al 50% del capitale sociale di s.r.l."
-      ],
-      "court_or_procedure": "Tribunale di MONZA - 16/2026",
-      "publication_date": "2026-11-05",
-      "sale_type": "Competitiva",
-      "sale_date": "2026-11-27T12:00",
-      "offer_deadline": "2026-11-27T11:59",
-      "base_auction_price": "5.000,00 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4656841",
-      "detail_verified": true
-    },
-    {
-      "title": "N. 2.170 azioni ordinarie della “MARINA DI STABIA S.P.A.” con sede in Castellammare di Stabia (Na)…",
-      "credit_description": "N. 2.170 azioni ordinarie della “MARINA DI STABIA S.P.A.” con sede in Castellammare di Stabia (Na) alla Via Alcide De Gasperi, 313, iscritta al Registro delle Imprese di Napoli, codice fiscale 04181920630, partita iva 03598141210 - REA NA 351924. Particolarità delle azioni riportata nell'avviso di vendita allegato.",
-      "asset_descriptions": [
-        "N. 2.170 azioni ordinarie della “MARINA DI STABIA S.P.A.” con sede in Castellammare di Stabia (Na) alla Via Alcide De Gasperi, 313, iscritta al Registro delle Imprese di Napoli, codice fiscale 04181920630, partita iva 03598141210 - REA NA 351924. Particolarità delle azioni riportata nell'avviso di vendita allegato."
-      ],
-      "court_or_procedure": "Tribunale di TORRE ANNUNZIATA - 673/2022",
-      "publication_date": "2026-11-05",
+      "court_or_procedure": "Tribunale di PESCARA - 53/2025",
+      "publication_date": "2026-11-06",
       "sale_type": "Senza Incanto",
-      "sale_date": "2027-01-12T16:00",
-      "offer_deadline": "2027-01-11T13:00",
-      "base_auction_price": "400.000,00 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4656619",
+      "sale_date": "2026-12-01T18:00",
+      "offer_deadline": "2026-11-30T12:00",
+      "base_auction_price": "238.300,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4657748",
       "detail_verified": true
     },
     {
-      "title": "N. 4.041 azioni ordinarie, gravate da pegno, della “MARINA DI STABIA S.P.A.” con sede in…",
-      "credit_description": "N. 4.041 azioni ordinarie, gravate da pegno, della “MARINA DI STABIA S.P.A.” con sede in Castellammare di Stabia (Na) alla Via Alcide De Gasperi, 313, iscritta al Registro delle Imprese di Napoli, codice fiscale 04181920630, partita iva 03598141210 - REA NA 351924. Particolarità descritta nell'avviso di vendita.",
+      "title": "LOTTO 1: 50% DELLE QUOTE DI PARTECIPAZIONE NELLA SOCIETA' FCO STUDIO CONSULTING SRL",
+      "credit_description": "LOTTO 1: 50% DELLE QUOTE DI PARTECIPAZIONE NELLA SOCIETA' FCO STUDIO CONSULTING SRL",
       "asset_descriptions": [
-        "N. 4.041 azioni ordinarie, gravate da pegno, della “MARINA DI STABIA S.P.A.” con sede in Castellammare di Stabia (Na) alla Via Alcide De Gasperi, 313, iscritta al Registro delle Imprese di Napoli, codice fiscale 04181920630, partita iva 03598141210 - REA NA 351924. Particolarità descritta nell'avviso di vendita."
+        "LOTTO 1: 50% DELLE QUOTE DI PARTECIPAZIONE NELLA SOCIETA' FCO STUDIO CONSULTING SRL"
       ],
-      "court_or_procedure": "Tribunale di TORRE ANNUNZIATA - 673/2022",
-      "publication_date": "2026-11-05",
-      "sale_type": "Senza Incanto",
-      "sale_date": "2027-01-12T16:00",
-      "offer_deadline": "2027-01-11T13:00",
-      "base_auction_price": "200.000,00 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4653402",
+      "court_or_procedure": "Tribunale di CIVITAVECCHIA - 438/2026",
+      "publication_date": "2026-11-06",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-23T12:00",
+      "offer_deadline": "2026-11-23T11:45",
+      "base_auction_price": "7.800,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4657540",
+      "detail_verified": true
+    },
+    {
+      "title": "LOTTO UNICO COMPOSTO DA DEPOSITO TITOLI INDENTIFICATO CON NUMERO 2577... PER TITOLI AZIONI BCP SPA…",
+      "credit_description": "LOTTO UNICO COMPOSTO DA DEPOSITO TITOLI INDENTIFICATO CON NUMERO 2577... PER TITOLI AZIONI BCP SPA NON QUOTATE IN MERCATI REGOLAMENTATI",
+      "asset_descriptions": [
+        "LOTTO UNICO COMPOSTO DA DEPOSITO TITOLI INDENTIFICATO CON NUMERO 2577... PER TITOLI AZIONI BCP SPA NON QUOTATE IN MERCATI REGOLAMENTATI"
+      ],
+      "court_or_procedure": "Tribunale di NOCERA INFERIORE - 1051/2025",
+      "publication_date": "2026-11-06",
+      "sale_type": "Tramite Commissionario",
+      "sale_date": "2026-11-26T15:00",
+      "offer_deadline": "2026-11-26T12:00",
+      "base_auction_price": "1.166,67 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4657531",
       "detail_verified": true
     }
   ]
