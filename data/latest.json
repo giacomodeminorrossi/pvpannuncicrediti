@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-09T00:48:22.775Z",
-  "target_date": "2026-11-08",
+  "checked_at": "2026-11-10T03:30:05.334Z",
+  "target_date": "2026-11-09",
   "source_url": "https://pvp.giustizia.it/pvp/it/lista_annunci.page?searchType=searchForm&page=0&size=48&sortProperty=dataPubblicazione,desc&sortAlpha=citta,asc&searchWith=Raggio%20d%27azione&codTipoLotto=VALORI/CREDITI&raggioAzione=25",
   "status": "success",
   "error": null,
@@ -8,24 +8,107 @@
   "errors": [],
   "coverage": {
     "complete": true,
-    "pages_checked": 1,
-    "listings_seen": 48,
-    "candidates_found": 0,
-    "candidates_checked": 0,
+    "pages_checked": 2,
+    "listings_seen": 96,
+    "candidates_found": 5,
+    "candidates_checked": 5,
     "stop_reason": "page_only_older_dates",
     "pages": [
       {
         "page": 1,
         "listings": 48,
-        "newest": "2026-11-06",
-        "oldest": "2026-10-30",
+        "newest": "2026-11-09",
+        "oldest": "2026-11-03",
+        "undated": 0,
+        "ordered": true
+      },
+      {
+        "page": 2,
+        "listings": 48,
+        "newest": "2026-11-02",
+        "oldest": "2026-10-15",
         "undated": 0,
         "ordered": true
       }
     ],
-    "page_reloads": 2,
-    "site_newest_date": "2026-11-06"
+    "site_newest_date": "2026-11-09"
   },
   "announcement_errors": [],
-  "announcements": []
+  "announcements": [
+    {
+      "title": "LIQUIDAZIONE GIUDIZIALE DI REON SRL - LOTTO 4: Crediti fiscali derivanti da Bonus edilizi ex D.L.…",
+      "credit_description": "LIQUIDAZIONE GIUDIZIALE DI REON SRL - LOTTO 4: Crediti fiscali derivanti da Bonus edilizi ex D.L. 34/2020",
+      "asset_descriptions": [
+        "LIQUIDAZIONE GIUDIZIALE DI REON SRL - LOTTO 4: Crediti fiscali derivanti da Bonus edilizi ex D.L. 34/2020, codice tributo 7706, anni di riferimento dal 2026 al 2032, di complessivi nominali Euro 100.409,47, e precisamente i crediti dettagliatamente descritti nel tabulato allegato all'avviso di vendita, consultabile e scaricabile nella sezione \"Documenti\" della presente scheda pubblicitaria. Si invitano gli interessati a prenderne visione. *** Si precisa che la partecipazione alla cessione di crediti in oggetto è riservata agli Istituti Bancari ed agli intermediari finanziari iscritti all'albo di cui all'art. 106 del T.U.B. e pertanto i crediti medesimi potranno essere trasferiti solo ed esclusivamente alle predette categorie di soggetti. Laddove un soggetto diverso da Istituti Bancari ed intermediari finanziari iscritti all'albo di cui all'art. 106 del T.U.B. dovesse decidere comunque di partecipare all'asta e aggiudicarsi i crediti fiscali, il mancato trasferimento non sarà addebitabile alla Procedura o a IVG Modena e il deposito cauzionale versato, l'eventuale saldo prezzo di aggiudicazione e gli onorari di IVG Modena verranno definitivamente trattenuti dalla Procedura. ***"
+      ],
+      "court_or_procedure": "Tribunale di MODENA - 11/2026",
+      "publication_date": "2026-11-09",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-17T15:00",
+      "offer_deadline": "2026-11-16T23:59",
+      "base_auction_price": "52.714,97 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4653881",
+      "detail_verified": true
+    },
+    {
+      "title": "LOTTO UNICO: crediti fiscali - tributo 7719 – Sconto superbonus 110%, art.119, D.L.…",
+      "credit_description": "LOTTO UNICO: crediti fiscali - tributo 7719 – Sconto superbonus 110%, art.119, D.L. 34/2020-opzione dal 01/04/2023, per un valore nominale complessivo di € 95.271,00 di cui € 51.859,75 con scadenza 31/12/2026 e € 43.411,25 con scadenza 31/12/2027. - VENDITA RISERVATA A SOGGETTI QUALIFICATI",
+      "asset_descriptions": [
+        "Lotto unico - Crediti fiscali da sconto superbonus 110 art. 119 DL 34/20, codice tributo 7719, importo complessivo € 95.271,00: Importo nominale 2026 € 51.859,75, con scadenza 31/12/2026 e importo nominale 2027 € 43.411,25, con scadenza al 31/12/2027. I crediti sono tracciati sulla Piattaforma cessione crediti dell’Agenzia delle Entrate e risultano «cedibili tre volte a soggetti qualificati». Ciascuna rata è utilizzabile in compensazione esclusivamente nell’anno di riferimento: la quota non utilizzata entro il 31 dicembre non può essere fruita negli anni successivi né chiesta a rimborso (art. 121, comma 3, D.L. 34/2020). In particolare, la rata 2026 dovrà essere utilizzata dal cessionario entro il 31/12/2026."
+      ],
+      "court_or_procedure": "Tribunale di MILANO - 373/2026",
+      "publication_date": "2026-11-09",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-24T12:00",
+      "offer_deadline": "2026-11-23T13:00",
+      "base_auction_price": "76.216,80 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4658231",
+      "detail_verified": true
+    },
+    {
+      "title": "Credito Iva maturando alla chiusura della procedura – generato dalle fatture dei professionisti…",
+      "credit_description": "Credito Iva maturando alla chiusura della procedura – generato dalle fatture dei professionisti che saranno liquidati dal C.P. e importo determinato prudenzialmente, con i dati disponibili, in circa euro 26.000#.",
+      "asset_descriptions": [
+        "Credito Iva maturando alla chiusura della procedura – generato dalle fatture dei professionisti che saranno liquidati dal C.P. e importo determinato prudenzialmente, con i dati disponibili, in circa euro 26.000#."
+      ],
+      "court_or_procedure": "Tribunale di BRESCIA - 31/2014",
+      "publication_date": "2026-11-09",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-12-15T15:00",
+      "offer_deadline": "2026-12-14T10:00",
+      "base_auction_price": "10.000,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4656058",
+      "detail_verified": true
+    },
+    {
+      "title": "Quota pari al 30% nella società SHOTS.IT S.R.L., c.f./P. I.V.A. 02635930353, con sede legale a…",
+      "credit_description": "Quota pari al 30% nella società SHOTS.IT S.R.L., c.f./P. I.V.A. 02635930353, con sede legale a Bagnolo in Piano (RE).",
+      "asset_descriptions": [
+        "Quota pari al 30% nella società SHOTS.IT S.R.L., c.f./P. I.V.A. 02635930353, con sede legale a Bagnolo in Piano (RE). La società è operante prevalentemente nei settori della grafica, della comunicazione digitale e del web design. L’attività consiste nella realizzazione di contenuti grafici, siti internet, campagne pubblicitarie e progetti di promozione."
+      ],
+      "court_or_procedure": "Tribunale di BRESCIA - 172/2024",
+      "publication_date": "2026-11-09",
+      "sale_type": "Senza Incanto",
+      "sale_date": "2026-12-16T11:30",
+      "offer_deadline": "2026-12-15T12:00",
+      "base_auction_price": "7.100,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4658171",
+      "detail_verified": true
+    },
+    {
+      "title": "Crediti Fiscali Annualità dal 2026 al 2029 Cessione pro-soluto di un lotto di crediti derivanti da…",
+      "credit_description": "Crediti Fiscali Annualità dal 2026 al 2029 Cessione pro-soluto di un lotto di crediti derivanti da bonus fiscali",
+      "asset_descriptions": [
+        "Lotto Unico: Annualità da 2026 a 2029: Gara telematica per la cessione pro-soluto di crediti derivanti da bonus fiscali tracciabili, relativi alle annualità dal 2026 al 2029 per un valore nominale pari ad € 24.682,00 CEDIBILI A CHIUNQUE E POI TRE VOLTE A SOGGETTI \"QUALIFICATI\"TRATTASI DI CREDITI TRACCIABILI DERIVANTI DA INTERVENTI DI CUI AI CODICI TRIBUTO RICONDUCIBILI AL CODICE - 7719 SCONTO SUPERBONUS 110 ART. 119 DL N. 34-2020 - OPZ. DA 01/04/2023VALORE NOMINALE DEI CREDITI DELLE SINGOLE ANNUALITÀ: 2026; 2027; 2028 e 2029? 6.170,50 (stesso importo per ogni anno di riferimento) - Importo Totale € 24.682,00 PREZZO BASE ASTA (50 %): €12.341,00"
+      ],
+      "court_or_procedure": "Tribunale di MILANO - 799/2025",
+      "publication_date": "2026-11-09",
+      "sale_type": "Con Incanto",
+      "sale_date": "2026-12-10T15:00",
+      "offer_deadline": "2026-12-10T14:30",
+      "base_auction_price": "12.341,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4530476",
+      "detail_verified": true
+    }
+  ]
 }
