@@ -1,0 +1,84 @@
+{
+  "checked_at": "2026-11-11T01:13:17.459Z",
+  "target_date": "2026-11-10",
+  "source_url": "https://pvp.giustizia.it/pvp/it/lista_annunci.page?searchType=searchForm&page=0&size=48&sortProperty=dataPubblicazione,desc&sortAlpha=citta,asc&searchWith=Raggio%20d%27azione&codTipoLotto=VALORI/CREDITI&raggioAzione=25",
+  "status": "success",
+  "error": null,
+  "warnings": [],
+  "errors": [],
+  "coverage": {
+    "complete": true,
+    "pages_checked": 2,
+    "listings_seen": 96,
+    "candidates_found": 3,
+    "candidates_checked": 3,
+    "stop_reason": "page_only_older_dates",
+    "pages": [
+      {
+        "page": 1,
+        "listings": 48,
+        "newest": "2026-11-10",
+        "oldest": "2026-11-03",
+        "undated": 0,
+        "ordered": true
+      },
+      {
+        "page": 2,
+        "listings": 48,
+        "newest": "2026-11-03",
+        "oldest": "2026-10-16",
+        "undated": 0,
+        "ordered": true
+      }
+    ],
+    "site_newest_date": "2026-11-10"
+  },
+  "announcement_errors": [],
+  "announcements": [
+    {
+      "title": "Il Liquidatore Giudiziale nonché Trustee di “Gruppo Trombini Spa Trust”, dott. Renzo Galeotti…",
+      "credit_description": "Il Liquidatore Giudiziale nonché Trustee di “Gruppo Trombini Spa Trust”, dott. Renzo Galeotti, pone in vendita, mediante procedura competitiva: Lotto Unico: n. 10.500.000 (diecimilionicinquecentomila) azioni ordinarie del valore nominale di euro 0,01 ciascuna (zero virgola zero uno) pari al 5,122% del capitale sociale della società “DOCKS PIOMBONI S.p.A.” già DOCKS PIOMBONI S.r.l, con sede a Ravenna (RA), Via S. Cavina n. 7, C.F. e P.IVA. 00457500395, REA RA n. 92190",
+      "asset_descriptions": [
+        "Il Liquidatore Giudiziale nonché Trustee di “Gruppo Trombini Spa Trust”, dott. Renzo Galeotti, pone in vendita, mediante procedura competitiva: Lotto Unico: n. 10.500.000 (diecimilionicinquecentomila) azioni ordinarie del valore nominale di euro 0,01 ciascuna (zero virgola zero uno) pari al 5,122% del capitale sociale della società “DOCKS PIOMBONI S.p.A.” già DOCKS PIOMBONI S.r.l, con sede a Ravenna (RA), Via S. Cavina n. 7, C.F. e P.IVA. 00457500395, REA RA n. 92190"
+      ],
+      "court_or_procedure": "Tribunale di RAVENNA - 5/2013",
+      "publication_date": "2026-11-10",
+      "sale_type": "Senza Incanto",
+      "sale_date": "2026-12-18T11:30",
+      "offer_deadline": "2026-12-17T12:00",
+      "base_auction_price": "450.000,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4658658",
+      "detail_verified": true
+    },
+    {
+      "title": "Crediti erariali, di cui crediti d’imposta anno 2027.",
+      "credit_description": "Crediti erariali, di cui crediti d’imposta anno 2027.",
+      "asset_descriptions": [
+        "Crediti erariali, di cui crediti d’imposta anno 2027."
+      ],
+      "court_or_procedure": "Tribunale di FOGGIA - 11/2025",
+      "publication_date": "2026-11-10",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-12-16T16:00",
+      "offer_deadline": "2026-12-15T12:00",
+      "base_auction_price": "9.241,12 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4658700",
+      "detail_verified": true
+    },
+    {
+      "title": "Cessione \"pro soluto\"mediante asta telematica di crediti fisclai tracciabili cod. tributo 7716 per…",
+      "credit_description": "Cessione \"pro soluto\"mediante asta telematica di crediti fisclai tracciabili cod. tributo 7716 per annualità dal 2026 al 2033, cessione crediti ex art. 16 BIS del TUIR D.P.R. 917/86 e art. 119 e 121 del DL 34/2020 convertito in Legge 77/2020- il tutto come meglio descritto nel bando di vendita allegato.",
+      "asset_descriptions": [
+        "Cessione \"pro soluto\"mediante asta telematica di crediti fisclai tracciabili cod. tributo 7716 per annualità dal 2026 al 2033, cessione crediti ex art. 16 BIS del TUIR D.P.R. 917/86 e art. 119 e 121 del DL 34/2020 convertito in Legge 77/2020- il tutto come meglio descritto nel bando di vendita allegato."
+      ],
+      "court_or_procedure": "Tribunale di VERCELLI - 14/2025",
+      "publication_date": "2026-11-10",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-24T12:00",
+      "offer_deadline": "2026-11-23T12:00",
+      "base_auction_price": "40.000,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4658668",
+      "detail_verified": true
+    }
+  ]
+}
