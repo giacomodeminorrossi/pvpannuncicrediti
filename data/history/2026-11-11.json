@@ -1,0 +1,114 @@
+{
+  "checked_at": "2026-11-12T02:15:25.989Z",
+  "target_date": "2026-11-11",
+  "source_url": "https://pvp.giustizia.it/pvp/it/lista_annunci.page?searchType=searchForm&page=0&size=48&sortProperty=dataPubblicazione,desc&sortAlpha=citta,asc&searchWith=Raggio%20d%27azione&codTipoLotto=VALORI/CREDITI&raggioAzione=25",
+  "status": "success",
+  "error": null,
+  "warnings": [],
+  "errors": [],
+  "coverage": {
+    "complete": true,
+    "pages_checked": 2,
+    "listings_seen": 96,
+    "candidates_found": 5,
+    "candidates_checked": 5,
+    "stop_reason": "page_only_older_dates",
+    "pages": [
+      {
+        "page": 1,
+        "listings": 48,
+        "newest": "2026-11-11",
+        "oldest": "2026-11-03",
+        "undated": 0,
+        "ordered": true
+      },
+      {
+        "page": 2,
+        "listings": 48,
+        "newest": "2026-11-03",
+        "oldest": "2026-10-19",
+        "undated": 0,
+        "ordered": true
+      }
+    ],
+    "site_newest_date": "2026-11-11"
+  },
+  "announcement_errors": [],
+  "announcements": [
+    {
+      "title": "Crediti fiscali codice tributo 7719 tracciabili ancora cedibili a chiunque e poi tre volte a…",
+      "credit_description": "Crediti fiscali codice tributo 7719 tracciabili ancora cedibili a chiunque e poi tre volte a operatori qualificati per un totale di € 97.727,50 riferiti all’annualità 2026 il cui utilizzo scadrà il prossimo 31/12/2026.",
+      "asset_descriptions": [
+        "Crediti fiscali codice tributo 7719 tracciabili ancora cedibili a chiunque e poi tre volte a operatori qualificati per un totale di € 97.727,50 riferiti all’annualità 2026 il cui utilizzo scadrà il prossimo 31/12/2026."
+      ],
+      "court_or_procedure": "Tribunale di FIRENZE - 112/2024",
+      "publication_date": "2026-11-11",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-12-04T11:00",
+      "offer_deadline": "2026-12-03T23:59",
+      "base_auction_price": "48.863,75 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4659642",
+      "detail_verified": true
+    },
+    {
+      "title": "Crediti superbonus 110 art. 119 DL 34/20 liberamente cedibili (cod. 7719) _ Lotto unico.",
+      "credit_description": "Crediti superbonus 110 art. 119 DL 34/20 liberamente cedibili (cod. 7719) _ Lotto unico.",
+      "asset_descriptions": [
+        "Crediti superbonus 110 art. 119 DL 34/20 liberamente cedibili (cod. 7719) _ Lotto unico."
+      ],
+      "court_or_procedure": "Tribunale di ROMA - 358/2026",
+      "publication_date": "2026-11-11",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-27T12:00",
+      "offer_deadline": "2026-11-26T12:00",
+      "base_auction_price": "342.780,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4659481",
+      "detail_verified": true
+    },
+    {
+      "title": "Crediti superbonus 110 art. 119 DL 34/20 cedibili solo ad intermediari (cod. 7718 e 7719) _ Lotto…",
+      "credit_description": "Crediti superbonus 110 art. 119 DL 34/20 cedibili solo ad intermediari (cod. 7718 e 7719) _ Lotto unico.",
+      "asset_descriptions": [
+        "Crediti superbonus 110 art. 119 DL 34/20 cedibili solo ad intermediari (cod. 7718 e 7719) _ Lotto unico."
+      ],
+      "court_or_procedure": "Tribunale di ROMA - 358/2026",
+      "publication_date": "2026-11-11",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-27T12:00",
+      "offer_deadline": "2026-11-26T12:00",
+      "base_auction_price": "712.080,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4659487",
+      "detail_verified": true
+    },
+    {
+      "title": "Cessione pro soluto di credito risarcitorio attualmente in fase di riscossione mediante ordinanza…",
+      "credit_description": "Cessione pro soluto di credito risarcitorio attualmente in fase di riscossione mediante ordinanza di assegnazione attualmente pari ad € 164.223,87 (alla presente vendita)",
+      "asset_descriptions": [
+        "Cessione pro soluto di credito risarcitorio attualmente in fase di riscossione mediante ordinanza di assegnazione attualmente pari ad € 164.223,87 (alla presente vendita)"
+      ],
+      "court_or_procedure": "Tribunale di LIVORNO - 17/2016",
+      "publication_date": "2026-11-11",
+      "sale_type": "Senza Incanto",
+      "sale_date": "2027-01-14T11:00",
+      "offer_deadline": "2027-01-13T11:00",
+      "base_auction_price": "92.375,93 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4659255",
+      "detail_verified": true
+    },
+    {
+      "title": "Cessione Pro-Soluto - Crediti d'imposta Superbonus 110% - vendita telematica sulla piattaforma…",
+      "credit_description": "Cessione Pro-Soluto - Crediti d'imposta Superbonus 110% - vendita telematica sulla piattaforma www.gobid.it n.34374",
+      "asset_descriptions": [
+        "Cessione pro-soluto di crediti d'imposta derivanti da agevolazioni fiscali Superbonus 110% (art. 119 D.L. 34/2020 e s.m.i.) registrati presso l'Agenzia delle Entrate. Il valore nominale dei crediti d'imposta residui ed effettivamente disponibili/utilizzabili relativi all'annualità 2026 ammonta a complessivi € 10.886,85, suddivisi nei seguenti codici tributo ed identificativi: • € 9.357,10 – Codice Tributo 6921 (Identificativo 202100021851, Anno 2026) • € 1.491,75 – Codice Tributo 7711 (Identificativo 202300002565, Anno 2026) • € 38,00 – Codice Tributo 7718 (Identificativo 202300066622, Anno 2026) Per ulteriori informazioni consultare la documentazione in allegato"
+      ],
+      "court_or_procedure": "Tribunale di LATINA - 103/2025",
+      "publication_date": "2026-11-11",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-12-23T15:01",
+      "offer_deadline": "2026-12-23T15:00",
+      "base_auction_price": "8.709,48 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4659206",
+      "detail_verified": true
+    }
+  ]
+}
