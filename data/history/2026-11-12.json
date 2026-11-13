@@ -1,0 +1,279 @@
+{
+  "checked_at": "2026-11-13T01:48:34.468Z",
+  "target_date": "2026-11-12",
+  "source_url": "https://pvp.giustizia.it/pvp/it/lista_annunci.page?searchType=searchForm&page=0&size=48&sortProperty=dataPubblicazione,desc&sortAlpha=citta,asc&searchWith=Raggio%20d%27azione&codTipoLotto=VALORI/CREDITI&raggioAzione=25",
+  "status": "success",
+  "error": null,
+  "warnings": [],
+  "errors": [],
+  "coverage": {
+    "complete": true,
+    "pages_checked": 2,
+    "listings_seen": 96,
+    "candidates_found": 16,
+    "candidates_checked": 16,
+    "stop_reason": "page_only_older_dates",
+    "pages": [
+      {
+        "page": 1,
+        "listings": 48,
+        "newest": "2026-11-13",
+        "oldest": "2026-11-04",
+        "undated": 0,
+        "ordered": true
+      },
+      {
+        "page": 2,
+        "listings": 48,
+        "newest": "2026-11-04",
+        "oldest": "2026-10-26",
+        "undated": 0,
+        "ordered": true
+      }
+    ],
+    "site_newest_date": "2026-11-13"
+  },
+  "announcement_errors": [],
+  "announcements": [
+    {
+      "title": "Crediti superbonus 110 art. 119 DL 34/20 cedibili solo a intermediari (cod. 7719) - identificativo…",
+      "credit_description": "Crediti superbonus 110 art. 119 DL 34/20 cedibili solo a intermediari (cod. 7719) - identificativo 230623153322278010000001. E' presente vendita a lotto unico (rif. 4659487) comprendente anche i crediti di cui al presente lotto; l'offerta unitaria per tutti i lotti prevarrà sulle offerte eventualmente formulate per singolo lotto nei casi indicati nell'avviso di vendita.",
+      "asset_descriptions": [
+        "Crediti superbonus 110 art. 119 DL 34/20 cedibili solo a intermediari (cod. 7719) - identificativo 230623153322278010000001."
+      ],
+      "court_or_procedure": "Tribunale di ROMA - 358/2026",
+      "publication_date": "2026-11-12",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-27T12:00",
+      "offer_deadline": "2026-11-26T12:00",
+      "base_auction_price": "105.698,06 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4656782",
+      "detail_verified": true
+    },
+    {
+      "title": "Crediti superbonus 110 art. 119 DL 34/20 cedibili solo a intermediari (cod. 7718) - identificativo…",
+      "credit_description": "Crediti superbonus 110 art. 119 DL 34/20 cedibili solo a intermediari (cod. 7718) - identificativo 230331094547638210000001. E' presente vendita a lotto unico (rif. 4659487) comprendente anche i crediti di cui al presente lotto; l'offerta unitaria per tutti i lotti prevarrà sulle offerte eventualmente formulate per singolo lotto nei casi indicati nell'avviso di vendita.",
+      "asset_descriptions": [
+        "Crediti superbonus 110 art. 119 DL 34/20 cedibili solo a intermediari (cod. 7718) - 230331094547638210000001."
+      ],
+      "court_or_procedure": "Tribunale di ROMA - 358/2026",
+      "publication_date": "2026-11-12",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-27T12:00",
+      "offer_deadline": "2026-11-26T12:00",
+      "base_auction_price": "228.347,06 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4656775",
+      "detail_verified": true
+    },
+    {
+      "title": "Crediti superbonus 110 art. 119 DL 34/20 cedibili solo a intermediari (cod. 7718) - identificativo…",
+      "credit_description": "Crediti superbonus 110 art. 119 DL 34/20 cedibili solo a intermediari (cod. 7718) - identificativo 230330161321173050000001. E' presente vendita a lotto unico (rif. 4659487) comprendente anche i crediti di cui al presente lotto; l'offerta unitaria per tutti i lotti prevarrà sulle offerte eventualmente formulate per singolo lotto nei casi indicati nell'avviso di vendita.",
+      "asset_descriptions": [
+        "Crediti superbonus 110 art. 119 DL 34/20 cedibili solo a intermediari (cod. 7718) - identificativo 230330161321173050000001."
+      ],
+      "court_or_procedure": "Tribunale di ROMA - 358/2026",
+      "publication_date": "2026-11-12",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-27T12:00",
+      "offer_deadline": "2026-11-26T12:00",
+      "base_auction_price": "378.035,44 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4656111",
+      "detail_verified": true
+    },
+    {
+      "title": "Crediti superbonus 110 art. 119 DL 34/20 liberamente cedibili (cod. 7719) _ identificativo…",
+      "credit_description": "Crediti superbonus 110 art. 119 DL 34/20 liberamente cedibili (cod. 7719) _ identificativo 240228174253444230000001. E' presente vendita a lotto unico (rif. 4659481) comprendente anche i crediti di cui al presente lotto; l'offerta unitaria per tutti i lotti prevarrà sulle offerte eventualmente formulate per singolo lotto nei casi indicati nell'avviso di vendita.",
+      "asset_descriptions": [
+        "Crediti superbonus 110 art. 119 DL 34/20 liberamente cedibili (cod. 7719) _ identificativo 240228174253444230000001."
+      ],
+      "court_or_procedure": "Tribunale di ROMA - 358/2026",
+      "publication_date": "2026-11-12",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-27T12:00",
+      "offer_deadline": "2026-11-26T12:00",
+      "base_auction_price": "32.361,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4656109",
+      "detail_verified": true
+    },
+    {
+      "title": "Crediti superbonus 110 art. 119 DL 34/20 liberamente cedibili (cod. 7719) _ identificativo…",
+      "credit_description": "Crediti superbonus 110 art. 119 DL 34/20 liberamente cedibili (cod. 7719) _ identificativo 240131173406541150000001 e altri 8 (v. Allegato A). E' presente vendita a lotto unico (rif. 4659481) comprendente anche i crediti di cui al presente lotto; l'offerta unitaria per tutti i lotti prevarrà sulle offerte eventualmente formulate per singolo lotto nei casi indicati nell'avviso di vendita.",
+      "asset_descriptions": [
+        "Crediti superbonus 110 art. 119 DL 34/20 liberamente cedibili (cod. 7719)."
+      ],
+      "court_or_procedure": "Tribunale di ROMA - 358/2026",
+      "publication_date": "2026-11-12",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-27T12:00",
+      "offer_deadline": "2026-11-26T12:00",
+      "base_auction_price": "34.833,75 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4656042",
+      "detail_verified": true
+    },
+    {
+      "title": "Crediti superbonus 110 art. 119 DL 34/20 liberamente cedibili (cod. 7719) _ identificativo…",
+      "credit_description": "Crediti superbonus 110 art. 119 DL 34/20 liberamente cedibili (cod. 7719) _ identificativo 240229134111417400000001. E' presente vendita a lotto unico (rif. 4659481) comprendente anche i crediti di cui al presente lotto; l'offerta unitaria per tutti i lotti prevarrà sulle offerte eventualmente formulate per singolo lotto nei casi indicati nell'avviso di vendita.",
+      "asset_descriptions": [
+        "Crediti superbonus 110 art. 119 DL 34/20 liberamente cedibili (cod. 7719) _ identificativo 240229134111417400000001."
+      ],
+      "court_or_procedure": "Tribunale di ROMA - 358/2026",
+      "publication_date": "2026-11-12",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-27T12:00",
+      "offer_deadline": "2026-11-26T12:00",
+      "base_auction_price": "18.636,56 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4656075",
+      "detail_verified": true
+    },
+    {
+      "title": "Crediti superbonus 110 art. 119 DL 34/20 liberamente cedibili (cod. 7719) _ identificativo…",
+      "credit_description": "Crediti superbonus 110 art. 119 DL 34/20 liberamente cedibili (cod. 7719) _ identificativo 240131112423492710000001. E' presente vendita a lotto unico (rif. 4659481) comprendente anche i crediti di cui al presente lotto; l'offerta unitaria per tutti i lotti prevarrà sulle offerte eventualmente formulate per singolo lotto nei casi indicati nell'avviso di vendita.",
+      "asset_descriptions": [
+        "Crediti superbonus 110 art. 119 DL 34/20 liberamente cedibili (cod. 7719) _ identificativo 240131112423492710000001."
+      ],
+      "court_or_procedure": "Tribunale di ROMA - 358/2026",
+      "publication_date": "2026-11-12",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-27T12:00",
+      "offer_deadline": "2026-11-26T12:00",
+      "base_auction_price": "35.978,63 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4656069",
+      "detail_verified": true
+    },
+    {
+      "title": "Crediti superbonus 110 art. 119 DL 34/20 liberamente cedibili (cod. 7719) - id.…",
+      "credit_description": "Crediti superbonus 110 art. 119 DL 34/20 liberamente cedibili (cod. 7719) - id. 240227173423493540000001 e altri 10 (v. Allegato A avviso vendita). E' presente vendita a lotto unico (rif. 4659481) comprendente anche i crediti di cui al presente lotto; l'offerta unitaria per tutti i lotti prevarrà sulle offerte eventualmente formulate per singolo lotto nei casi indicati nell'avviso di vendita.",
+      "asset_descriptions": [
+        "Crediti superbonus 110 art. 119 DL 34/20 liberamente cedibili (cod. 7719)."
+      ],
+      "court_or_procedure": "Tribunale di ROMA - 358/2026",
+      "publication_date": "2026-11-12",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-27T12:00",
+      "offer_deadline": "2026-11-26T12:00",
+      "base_auction_price": "111.391,69 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4656091",
+      "detail_verified": true
+    },
+    {
+      "title": "Titoli PAC, come da registro nazionale titoli allegato",
+      "credit_description": "Titoli PAC, come da registro nazionale titoli allegato",
+      "asset_descriptions": [
+        "Titoli PAC, come da registro nazionale titoli allegato"
+      ],
+      "court_or_procedure": "Tribunale di SANTA MARIA CAPUA VETERE - 1378/2026",
+      "publication_date": "2026-11-12",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-26T15:00",
+      "offer_deadline": "2026-11-26T13:00",
+      "base_auction_price": "681,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4644319",
+      "detail_verified": true
+    },
+    {
+      "title": "Cessione Pro-Soluto - Credito d'imposta Superbonus 110% (Riservato a Soggetti Qualificati) -…",
+      "credit_description": "Cessione Pro-Soluto - Credito d'imposta Superbonus 110% (Riservato a Soggetti Qualificati) - vendita telematica sulla piattaforma www.gobid.it n.34218",
+      "asset_descriptions": [
+        "Cessione pro-soluto di un credito d'imposta derivante da agevolazioni fiscali Superbonus 110% (art. 119 D.L. 34/2020 e s.m.i.) registrati presso la piattaforma di cessione crediti dell'Agenzia delle Entrate. Il valore nominale del credito d'imposta posto in vendita, relativo all'annualità 2027 e composto da 7 quote, ammonta a complessivi € 40.447,00, così identificato: € 40.447,00 – Codice Tributo 7719 («SCONTO SUPERBONUS 110 ART.119 DL 34/20 - OPZ. DA 01/04/2023», Anno di riferimento 2027) prezzo base pari al 75% del valore nominale, senza garanzia sull’esistenza del credito né sul possesso, da parte dell’acquirente, dei requisiti richiesti per il suo acquisto. Il prezzo base è pertanto pari a euro 30.335,25. l’intero credito è classificato nella stampa Ad E del 26 gennaio 2026 come «cedibile tre volte a soggetti qualificati» e non cedibile a chiunque. Per ulteriori informazioni consultare la documentazione in allegato"
+      ],
+      "court_or_procedure": "Tribunale di VERONA - 31/2026",
+      "publication_date": "2026-11-12",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-12-16T15:01",
+      "offer_deadline": "2026-12-16T15:00",
+      "base_auction_price": "30.335,25 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4660440",
+      "detail_verified": true
+    },
+    {
+      "title": "Crediti superbonus 110 art. 119 DL 34/20 liberamente cedibili (cod. 7719) _ identificativo…",
+      "credit_description": "Crediti superbonus 110 art. 119 DL 34/20 liberamente cedibili (cod. 7719) _ identificativo 240213162004439590000001. E' presente vendita a lotto unico (rif. 4659481) comprendente anche i crediti di cui al presente lotto; l'offerta unitaria per tutti i lotti prevarrà sulle offerte eventualmente formulate per singolo lotto nei casi indicati nell'avviso di vendita.",
+      "asset_descriptions": [
+        "Crediti superbonus 110 art. 119 DL 34/20 liberamente cedibili (cod. 7719) _ identificativo 240213162004439590000001."
+      ],
+      "court_or_procedure": "Tribunale di ROMA - 358/2026",
+      "publication_date": "2026-11-12",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-27T12:00",
+      "offer_deadline": "2026-11-26T12:00",
+      "base_auction_price": "56.988,38 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4656053",
+      "detail_verified": true
+    },
+    {
+      "title": "Crediti superbonus 110 art. 119 DL 34/20 liberamente cedibili (cod. 7719) _ identificativo…",
+      "credit_description": "Crediti superbonus 110 art. 119 DL 34/20 liberamente cedibili (cod. 7719) _ identificativo 240131173438143750000001. E' presente vendita a lotto unico (rif. 4659481) comprendente anche i crediti di cui al presente lotto; l'offerta unitaria per tutti i lotti prevarrà sulle offerte eventualmente formulate per singolo lotto nei casi indicati nell'avviso di vendita.",
+      "asset_descriptions": [
+        "Crediti superbonus 110 art. 119 DL 34/20 liberamente cedibili (cod. 7719) _ identificativo 240131173438143750000001."
+      ],
+      "court_or_procedure": "Tribunale di ROMA - 358/2026",
+      "publication_date": "2026-11-12",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-27T12:00",
+      "offer_deadline": "2026-11-26T12:00",
+      "base_auction_price": "52.588,50 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4655943",
+      "detail_verified": true
+    },
+    {
+      "title": "Crediti fiscali codice tributo 7719 per un totale di € 97.727,50 riferiti all’annualità 2026 il…",
+      "credit_description": "Crediti fiscali codice tributo 7719 per un totale di € 97.727,50 riferiti all’annualità 2026 il cui utilizzo scadrà il prossimo 31/12/2026.",
+      "asset_descriptions": [
+        "Crediti fiscali codice tributo 7719 tracciabili ancora cedibili a chiunque e poi tre volte a operatori qualificati per un totale di € 97.727,50 riferiti all’annualità 2026 il cui utilizzo scadrà il prossimo 31/12/2026."
+      ],
+      "court_or_procedure": "Tribunale di FIRENZE - 112/2024",
+      "publication_date": "2026-11-12",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-12-04T11:00",
+      "offer_deadline": "2026-12-03T23:59",
+      "base_auction_price": "48.863,75 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4659700",
+      "detail_verified": true
+    },
+    {
+      "title": "Lotto di crediti d'imposta per un valore nominale complessivo di € 163.762,82, derivanti da…",
+      "credit_description": "Lotto di crediti d'imposta per un valore nominale complessivo di € 163.762,82, derivanti da interventi agevolati Superbonus 110% e ristrutturazione edilizia, ai sensi degli artt. 119 e 121 del D.L. 34/2020 e dell'art. 16-bis del TUIR. I crediti comprendono le annualità dal 2027 al 2032 e sono identificati dai codici tributo 7719, 6926 e 7716.",
+      "asset_descriptions": [
+        "Il lotto è costituito da crediti d'imposta derivanti da interventi agevolati di riqualificazione edilizia, Superbonus 110% e ristrutturazione del patrimonio edilizio, ai sensi degli artt. 119 e 121 del D.L. 34/2020, convertito con modificazioni dalla L. 77/2020 e successive modifiche, nonché dell'art. 16-bis, comma 1, lettere a) e b), del TUIR. Il valore nominale complessivo dei crediti ammonta a € 163.762,82, così articolato: Codice tributo 7719 – Superbonus 110%: credito d'imposta pari a € 110.934,25, relativo all'annualità 2027, derivante da interventi agevolati con opzione per lo sconto in fattura. Codice tributo 6926 – Ristrutturazione edilizia: credito d'imposta pari a € 27.455,17, relativo alle annualità dal 2027 al 2031, derivante da interventi di recupero del patrimonio edilizio. Codice tributo 7716 – Ristrutturazione edilizia con sconto in fattura: credito d'imposta pari a € 25.373,40, suddiviso in 6 rate annuali da € 4.228,90 ciascuna, relative alle annualità dal 2027 al 2032.I crediti risultano cedibili a qualsiasi soggetto, persona fisica o giuridica, secondo la cedibilità risultante dal cassetto fiscale alla data di verifica. La disponibilità e la consistenza dei crediti sono riscontrabili nel cassetto fiscale dell'Agenzia delle Entrate della società cedente."
+      ],
+      "court_or_procedure": "Tribunale di ROMA - 154/2026",
+      "publication_date": "2026-11-12",
+      "sale_type": "Senza Incanto",
+      "sale_date": "2026-12-15T14:00",
+      "offer_deadline": "2026-12-15T12:00",
+      "base_auction_price": "122.822,12 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4660136",
+      "detail_verified": true
+    },
+    {
+      "title": "Cessione Crediti d'Imposta - Bonus Facciate e Ristrutturazioni - vendita telematica sulla…",
+      "credit_description": "Cessione Crediti d'Imposta - Bonus Facciate e Ristrutturazioni - vendita telematica sulla piattaforma www.gobid.it n.34226",
+      "asset_descriptions": [
+        "cessione di crediti d'imposta tracciabili sulla piattaforma dell'Agenzia delle Entrate, derivanti da sconto in fattura per opere di ristrutturazione edilizia (Art. 121 DL 34/2020), dal valore nominale totale di € 138.776,10 Nel dettaglio: Bonus Facciate (Cod. 6925): € 125.741,40 suddivisi in rate annuali costanti fino al 2031. Bonus Ristrutturazioni (Cod. 6926): € 13.034,70 suddivisi in rate annuali costanti fino al 2032."
+      ],
+      "court_or_procedure": "Tribunale di FIRENZE - 54/2024",
+      "publication_date": "2026-11-12",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-12-16T15:01",
+      "offer_deadline": "2026-12-16T15:00",
+      "base_auction_price": "55.510,40 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4659993",
+      "detail_verified": true
+    },
+    {
+      "title": "100% QUOTE DI PARTECIPAZIONE DELLA IMMOBILIARE INVESTMENTI INDUSTRIALI SRL UNIPERSONALE",
+      "credit_description": "100% QUOTE DI PARTECIPAZIONE DELLA IMMOBILIARE INVESTMENTI INDUSTRIALI SRL UNIPERSONALE",
+      "asset_descriptions": [
+        "100% QUOTE DI PARTECIPAZIONE DELLA IMMOBILIARE INVESDTMENTI INDUSTRIALI SRL UNIPERSONALE"
+      ],
+      "court_or_procedure": "Tribunale di RIETI - 8/2012",
+      "publication_date": "2026-11-12",
+      "sale_type": "Senza Incanto",
+      "sale_date": "2027-02-09T12:30",
+      "offer_deadline": "2027-02-08T12:00",
+      "base_auction_price": "56.779,56 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4659973",
+      "detail_verified": true
+    }
+  ]
+}
