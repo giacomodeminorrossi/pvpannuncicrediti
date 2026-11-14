@@ -1,0 +1,114 @@
+{
+  "checked_at": "2026-11-14T01:25:40.751Z",
+  "target_date": "2026-11-13",
+  "source_url": "https://pvp.giustizia.it/pvp/it/lista_annunci.page?searchType=searchForm&page=0&size=48&sortProperty=dataPubblicazione,desc&sortAlpha=citta,asc&searchWith=Raggio%20d%27azione&codTipoLotto=VALORI/CREDITI&raggioAzione=25",
+  "status": "success",
+  "error": null,
+  "warnings": [],
+  "errors": [],
+  "coverage": {
+    "complete": true,
+    "pages_checked": 2,
+    "listings_seen": 96,
+    "candidates_found": 5,
+    "candidates_checked": 5,
+    "stop_reason": "page_only_older_dates",
+    "pages": [
+      {
+        "page": 1,
+        "listings": 48,
+        "newest": "2026-11-13",
+        "oldest": "2026-11-04",
+        "undated": 0,
+        "ordered": true
+      },
+      {
+        "page": 2,
+        "listings": 48,
+        "newest": "2026-11-04",
+        "oldest": "2026-10-27",
+        "undated": 0,
+        "ordered": true
+      }
+    ],
+    "site_newest_date": "2026-11-13"
+  },
+  "announcement_errors": [],
+  "announcements": [
+    {
+      "title": "LOTTO UNICO COMPOSTO DA N. 54.055 AZIONI ORDINARIE (ISIN IT0004201098) DI BANCA DEL FUCINO DI…",
+      "credit_description": "LOTTO UNICO COMPOSTO DA N. 54.055 AZIONI ORDINARIE (ISIN IT0004201098) DI BANCA DEL FUCINO DI PROPRIETA' DELLA EMMEDIESSE S.P.A. IL TUTTO MEGLIO DESCRITTO NELL'AVVISO DI VENDITA IN ALLEGATO. EVENTUALI DOCUMENTI DI INTERESSE SARANNO CONSULTABILI INVIANDO UNA PEC ALL'INDIRIZZO fallimenti.ivgroma@legamail.it PREVIA SOTTOSCRIZIONE DEL PATTO DI RISERVATEZZA.",
+      "asset_descriptions": [
+        "LOTTO UNICO COMPOSTO DA N. 54.055 AZIONI ORDINARIE (ISIN IT0004201098) DI BANCA DEL FUCINO DI PROPRIETA' DELLA EMMEDIESSE S.P.A. IL TUTTO MEGLIO DESCRITTO NELL'AVVISO DI VENDITA IN ALLEGATO. EVENTUALI DOCUMENTI DI INTERESSE SARANNO CONSULTABILI INVIANDO UNA PEC ALL'INDIRIZZO fallimenti.ivgroma@legamail.it PREVIA SOTTOSCRIZIONE DEL PATTO DI RISERVATEZZA."
+      ],
+      "court_or_procedure": "Tribunale di ROMA - 317/2024",
+      "publication_date": "2026-11-13",
+      "sale_type": "Competitiva",
+      "sale_date": "2027-01-14T12:00",
+      "offer_deadline": "2027-01-14T11:45",
+      "base_auction_price": "81.570,62 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4661028",
+      "detail_verified": true
+    },
+    {
+      "title": "Crediti non tracciabili pari a complessivi 24.956,25 Euro per Sconto Superbonus 110-art. 119 DL n.…",
+      "credit_description": "Crediti non tracciabili pari a complessivi 24.956,25 Euro per Sconto Superbonus 110-art. 119 DL n. 34/2020 – anno di utilizzo 2026",
+      "asset_descriptions": [
+        "Crediti non tracciabili pari a complessivi 24.956,25 Euro per Sconto Superbonus 110-art. 119 DL n. 34/2020 – anno di utilizzo 2026"
+      ],
+      "court_or_procedure": "Tribunale di TORINO - 288/2026",
+      "publication_date": "2026-11-13",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-12-14T15:00",
+      "offer_deadline": "2026-12-14T12:00",
+      "base_auction_price": "1,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4660910",
+      "detail_verified": true
+    },
+    {
+      "title": "Cessione pro-soluto del credito fiscale di titolarità della Liquidazione Giudiziale K3 S.r.l.…",
+      "credit_description": "Cessione pro-soluto del credito fiscale di titolarità della Liquidazione Giudiziale K3 S.r.l., risultante dalla Piattaforma Cessione Crediti dell’Agenzia delle Entrate e derivante da Bonus Facciate ex art. 121 D.L. n. 34/2020, riferito all’annualità 2026, codice tributo 7715, avente valore nominale pari ad € 18.505,10.",
+      "asset_descriptions": [
+        "Cessione pro-soluto del credito fiscale di titolarità della Liquidazione Giudiziale K3 S.r.l., risultante dalla Piattaforma Cessione Crediti dell’Agenzia delle Entrate e derivante da Bonus Facciate ex art. 121 D.L. n. 34/2020, riferito all’annualità 2026, codice tributo 7715, avente valore nominale pari ad € 18.505,10."
+      ],
+      "court_or_procedure": "Tribunale di VARESE - 38/2025",
+      "publication_date": "2026-11-13",
+      "sale_type": "Tramite Commissionario",
+      "sale_date": "2026-12-14T12:00",
+      "offer_deadline": "2026-12-09T12:00",
+      "base_auction_price": "4.500,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4660767",
+      "detail_verified": true
+    },
+    {
+      "title": "Credito IVA di € 64.867,00; Credito IRES di € 4.283,00",
+      "credit_description": "Credito IVA di € 64.867,00; Credito IRES di € 4.283,00",
+      "asset_descriptions": [
+        "Credito IVA di € 64.867,00; Credito IRES di € 4.283,00"
+      ],
+      "court_or_procedure": "Tribunale di BARI - 9/2023",
+      "publication_date": "2026-11-13",
+      "sale_type": "Tramite Commissionario",
+      "sale_date": "2026-12-18T12:00",
+      "offer_deadline": "2026-12-15T09:00",
+      "base_auction_price": "40.700,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4660641",
+      "detail_verified": true
+    },
+    {
+      "title": "Titoli PAC",
+      "credit_description": "Titoli PAC",
+      "asset_descriptions": [
+        "N. 1 Titolo Ordinario identificato con il numero 000005280885; N. 1 Titolo Ordinario identificato con il numero 000005280886. Per ulteriori dettagli si rimanda alla documentazione allegata: Ordinanza di vendita, Nota AGEA ed estratto titoli AGEA e avviso di vendita. Si consiglia, altresì, una visura aggiornata presso gli enti competenti."
+      ],
+      "court_or_procedure": "Tribunale di BENEVENTO - 532/2026",
+      "publication_date": "2026-11-13",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-26T15:00",
+      "offer_deadline": "2026-11-26T12:00",
+      "base_auction_price": "36,40 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4642736",
+      "detail_verified": true
+    }
+  ]
+}
