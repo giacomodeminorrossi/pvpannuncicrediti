@@ -102,8 +102,11 @@ test("isRepeatedIn tollera varianti minime ma non cifre diverse", () => {
   );
   // Le stesse parole in ordine diverso possono dire il contrario.
   assert.equal(isRepeatedIn("credito non cedibile e tracciabile", "credito cedibile e non tracciabile"), false);
-  // L'ultima parola troncata dal PVP non conta.
-  assert.equal(isRepeatedIn("operazione esente da IV", "operazione esente da IVA ai sensi di legge"), true);
+  // L'ultima parola spezzata conta come ripetizione solo in un testo troncato dal PVP (circa 500 caratteri).
+  const filler = "credito fiscale ".repeat(30);
+  assert.equal(isRepeatedIn(`${filler}operazione esente da IV`, `${filler}operazione esente da IVA ai sensi di legge`), true);
+  assert.equal(isRepeatedIn("operazione esente da IV", "operazione esente da IVA ai sensi di legge"), false);
+  assert.equal(isRepeatedIn("Credito verso la società Alfa", "Credito verso la società Alfabeta"), false);
 });
 
 test("distinctTexts elimina le ripetizioni tra descrizione e beni", () => {

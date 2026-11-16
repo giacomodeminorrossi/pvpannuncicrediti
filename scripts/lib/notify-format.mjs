@@ -98,16 +98,22 @@ const TYPO_MIN_LENGTH = 6;
 const TYPO_MAX_EDITS = 1;
 const TYPO_MAX_WORDS = 1;
 
+// Il PVP tronca il campo "Descrizione" a circa 500 caratteri: solo un testo
+// così lungo può finire con una parola spezzata ("IV" per "IVA"). In un testo
+// breve una parola finale più corta è un'altra parola ("Alfa" / "Alfabeta").
+const TRUNCATION_MIN_LENGTH = 450;
+
 // Vero se `text` non aggiunge nulla a `other`: le sue parole compaiono già lì,
 // nello stesso ordine (le stesse parole in altro ordine possono dire il
 // contrario: "non cedibile e tracciabile" / "cedibile e non tracciabile").
 // Sono tollerate solo differenze irrilevanti: un refuso ("INVESDTMENTI" /
-// "INVESTMENTI") e l'ultima parola troncata dal PVP. Cifre (importi,
+// "INVESTMENTI") e l'ultima parola di un testo troncato dal PVP. Cifre (importi,
 // identificativi, codici) e parole diverse contano sempre come novità.
 export function isRepeatedIn(text, other) {
   const tokens = tokensOf(text);
   if (tokens.length === 0) return true;
   const known = tokensOf(other);
+  const mayBeTruncated = clean(text).length >= TRUNCATION_MIN_LENGTH;
   let typos = 0;
   let cursor = 0;
   return tokens.every((token, index) => {
@@ -117,7 +123,7 @@ export function isRepeatedIn(text, other) {
       return true;
     }
     if (/\d/.test(token)) return false;
-    const last = index === tokens.length - 1;
+    const last = mayBeTruncated && index === tokens.length - 1;
     const canBeTypo = token.length >= TYPO_MIN_LENGTH && typos < TYPO_MAX_WORDS;
     for (let position = cursor; position < known.length; position += 1) {
       const word = known[position];
