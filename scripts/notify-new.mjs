@@ -11,6 +11,7 @@
 import { appendFile, readFile, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { notificationBody, notificationTitle } from "./lib/notify-format.mjs";
 import { announcementIdFrom } from "./lib/parse.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -30,37 +31,6 @@ function keyOf(announcement) {
   return announcementIdFrom(announcement.official_url) || announcement.official_url;
 }
 
-function bodyFor(latest, announcements) {
-  const sections = announcements.map((announcement) => {
-    const rows = [
-      ["Procedura", announcement.court_or_procedure],
-      ["Pubblicato il", announcement.publication_date],
-      ["Tipo di vendita", announcement.sale_type],
-      ["Data vendita", announcement.sale_date?.replace("T", " ")],
-      ["Termine offerte", announcement.offer_deadline?.replace("T", " ")],
-      ["Prezzo base", announcement.base_auction_price],
-      ["Dettaglio verificato", announcement.detail_verified ? "sì" : "no"],
-    ]
-      .filter(([, value]) => value)
-      .map(([label, value]) => `- **${label}:** ${value}`);
-    return [
-      `### [${announcement.title || "Annuncio PVP"}](${announcement.official_url})`,
-      ...rows,
-      announcement.credit_description ? `\n> ${announcement.credit_description}` : "",
-      // Il PVP tronca la descrizione del lotto: si aggiungono i beni se dicono di più.
-      ...(announcement.asset_descriptions || [])
-        .filter((text) => text !== announcement.credit_description)
-        .map((text) => `\n**Bene:** ${text}`),
-    ].join("\n");
-  });
-
-  const note =
-    latest.status === "success"
-      ? ""
-      : `\n\n⚠️ Controllo con stato \`${latest.status}\`: ${latest.error || "copertura incompleta"}.`;
-  return `Nuovi annunci PVP pubblicati il ${latest.target_date}.${note}\n\n${sections.join("\n\n")}\n`;
-}
-
 const [mode, bodyPath] = process.argv.slice(2);
 const latest = await readJson(LATEST_PATH, null);
 const notified = new Set(await readJson(NOTIFIED_PATH, []));
@@ -68,9 +38,9 @@ const fresh = (latest?.announcements || []).filter((item) => !notified.has(keyOf
 
 if (mode === "prepare") {
   if (!bodyPath) throw new Error("Specificare il file in cui scrivere il corpo della notifica.");
-  if (fresh.length > 0) await writeFile(bodyPath, bodyFor(latest, fresh), "utf8");
+  if (fresh.length > 0) await writeFile(bodyPath, notificationBody(latest, fresh), "utf8");
   if (process.env.GITHUB_OUTPUT) {
-    const title = `PVP: ${fresh.length} nuovi annunci del ${latest?.target_date}`;
+    const title = notificationTitle(latest, fresh);
     await appendFile(process.env.GITHUB_OUTPUT, `new_count=${fresh.length}\ntitle=${title}\n`);
   }
   console.log(`Annunci da notificare: ${fresh.length}.`);

@@ -1,0 +1,315 @@
+// Formato della notifica (issue GitHub, quindi email) dei nuovi annunci.
+// Funzioni pure, coperte dai test in test/notify-format.test.mjs.
+import { clean, isValidIsoDate, shortTitle } from "./parse.mjs";
+
+const WEEKDAYS = ["dom", "lun", "mar", "mer", "gio", "ven", "sab"];
+const DAY_MS = 86_400_000;
+const SUMMARY_TITLE_LENGTH = 70;
+// Sotto questa soglia la scadenza delle offerte viene evidenziata.
+const URGENT_DAYS = 7;
+const ZERO_WIDTH_SPACE = "​";
+
+function parseIso(value) {
+  const match = String(value || "").match(/^(\d{4}-\d{2}-\d{2})(?:T(\d{2}:\d{2}))?$/);
+  if (!match || !isValidIsoDate(match[1])) return null;
+  return { date: match[1], time: match[2] || null };
+}
+
+// "2026-11-13" → "13/11/2026"; un valore non riconosciuto resta invariato.
+export function formatDate(value) {
+  const parsed = parseIso(value);
+  if (!parsed) return clean(value) || null;
+  const [year, month, day] = parsed.date.split("-");
+  return `${day}/${month}/${year}`;
+}
+
+// "2027-01-14T11:45" → "gio 14/01/2027 ore 11:45".
+export function formatDateTime(value) {
+  const parsed = parseIso(value);
+  if (!parsed) return clean(value) || null;
+  const weekday = WEEKDAYS[new Date(`${parsed.date}T00:00:00Z`).getUTCDay()];
+  return `${weekday} ${formatDate(parsed.date)}${parsed.time ? ` ore ${parsed.time}` : ""}`;
+}
+
+// Giorni di calendario tra due date ISO (l'eventuale ora viene ignorata).
+export function daysBetween(from, to) {
+  const start = parseIso(from);
+  const end = parseIso(to);
+  if (!start || !end) return null;
+  return Math.round((Date.parse(`${end.date}T00:00:00Z`) - Date.parse(`${start.date}T00:00:00Z`)) / DAY_MS);
+}
+
+function relativeDays(days) {
+  if (days === null) return "";
+  if (days < 0) return " (già scaduto)";
+  if (days === 0) return " (oggi)";
+  if (days === 1) return " (domani)";
+  return ` (tra ${days} giorni)`;
+}
+
+// Data del controllo nel fuso italiano: è il "oggi" di chi riceve la notifica.
+export function referenceDateOf(latest) {
+  const checked = new Date(latest?.checked_at || "");
+  if (Number.isNaN(checked.getTime())) return latest?.target_date || null;
+  return new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Rome" }).format(checked);
+}
+
+// Il testo del PVP è libero: va reso innocuo per il Markdown di GitHub, che
+// altrimenti interpreta "*", "_", "|", "<", un "#" o "1." iniziale, e trasforma
+// "@nome" e "#123" in menzioni e collegamenti a issue.
+export function escapeMarkdown(value) {
+  return clean(value)
+    .replace(/[\\`*_[\]<>|~]/g, "\\$&")
+    .replace(/^(?:#+|[-+])(?=\s|$)/, "\\$&")
+    .replace(/^(\d+)([.)])(?=\s|$)/, "$1\\$2")
+    .replace(/(^|[^\p{L}\p{N}])([@#])(?=[\p{L}\p{N}])/gu, `$1$2${ZERO_WIDTH_SPACE}`);
+}
+
+function tokensOf(value) {
+  return clean(value)
+    .normalize("NFD")
+    .toLowerCase()
+    .match(/[\p{L}\p{N}]+/gu) || [];
+}
+
+// Distanza di modifica tra due parole, interrotta appena supera `limit`.
+function editDistanceWithin(a, b, limit) {
+  if (Math.abs(a.length - b.length) > limit) return false;
+  let previous = Array.from({ length: b.length + 1 }, (_, index) => index);
+  for (let i = 1; i <= a.length; i += 1) {
+    const current = [i];
+    for (let j = 1; j <= b.length; j += 1) {
+      current[j] = Math.min(
+        previous[j] + 1,
+        current[j - 1] + 1,
+        previous[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1),
+      );
+    }
+    if (Math.min(...current) > limit) return false;
+    previous = current;
+  }
+  return previous[b.length] <= limit;
+}
+
+// Un refuso è una sola lettera di differenza in una parola lunga; se ne tollera
+// uno per confronto, perché più parole "quasi uguali" cambiano il senso
+// ("ceduto" / "venduto", "diviso" / "indiviso").
+const TYPO_MIN_LENGTH = 6;
+const TYPO_MAX_EDITS = 1;
+const TYPO_MAX_WORDS = 1;
+
+// Il PVP tronca il campo "Descrizione" a circa 500 caratteri: solo un testo
+// così lungo può finire con una parola spezzata ("IV" per "IVA"). In un testo
+// breve una parola finale più corta è un'altra parola ("Alfa" / "Alfabeta").
+const TRUNCATION_MIN_LENGTH = 450;
+
+// Vero se `text` non aggiunge nulla a `other`: le sue parole compaiono già lì,
+// nello stesso ordine (le stesse parole in altro ordine possono dire il
+// contrario: "non cedibile e tracciabile" / "cedibile e non tracciabile").
+// Sono tollerate solo differenze irrilevanti: un refuso ("INVESDTMENTI" /
+// "INVESTMENTI") e l'ultima parola di un testo troncato dal PVP. Cifre (importi,
+// identificativi, codici) e parole diverse contano sempre come novità.
+export function isRepeatedIn(text, other) {
+  const tokens = tokensOf(text);
+  if (tokens.length === 0) return true;
+  const known = tokensOf(other);
+  const mayBeTruncated = clean(text).length >= TRUNCATION_MIN_LENGTH;
+  let typos = 0;
+  let cursor = 0;
+  return tokens.every((token, index) => {
+    const exact = known.indexOf(token, cursor);
+    if (exact >= 0) {
+      cursor = exact + 1;
+      return true;
+    }
+    if (/\d/.test(token)) return false;
+    const last = mayBeTruncated && index === tokens.length - 1;
+    const canBeTypo = token.length >= TYPO_MIN_LENGTH && typos < TYPO_MAX_WORDS;
+    for (let position = cursor; position < known.length; position += 1) {
+      const word = known[position];
+      const truncated = last && token.length >= 2 && word.startsWith(token);
+      const typo = canBeTypo && !/\d/.test(word) && editDistanceWithin(token, word, TYPO_MAX_EDITS);
+      if (!truncated && !typo) continue;
+      if (!truncated) typos += 1;
+      cursor = position + 1;
+      return true;
+    }
+    return false;
+  });
+}
+
+// Il PVP ripete spesso la descrizione del lotto nei "beni inclusi", a volte più
+// completa e a volte troncata: si tengono solo i testi che aggiungono qualcosa.
+export function distinctTexts(announcement) {
+  const description = clean(announcement.credit_description);
+  const assets = [];
+  for (const asset of (announcement.asset_descriptions || []).map(clean).filter(Boolean)) {
+    if (description && isRepeatedIn(asset, description)) continue;
+    if (assets.some((kept) => isRepeatedIn(asset, kept))) continue;
+    // Un bene più completo sostituisce quelli che ripete.
+    for (let index = assets.length - 1; index >= 0; index -= 1) {
+      if (isRepeatedIn(assets[index], asset)) assets.splice(index, 1);
+    }
+    assets.push(asset);
+  }
+  const descriptionRepeated = assets.some((asset) => isRepeatedIn(description, asset));
+  if (!description || descriptionRepeated) return { description: null, assets };
+
+  return { description, assets: assets.map((asset) => withoutSharedStart(asset, description)) };
+}
+
+// Inizio in comune oltre il quale di un bene si mostra solo la parte nuova.
+const SHARED_START_MIN_LENGTH = 60;
+
+// Spesso un bene ricopia l'inizio della descrizione e cambia solo nel finale:
+// si mostra "… finale" invece di ripetere tutto il testo.
+export function withoutSharedStart(text, reference) {
+  let shared = 0;
+  while (shared < text.length && shared < reference.length && text[shared] === reference[shared]) {
+    shared += 1;
+  }
+  // Si taglia a fine parola, senza spezzare l'ultima parola in comune.
+  if (shared < text.length && shared < reference.length) {
+    shared = text.lastIndexOf(" ", shared) + 1;
+  }
+  const rest = text.slice(shared).trim();
+  if (shared < SHARED_START_MIN_LENGTH || !rest) return text;
+  // Se anche il finale ricalca il riferimento (cambia solo un numero o una
+  // parola nel mezzo), il frammento da solo non si capirebbe: resta il testo intero.
+  const known = new Set(tokensOf(reference));
+  const restTokens = tokensOf(rest);
+  const repeated = restTokens.filter((token) => known.has(token)).length;
+  if (repeated * 2 >= restTokens.length) return text;
+  return `… ${rest}`;
+}
+
+function priceValue(text) {
+  const match = String(text || "").match(/\d[\d.]*(?:,\d+)?/);
+  if (!match) return null;
+  const value = Number(match[0].replace(/\./g, "").replace(",", "."));
+  return Number.isFinite(value) ? value : null;
+}
+
+function deadlineOf(announcement) {
+  return announcement.offer_deadline || announcement.sale_date || null;
+}
+
+// Prima le scadenze più vicine; i lotti della stessa procedura restano vicini,
+// dal prezzo base più alto al più basso.
+export function sortAnnouncements(announcements) {
+  return announcements
+    .map((announcement, index) => ({ announcement, index }))
+    .sort((a, b) => {
+      const byDeadline = (deadlineOf(a.announcement) || "9999").localeCompare(
+        deadlineOf(b.announcement) || "9999",
+      );
+      if (byDeadline) return byDeadline;
+      const byProcedure = clean(a.announcement.court_or_procedure).localeCompare(
+        clean(b.announcement.court_or_procedure),
+        "it",
+      );
+      if (byProcedure) return byProcedure;
+      const byPrice =
+        (priceValue(b.announcement.base_auction_price) ?? -1) -
+        (priceValue(a.announcement.base_auction_price) ?? -1);
+      return byPrice || a.index - b.index;
+    })
+    .map(({ announcement }) => announcement);
+}
+
+function countLabel(count) {
+  return count === 1 ? "1 nuovo annuncio" : `${count} nuovi annunci`;
+}
+
+export function notificationTitle(latest, announcements) {
+  const deadlines = announcements.map((item) => item.offer_deadline).filter(Boolean).sort();
+  const first = deadlines.length ? ` – prima scadenza offerte ${formatDate(deadlines[0].slice(0, 10))}` : "";
+  return `PVP: ${countLabel(announcements.length)} del ${formatDate(latest?.target_date)}${first}`;
+}
+
+function summaryRow(announcement, position) {
+  const { description, assets } = distinctTexts(announcement);
+  const subject = shortTitle(description || assets[0] || announcement.title, SUMMARY_TITLE_LENGTH);
+  // Solo il termine vero: la data di vendita serve all'ordinamento, non è una scadenza.
+  const deadline = parseIso(announcement.offer_deadline)?.date;
+  const cells = [
+    String(position),
+    escapeMarkdown(announcement.base_auction_price) || "–",
+    deadline ? formatDate(deadline) : "–",
+    escapeMarkdown(announcement.court_or_procedure) || "–",
+    `[${escapeMarkdown(subject) || "Annuncio PVP"}](${announcement.official_url})`,
+  ];
+  return `| ${cells.join(" | ")} |`;
+}
+
+function section(announcement, position, referenceDate) {
+  const { description, assets } = distinctTexts(announcement);
+  const heading = [announcement.base_auction_price, announcement.court_or_procedure]
+    .map(escapeMarkdown)
+    .filter(Boolean)
+    .join(" · ");
+
+  const days = daysBetween(referenceDate, announcement.offer_deadline);
+  const urgent = days !== null && days >= 0 && days <= URGENT_DAYS ? "⏰ " : "";
+  const facts = [
+    announcement.offer_deadline &&
+      `- ${urgent}**Termine offerte:** ${formatDateTime(announcement.offer_deadline)}${relativeDays(days)}`,
+    (announcement.sale_date || announcement.sale_type) &&
+      `- **Vendita:** ${[formatDateTime(announcement.sale_date), escapeMarkdown(announcement.sale_type)]
+        .filter(Boolean)
+        .join(" · ")}`,
+    announcement.detail_verified
+      ? null
+      : "- ⚠️ Dati presi dalla sola lista dei risultati: la pagina di dettaglio non è stata verificata.",
+    `- [Apri l'annuncio sul PVP](${announcement.official_url})`,
+  ].filter(Boolean);
+
+  const single = assets.length === 1;
+  return [
+    `### ${position}. ${heading || "Annuncio PVP"}`,
+    description ? escapeMarkdown(description) : null,
+    ...assets.map((asset, index) =>
+      description || !single
+        ? `**${single ? "Dettaglio del bene" : `Bene ${index + 1}`}:** ${escapeMarkdown(asset)}`
+        : escapeMarkdown(asset),
+    ),
+    facts.join("\n"),
+  ]
+    .filter(Boolean)
+    .join("\n\n");
+}
+
+export function notificationBody(latest, announcements) {
+  const referenceDate = referenceDateOf(latest);
+  const sorted = sortAnnouncements(announcements);
+  const count = sorted.length;
+
+  const intro = `**${countLabel(count)}** ${count === 1 ? "pubblicato" : "pubblicati"} sul PVP il ${formatDate(
+    latest?.target_date,
+  )}${count > 1 ? ", in ordine di scadenza delle offerte" : ""}.`;
+  const warning =
+    latest?.status === "success"
+      ? null
+      : `> ⚠️ Controllo non completo (stato \`${latest?.status}\`): ${escapeMarkdown(
+          latest?.error || "copertura incompleta",
+        )}. Potrebbero mancare annunci.`;
+  // Con un solo annuncio il riepilogo ripeterebbe la scheda.
+  const summary =
+    count > 1
+      ? [
+          "| # | Prezzo base | Termine offerte | Procedura | Oggetto |",
+          "| ---: | ---: | --- | --- | --- |",
+          ...sorted.map((announcement, index) => summaryRow(announcement, index + 1)),
+        ].join("\n")
+      : null;
+
+  return `${[
+    intro,
+    warning,
+    summary,
+    summary ? "---" : null,
+    ...sorted.map((announcement, index) => section(announcement, index + 1, referenceDate)),
+  ]
+    .filter(Boolean)
+    .join("\n\n")}\n`;
+}

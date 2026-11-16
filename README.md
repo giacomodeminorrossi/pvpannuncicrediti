@@ -15,6 +15,16 @@ Il workflow GitHub Actions:
 7. aggiorna `data/latest.json` e ne salva una copia in `data/history/YYYY-MM-DD.json`;
 8. apre una **issue** nel repository per gli annunci non ancora notificati (GitHub invia un'email a chi segue il repository) e li registra in `data/notified-ids.json`.
 
+### Formato della notifica
+
+L'email è la notifica GitHub della issue, composta da `scripts/lib/notify-format.mjs`:
+
+- l'oggetto riporta numero di annunci, data di pubblicazione e prima scadenza delle offerte, per esempio `PVP: 5 nuovi annunci del 13/11/2026 – prima scadenza offerte 26/11/2026`;
+- in cima c'è una tabella di riepilogo (prezzo base, termine offerte, procedura, oggetto con link), omessa se l'annuncio è uno solo;
+- seguono le schede, ordinate per scadenza delle offerte (poi per procedura e prezzo base decrescente): prezzo base e procedura nel titolo, descrizione completa, termine offerte con i giorni mancanti alla data del controllo (⏰ se entro 7 giorni), data e tipo di vendita, link al PVP;
+- i "beni inclusi" compaiono solo se aggiungono qualcosa alla descrizione: le ripetizioni vengono omesse e, se un bene ne ricopia l'inizio, se ne mostra solo il finale (`… testo`);
+- gli avvisi (⚠️) compaiono solo quando servono: controllo non completo o dettaglio dell'annuncio non verificato.
+
 Pagina controllata:
 
 <https://pvp.giustizia.it/pvp/it/lista_annunci.page?searchType=searchForm&page=0&size=48&sortProperty=dataPubblicazione,desc&sortAlpha=citta,asc&searchWith=Raggio%20d%27azione&codTipoLotto=VALORI/CREDITI&raggioAzione=25>
@@ -50,7 +60,7 @@ TARGET_DATE=2026-10-03 npm run scrape
 
 Il fuso orario usato per determinare la data predefinita è sempre `Europe/Paris`.
 
-Test delle funzioni di interpretazione del testo (non richiedono Playwright):
+Test delle funzioni di interpretazione del testo e del formato della notifica (non richiedono Playwright):
 
 ```bash
 npm test
