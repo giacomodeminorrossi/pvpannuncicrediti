@@ -72,25 +72,50 @@ function tokensOf(value) {
     .match(/[\p{L}\p{N}]+/gu) || [];
 }
 
-// Un testo è una ripetizione se quasi tutte le sue parole sono già nell'altro:
-// quota minima in comune e numero massimo di parole mancanti (per non perdere
-// una frase intera in fondo a un testo lungo).
-const REPEAT_SHARE = 0.85;
-const REPEAT_MAX_MISSING = 2;
+// Distanza di modifica tra due parole, interrotta appena supera `limit`.
+function editDistanceWithin(a, b, limit) {
+  if (Math.abs(a.length - b.length) > limit) return false;
+  let previous = Array.from({ length: b.length + 1 }, (_, index) => index);
+  for (let i = 1; i <= a.length; i += 1) {
+    const current = [i];
+    for (let j = 1; j <= b.length; j += 1) {
+      current[j] = Math.min(
+        previous[j] + 1,
+        current[j - 1] + 1,
+        previous[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1),
+      );
+    }
+    if (Math.min(...current) > limit) return false;
+    previous = current;
+  }
+  return previous[b.length] <= limit;
+}
 
-// Vero se `text` non aggiunge nulla a `other`: tutte le sue cifre (importi,
-// identificativi, codici) e quasi tutte le sue parole compaiono già lì. La
-// tolleranza copre refusi e varianti minime ("identificativo 123" / "123").
+// Lunghezza minima di una parola perché una differenza di una o due lettere
+// sia considerata un refuso e non un'altra parola.
+const TYPO_MIN_LENGTH = 6;
+const TYPO_MAX_EDITS = 2;
+
+// Vero se `text` non aggiunge nulla a `other`: ogni sua parola compare già lì.
+// Sono tollerate solo differenze irrilevanti: un refuso in una parola lunga
+// ("INVESDTMENTI" / "INVESTMENTI") e l'ultima parola troncata dal PVP. Cifre
+// (importi, identificativi, codici) e parole diverse contano sempre come novità.
 export function isRepeatedIn(text, other) {
   const tokens = tokensOf(text);
   if (tokens.length === 0) return true;
-  const known = new Set(tokensOf(other));
-  const missing = tokens.filter((token) => !known.has(token));
-  if (missing.some((token) => /\d/.test(token))) return false;
-  return (
-    missing.length <= REPEAT_MAX_MISSING &&
-    (tokens.length - missing.length) / tokens.length >= REPEAT_SHARE
-  );
+  const known = [...new Set(tokensOf(other))];
+  const knownSet = new Set(known);
+  return tokens.every((token, index) => {
+    if (knownSet.has(token)) return true;
+    if (/\d/.test(token)) return false;
+    if (index === tokens.length - 1 && token.length >= 2 && known.some((word) => word.startsWith(token))) {
+      return true;
+    }
+    return (
+      token.length >= TYPO_MIN_LENGTH &&
+      known.some((word) => !/\d/.test(word) && editDistanceWithin(token, word, TYPO_MAX_EDITS))
+    );
+  });
 }
 
 // Il PVP ripete spesso la descrizione del lotto nei "beni inclusi", a volte più
@@ -185,11 +210,12 @@ export function notificationTitle(latest, announcements) {
 function summaryRow(announcement, position) {
   const { description, assets } = distinctTexts(announcement);
   const subject = shortTitle(description || assets[0] || announcement.title, SUMMARY_TITLE_LENGTH);
-  const deadline = deadlineOf(announcement);
+  // Solo il termine vero: la data di vendita serve all'ordinamento, non è una scadenza.
+  const deadline = parseIso(announcement.offer_deadline)?.date;
   const cells = [
     String(position),
     escapeMarkdown(announcement.base_auction_price) || "–",
-    deadline ? formatDate(deadline.slice(0, 10)) : "–",
+    deadline ? formatDate(deadline) : "–",
     escapeMarkdown(announcement.court_or_procedure) || "–",
     `[${escapeMarkdown(subject) || "Annuncio PVP"}](${announcement.official_url})`,
   ];

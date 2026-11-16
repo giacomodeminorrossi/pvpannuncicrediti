@@ -82,9 +82,17 @@ test("isRepeatedIn tollera varianti minime ma non cifre diverse", () => {
     true,
   );
   assert.equal(isRepeatedIn("Titoli PAC", "N. 1 Titolo Ordinario numero 5"), false);
-  // Una frase in più in fondo a un testo lungo non è una ripetizione.
-  const long = "cessione pro soluto di crediti fiscali derivanti da bonus edilizi maturati dalla società in liquidazione giudiziale come da avviso";
-  assert.equal(isRepeatedIn(`${long} riservata a soggetti qualificati`, long), false);
+  // Una o due parole diverse sono informazione nuova, non un refuso.
+  assert.equal(
+    isRepeatedIn(
+      "Documentazione nella VDR al link https://attiva.asteannunci.it previa registrazione",
+      "Documentazione nella VDR al link https://trasformazioneterritoriale.asteannunci.it previa registrazione",
+    ),
+    false,
+  );
+  assert.equal(isRepeatedIn("Crediti cedibili solo a soggetti qualificati", "Crediti cedibili a soggetti"), false);
+  // L'ultima parola troncata dal PVP non conta.
+  assert.equal(isRepeatedIn("operazione esente da IV", "operazione esente da IVA ai sensi di legge"), true);
 });
 
 test("distinctTexts elimina le ripetizioni tra descrizione e beni", () => {
@@ -180,6 +188,12 @@ test("notificationBody: riepilogo, schede ordinate e nessuna ripetizione", () =>
   assert.ok(body.includes("- **Termine offerte:** mar 15/12/2026 ore 09:00 (tra 31 giorni)"));
   assert.ok(body.includes("- **Vendita:** ven 18/12/2026 ore 12:00 · Competitiva"));
   assert.ok(body.includes("**Dettaglio del bene:** N. 1 Titolo Ordinario 885"));
+  // Senza termine offerte la colonna resta vuota: la data di vendita non è una scadenza.
+  const noDeadline = notificationBody(LATEST, [
+    announcement(),
+    announcement({ official_url: URL_B, offer_deadline: null, sale_date: "2026-11-20T10:00" }),
+  ]);
+  assert.ok(noDeadline.includes("| 1 | 40.700,00 € | – | Tribunale di BARI - 9/2023 |"));
   assert.equal(body.match(/Credito IVA di € 64\.867,00/g).length, 2); // riepilogo + scheda
   assert.ok(!body.includes("⚠️"));
   // Ogni riga della tabella ha lo stesso numero di colonne.
