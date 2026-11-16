@@ -100,6 +100,8 @@ test("isRepeatedIn tollera varianti minime ma non cifre diverse", () => {
     isRepeatedIn("crediti fiscali traciabili e cedibbili", "crediti fiscali tracciabili e cedibili"),
     false,
   );
+  // Le stesse parole in ordine diverso possono dire il contrario.
+  assert.equal(isRepeatedIn("credito non cedibile e tracciabile", "credito cedibile e non tracciabile"), false);
   // L'ultima parola troncata dal PVP non conta.
   assert.equal(isRepeatedIn("operazione esente da IV", "operazione esente da IVA ai sensi di legge"), true);
 });

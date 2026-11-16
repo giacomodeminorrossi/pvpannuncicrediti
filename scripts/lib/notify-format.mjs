@@ -98,27 +98,37 @@ const TYPO_MIN_LENGTH = 6;
 const TYPO_MAX_EDITS = 1;
 const TYPO_MAX_WORDS = 1;
 
-// Vero se `text` non aggiunge nulla a `other`: ogni sua parola compare già lì.
+// Vero se `text` non aggiunge nulla a `other`: le sue parole compaiono già lì,
+// nello stesso ordine (le stesse parole in altro ordine possono dire il
+// contrario: "non cedibile e tracciabile" / "cedibile e non tracciabile").
 // Sono tollerate solo differenze irrilevanti: un refuso ("INVESDTMENTI" /
 // "INVESTMENTI") e l'ultima parola troncata dal PVP. Cifre (importi,
 // identificativi, codici) e parole diverse contano sempre come novità.
 export function isRepeatedIn(text, other) {
   const tokens = tokensOf(text);
   if (tokens.length === 0) return true;
-  const known = [...new Set(tokensOf(other))];
-  const knownSet = new Set(known);
+  const known = tokensOf(other);
   let typos = 0;
+  let cursor = 0;
   return tokens.every((token, index) => {
-    if (knownSet.has(token)) return true;
-    if (/\d/.test(token)) return false;
-    if (index === tokens.length - 1 && token.length >= 2 && known.some((word) => word.startsWith(token))) {
+    const exact = known.indexOf(token, cursor);
+    if (exact >= 0) {
+      cursor = exact + 1;
       return true;
     }
-    const typo =
-      token.length >= TYPO_MIN_LENGTH &&
-      known.some((word) => !/\d/.test(word) && editDistanceWithin(token, word, TYPO_MAX_EDITS));
-    if (typo) typos += 1;
-    return typo && typos <= TYPO_MAX_WORDS;
+    if (/\d/.test(token)) return false;
+    const last = index === tokens.length - 1;
+    const canBeTypo = token.length >= TYPO_MIN_LENGTH && typos < TYPO_MAX_WORDS;
+    for (let position = cursor; position < known.length; position += 1) {
+      const word = known[position];
+      const truncated = last && token.length >= 2 && word.startsWith(token);
+      const typo = canBeTypo && !/\d/.test(word) && editDistanceWithin(token, word, TYPO_MAX_EDITS);
+      if (!truncated && !typo) continue;
+      if (!truncated) typos += 1;
+      cursor = position + 1;
+      return true;
+    }
+    return false;
   });
 }
 
