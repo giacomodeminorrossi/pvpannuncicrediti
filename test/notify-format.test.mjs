@@ -91,6 +91,15 @@ test("isRepeatedIn tollera varianti minime ma non cifre diverse", () => {
     false,
   );
   assert.equal(isRepeatedIn("Crediti cedibili solo a soggetti qualificati", "Crediti cedibili a soggetti"), false);
+  // Parole simili ma di senso diverso non sono refusi, e più di un refuso non è tollerato.
+  assert.equal(
+    isRepeatedIn("credito ceduto direttamente e diviso", "credito venduto indirettamente e indiviso"),
+    false,
+  );
+  assert.equal(
+    isRepeatedIn("crediti fiscali traciabili e cedibbili", "crediti fiscali tracciabili e cedibili"),
+    false,
+  );
   // L'ultima parola troncata dal PVP non conta.
   assert.equal(isRepeatedIn("operazione esente da IV", "operazione esente da IVA ai sensi di legge"), true);
 });

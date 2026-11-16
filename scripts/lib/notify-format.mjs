@@ -91,30 +91,34 @@ function editDistanceWithin(a, b, limit) {
   return previous[b.length] <= limit;
 }
 
-// Lunghezza minima di una parola perché una differenza di una o due lettere
-// sia considerata un refuso e non un'altra parola.
+// Un refuso è una sola lettera di differenza in una parola lunga; se ne tollera
+// uno per confronto, perché più parole "quasi uguali" cambiano il senso
+// ("ceduto" / "venduto", "diviso" / "indiviso").
 const TYPO_MIN_LENGTH = 6;
-const TYPO_MAX_EDITS = 2;
+const TYPO_MAX_EDITS = 1;
+const TYPO_MAX_WORDS = 1;
 
 // Vero se `text` non aggiunge nulla a `other`: ogni sua parola compare già lì.
-// Sono tollerate solo differenze irrilevanti: un refuso in una parola lunga
-// ("INVESDTMENTI" / "INVESTMENTI") e l'ultima parola troncata dal PVP. Cifre
-// (importi, identificativi, codici) e parole diverse contano sempre come novità.
+// Sono tollerate solo differenze irrilevanti: un refuso ("INVESDTMENTI" /
+// "INVESTMENTI") e l'ultima parola troncata dal PVP. Cifre (importi,
+// identificativi, codici) e parole diverse contano sempre come novità.
 export function isRepeatedIn(text, other) {
   const tokens = tokensOf(text);
   if (tokens.length === 0) return true;
   const known = [...new Set(tokensOf(other))];
   const knownSet = new Set(known);
+  let typos = 0;
   return tokens.every((token, index) => {
     if (knownSet.has(token)) return true;
     if (/\d/.test(token)) return false;
     if (index === tokens.length - 1 && token.length >= 2 && known.some((word) => word.startsWith(token))) {
       return true;
     }
-    return (
+    const typo =
       token.length >= TYPO_MIN_LENGTH &&
-      known.some((word) => !/\d/.test(word) && editDistanceWithin(token, word, TYPO_MAX_EDITS))
-    );
+      known.some((word) => !/\d/.test(word) && editDistanceWithin(token, word, TYPO_MAX_EDITS));
+    if (typo) typos += 1;
+    return typo && typos <= TYPO_MAX_WORDS;
   });
 }
 
