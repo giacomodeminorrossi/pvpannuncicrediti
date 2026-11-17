@@ -1,0 +1,54 @@
+{
+  "checked_at": "2026-11-17T03:45:11.187Z",
+  "target_date": "2026-11-16",
+  "source_url": "https://pvp.giustizia.it/pvp/it/lista_annunci.page?searchType=searchForm&page=0&size=48&sortProperty=dataPubblicazione,desc&sortAlpha=citta,asc&searchWith=Raggio%20d%27azione&codTipoLotto=VALORI/CREDITI&raggioAzione=25",
+  "status": "success",
+  "error": null,
+  "warnings": [],
+  "errors": [],
+  "coverage": {
+    "complete": true,
+    "pages_checked": 2,
+    "listings_seen": 96,
+    "candidates_found": 1,
+    "candidates_checked": 1,
+    "stop_reason": "page_only_older_dates",
+    "pages": [
+      {
+        "page": 1,
+        "listings": 48,
+        "newest": "2026-11-16",
+        "oldest": "2026-11-04",
+        "undated": 0,
+        "ordered": true
+      },
+      {
+        "page": 2,
+        "listings": 48,
+        "newest": "2026-11-04",
+        "oldest": "2026-10-27",
+        "undated": 0,
+        "ordered": true
+      }
+    ],
+    "site_newest_date": "2026-11-16"
+  },
+  "announcement_errors": [],
+  "announcements": [
+    {
+      "title": "NUM. 26 TITOLI PAC DA 07342392 A 07342417 E NUM. 1 TITOLO PAC N.07342418",
+      "credit_description": "NUM. 26 TITOLI PAC DA 07342392 A 07342417 E NUM. 1 TITOLO PAC N.07342418",
+      "asset_descriptions": [
+        "NUM. 26 TITOLI PAC DA 07342392 A 07342417 E NUM. 1 TITOLO PAC N.07342418"
+      ],
+      "court_or_procedure": "Tribunale di MARSALA - 733/2025",
+      "publication_date": "2026-11-16",
+      "sale_type": "Con Incanto",
+      "sale_date": "2026-11-20T16:00",
+      "offer_deadline": "2026-11-20T15:55",
+      "base_auction_price": "2.700,47 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4654509",
+      "detail_verified": true
+    }
+  ]
+}
