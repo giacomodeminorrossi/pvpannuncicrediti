@@ -1,0 +1,69 @@
+{
+  "checked_at": "2026-11-18T02:52:10.562Z",
+  "target_date": "2026-11-17",
+  "source_url": "https://pvp.giustizia.it/pvp/it/lista_annunci.page?searchType=searchForm&page=0&size=48&sortProperty=dataPubblicazione,desc&sortAlpha=citta,asc&searchWith=Raggio%20d%27azione&codTipoLotto=VALORI/CREDITI&raggioAzione=25",
+  "status": "success",
+  "error": null,
+  "warnings": [],
+  "errors": [],
+  "coverage": {
+    "complete": true,
+    "pages_checked": 2,
+    "listings_seen": 96,
+    "candidates_found": 2,
+    "candidates_checked": 2,
+    "stop_reason": "page_only_older_dates",
+    "pages": [
+      {
+        "page": 1,
+        "listings": 48,
+        "newest": "2026-11-17",
+        "oldest": "2026-11-04",
+        "undated": 0,
+        "ordered": true
+      },
+      {
+        "page": 2,
+        "listings": 48,
+        "newest": "2026-11-04",
+        "oldest": "2026-10-27",
+        "undated": 0,
+        "ordered": true
+      }
+    ],
+    "site_newest_date": "2026-11-17"
+  },
+  "announcement_errors": [],
+  "announcements": [
+    {
+      "title": "LIQUIDAZIONE GIUDIZIALE DI REON SRL - LOTTO 4: Crediti fiscali derivanti da Bonus edilizi ex D.L.…",
+      "credit_description": "LIQUIDAZIONE GIUDIZIALE DI REON SRL - LOTTO 4: Crediti fiscali derivanti da Bonus edilizi ex D.L. 34/2020",
+      "asset_descriptions": [
+        "LIQUIDAZIONE GIUDIZIALE DI REON SRL - LOTTO 4: Crediti fiscali derivanti da Bonus edilizi ex D.L. 34/2020, codice tributo 7706, anni di riferimento dal 2026 al 2032, di complessivi nominali Euro 100.409,47, e precisamente i crediti dettagliatamente descritti nel tabulato allegato all'avviso di vendita, consultabile e scaricabile nella sezione \"Documenti\" della presente scheda pubblicitaria. Si invitano gli interessati a prenderne visione. *** Si precisa che la partecipazione alla cessione di crediti in oggetto è riservata agli Istituti Bancari ed agli intermediari finanziari iscritti all'albo di cui all'art. 106 del T.U.B. e pertanto i crediti medesimi potranno essere trasferiti solo ed esclusivamente alle predette categorie di soggetti. Laddove un soggetto diverso da Istituti Bancari ed intermediari finanziari iscritti all'albo di cui all'art. 106 del T.U.B. dovesse decidere comunque di partecipare all'asta e aggiudicarsi i crediti fiscali, il mancato trasferimento non sarà addebitabile alla Procedura o a IVG Modena e il deposito cauzionale versato, l'eventuale saldo prezzo di aggiudicazione e gli onorari di IVG Modena verranno definitivamente trattenuti dalla Procedura. ***"
+      ],
+      "court_or_procedure": "Tribunale di MODENA - 11/2026",
+      "publication_date": "2026-11-17",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-25T15:00",
+      "offer_deadline": "2026-11-24T23:59",
+      "base_auction_price": "39.536,23 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4662371",
+      "detail_verified": true
+    },
+    {
+      "title": "AVVISO DI PROCEDURA COMPETITIVA – GARA ASINCRONA TELEMATICA PERCESSIONE DI CREDITI FISCALI…",
+      "credit_description": "AVVISO DI PROCEDURA COMPETITIVA – GARA ASINCRONA TELEMATICA PERCESSIONE DI CREDITI FISCALI PROVENIENTI DA BONUS EDILIZI LOTTO 5",
+      "asset_descriptions": [
+        "0012) 05) Premesso:- che la società, anteriormente alla dichiarazione di apertura della procedura, ha eseguito interventi edilizi agevolati maturando crediti d'imposta;- che tali crediti sono attualmente disponibili nel cassetto fiscale della società ed oggetto di verifica, riscontro documentale e valutazione da parte del Dott. Andrea Nottoli, esperto indipendente nominato in data 09 settembre 2025;- che lo stesso Dott. Nottoli, in data 06 maggio scorso, ha inviato alla curatela una propria relazione dalle quali risulta la disponibilità di una tranche di crediti maturati dalla società ex art. 121 DL/2020 di complessivi euro 99.796,35= nominali. Tali crediti di tipo tracciabile, con \"anno di riferimento\" 2026 e 2027 ed anni successivi, dai riscontri effettuati dall'esperto risultano commerciabili e, quindi, cedibili a terzi (Allegato A);- i crediti posti all'incanto sono suddivisi in due lotti secondo le modalità indicate dal Dott. Nottoli Andrea, fissando come base d'asta il valore dei crediti nominali, ridotti rispettivamente al 75% per quelli esigibili nel 2026 ed al 70% per quelli esigibile nel 2027 e negli anni successivi. Si specifica che il lotto 6 è stato aggiudicato in data 16/11/2026 e che il presente avviso di vendita si riferisce al solo lotto 5 che viene posto al pubblico incanto con riduzione del prezzo base del 25% rispetto al precedente esperimento di vendita. Prezzo base L'offerta minima per l'acquisto dei predetti crediti fiscali dovrà essere pari o superiore a:- Lotto 5: euro 26.221,72 (ventiseimiladuecentoventuno/72) (valore nominale euro 48.413,50); ULTERIORI INFORMAZIONI SONO REPERIBILI NELL'AVVISO DI VENDITA E NELLA DOCUMENTAZIONE IN ALLEGATO"
+      ],
+      "court_or_procedure": "Tribunale di LUCCA - 52/2025",
+      "publication_date": "2026-11-17",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-11-27T11:00",
+      "offer_deadline": "2026-11-27T10:30",
+      "base_auction_price": "26.221,72 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4661810",
+      "detail_verified": true
+    }
+  ]
+}
