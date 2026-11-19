@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-18T02:52:10.562Z",
-  "target_date": "2026-11-17",
+  "checked_at": "2026-11-19T02:31:28.600Z",
+  "target_date": "2026-11-18",
   "source_url": "https://pvp.giustizia.it/pvp/it/lista_annunci.page?searchType=searchForm&page=0&size=48&sortProperty=dataPubblicazione,desc&sortAlpha=citta,asc&searchWith=Raggio%20d%27azione&codTipoLotto=VALORI/CREDITI&raggioAzione=25",
   "status": "success",
   "error": null,
@@ -10,14 +10,14 @@
     "complete": true,
     "pages_checked": 2,
     "listings_seen": 96,
-    "candidates_found": 2,
-    "candidates_checked": 2,
+    "candidates_found": 4,
+    "candidates_checked": 4,
     "stop_reason": "page_only_older_dates",
     "pages": [
       {
         "page": 1,
         "listings": 48,
-        "newest": "2026-11-17",
+        "newest": "2026-11-18",
         "oldest": "2026-11-04",
         "undated": 0,
         "ordered": true
@@ -26,43 +26,73 @@
         "page": 2,
         "listings": 48,
         "newest": "2026-11-04",
-        "oldest": "2026-10-27",
+        "oldest": "2026-10-28",
         "undated": 0,
         "ordered": true
       }
     ],
-    "site_newest_date": "2026-11-17"
+    "site_newest_date": "2026-11-18"
   },
   "announcement_errors": [],
   "announcements": [
     {
-      "title": "LIQUIDAZIONE GIUDIZIALE DI REON SRL - LOTTO 4: Crediti fiscali derivanti da Bonus edilizi ex D.L.…",
-      "credit_description": "LIQUIDAZIONE GIUDIZIALE DI REON SRL - LOTTO 4: Crediti fiscali derivanti da Bonus edilizi ex D.L. 34/2020",
+      "title": "Cessione crediti d'imposta 2026",
+      "credit_description": "Cessione crediti d'imposta 2026",
       "asset_descriptions": [
-        "LIQUIDAZIONE GIUDIZIALE DI REON SRL - LOTTO 4: Crediti fiscali derivanti da Bonus edilizi ex D.L. 34/2020, codice tributo 7706, anni di riferimento dal 2026 al 2032, di complessivi nominali Euro 100.409,47, e precisamente i crediti dettagliatamente descritti nel tabulato allegato all'avviso di vendita, consultabile e scaricabile nella sezione \"Documenti\" della presente scheda pubblicitaria. Si invitano gli interessati a prenderne visione. *** Si precisa che la partecipazione alla cessione di crediti in oggetto è riservata agli Istituti Bancari ed agli intermediari finanziari iscritti all'albo di cui all'art. 106 del T.U.B. e pertanto i crediti medesimi potranno essere trasferiti solo ed esclusivamente alle predette categorie di soggetti. Laddove un soggetto diverso da Istituti Bancari ed intermediari finanziari iscritti all'albo di cui all'art. 106 del T.U.B. dovesse decidere comunque di partecipare all'asta e aggiudicarsi i crediti fiscali, il mancato trasferimento non sarà addebitabile alla Procedura o a IVG Modena e il deposito cauzionale versato, l'eventuale saldo prezzo di aggiudicazione e gli onorari di IVG Modena verranno definitivamente trattenuti dalla Procedura. ***"
+        "Cessione crediti d'imposta 2026"
       ],
-      "court_or_procedure": "Tribunale di MODENA - 11/2026",
-      "publication_date": "2026-11-17",
+      "court_or_procedure": "Tribunale di ASCOLI PICENO - 20/2026",
+      "publication_date": "2026-11-18",
       "sale_type": "Competitiva",
-      "sale_date": "2026-11-25T15:00",
-      "offer_deadline": "2026-11-24T23:59",
-      "base_auction_price": "39.536,23 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4662371",
+      "sale_date": "2026-12-10T10:00",
+      "offer_deadline": "2026-12-09T12:00",
+      "base_auction_price": "48.112,25 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4662881",
       "detail_verified": true
     },
     {
-      "title": "AVVISO DI PROCEDURA COMPETITIVA – GARA ASINCRONA TELEMATICA PERCESSIONE DI CREDITI FISCALI…",
-      "credit_description": "AVVISO DI PROCEDURA COMPETITIVA – GARA ASINCRONA TELEMATICA PERCESSIONE DI CREDITI FISCALI PROVENIENTI DA BONUS EDILIZI LOTTO 5",
+      "title": "Cessione monte crediti in blocco pro soluto pari a complessivi €15.112,50 oltre interessi.",
+      "credit_description": "Cessione monte crediti in blocco pro soluto pari a complessivi €15.112,50 oltre interessi.",
       "asset_descriptions": [
-        "0012) 05) Premesso:- che la società, anteriormente alla dichiarazione di apertura della procedura, ha eseguito interventi edilizi agevolati maturando crediti d'imposta;- che tali crediti sono attualmente disponibili nel cassetto fiscale della società ed oggetto di verifica, riscontro documentale e valutazione da parte del Dott. Andrea Nottoli, esperto indipendente nominato in data 09 settembre 2025;- che lo stesso Dott. Nottoli, in data 06 maggio scorso, ha inviato alla curatela una propria relazione dalle quali risulta la disponibilità di una tranche di crediti maturati dalla società ex art. 121 DL/2020 di complessivi euro 99.796,35= nominali. Tali crediti di tipo tracciabile, con \"anno di riferimento\" 2026 e 2027 ed anni successivi, dai riscontri effettuati dall'esperto risultano commerciabili e, quindi, cedibili a terzi (Allegato A);- i crediti posti all'incanto sono suddivisi in due lotti secondo le modalità indicate dal Dott. Nottoli Andrea, fissando come base d'asta il valore dei crediti nominali, ridotti rispettivamente al 75% per quelli esigibili nel 2026 ed al 70% per quelli esigibile nel 2027 e negli anni successivi. Si specifica che il lotto 6 è stato aggiudicato in data 16/11/2026 e che il presente avviso di vendita si riferisce al solo lotto 5 che viene posto al pubblico incanto con riduzione del prezzo base del 25% rispetto al precedente esperimento di vendita. Prezzo base L'offerta minima per l'acquisto dei predetti crediti fiscali dovrà essere pari o superiore a:- Lotto 5: euro 26.221,72 (ventiseimiladuecentoventuno/72) (valore nominale euro 48.413,50); ULTERIORI INFORMAZIONI SONO REPERIBILI NELL'AVVISO DI VENDITA E NELLA DOCUMENTAZIONE IN ALLEGATO"
+        "cessione monte crediti in blocco pro soluto pari acomplessivi €15.112,50 oltre interessi"
       ],
-      "court_or_procedure": "Tribunale di LUCCA - 52/2025",
-      "publication_date": "2026-11-17",
+      "court_or_procedure": "Tribunale di ROMA - 619/2025",
+      "publication_date": "2026-11-18",
+      "sale_type": "Tramite Commissionario",
+      "sale_date": "2026-12-04T15:00",
+      "offer_deadline": "2026-12-04T14:59",
+      "base_auction_price": "4.836,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4662901",
+      "detail_verified": true
+    },
+    {
+      "title": "LOTTO UNICO: partecipazione azionaria composta da n. 5.200 azioni ordinarie della società \"RIO…",
+      "credit_description": "LOTTO UNICO: partecipazione azionaria composta da n. 5.200 azioni ordinarie della società \"RIO FORCELLA S.P.A.\" (C.F./P.IVA 01492780661), con capitale sociale sottoscritto e interamente versato pari a € 8.700.000,00, con sede legale in Piazza della Chiesa s.n.c., Frazione Santi di Preturo, 67100 L'Aquila. Si allegano, unitamente al presente bando, visura storica e statuto vigente; per ogni opportuna valutazione si rinvia a tale documentazione e ai bilanci annuali depositati presso il Registro delle Imprese.",
+      "asset_descriptions": [
+        "LOTTO UNICO: partecipazione azionaria composta da n. 5.200 azioni ordinarie della società \"RIO FORCELLA S.P.A.\" (C.F./P.IVA 01492780661), con capitale sociale sottoscritto e interamente versato pari a € 8.700.000,00, con sede legale in Piazza della Chiesa s.n.c., Frazione Santi di Preturo, 67100 L'Aquila. Si allegano, unitamente al presente bando, visura storica e statuto vigente; per ogni opportuna valutazione si rinvia a tale documentazione e ai bilanci annuali depositati presso il Registro delle Imprese."
+      ],
+      "court_or_procedure": "Tribunale di ROMA - 1/2014",
+      "publication_date": "2026-11-18",
       "sale_type": "Competitiva",
-      "sale_date": "2026-11-27T11:00",
-      "offer_deadline": "2026-11-27T10:30",
-      "base_auction_price": "26.221,72 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4661810",
+      "sale_date": "2027-01-20T12:00",
+      "offer_deadline": "2027-01-20T11:45",
+      "base_auction_price": "305,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4662696",
+      "detail_verified": true
+    },
+    {
+      "title": "Lotto 1: Vendita pro-soluto dei crediti fiscali cedibili derivanti da bonus edilizi (recupero del…",
+      "credit_description": "Lotto 1: Vendita pro-soluto dei crediti fiscali cedibili derivanti da bonus edilizi (recupero del patrimonio edilizio art. 16 bis TUIR), con rata in scadenza nel 2026, per un valore nominale complessivo di euro 4.85,00, così ripartiti: * Euro 3.300,00 - Cod. Tributo 6926 (crediti non tracciabili) * Euro 785,00 - Cod. Tributo 7716 (crediti tracciabili). Per accedere alla data room è necessario inviare il patto di riservatezza sottoscritto a: daniele.sinatra@cert.avvocatitermini.it",
+      "asset_descriptions": [
+        "Lotto 1: Vendita pro-soluto dei crediti fiscali cedibili derivanti da bonus edilizi (recupero del patrimonio edilizio art. 16 bis TUIR), con rata in scadenza nel 2026, per un valore nominale complessivo di euro 4.85,00, così ripartiti: * Euro 3.300,00 - Cod. Tributo 6926 (crediti non tracciabili) * Euro 785,00 - Cod. Tributo 7716 (crediti tracciabili). Per accedere alla data room è necessario inviare il patto di riservatezza sottoscritto a: daniele.sinatra@cert.avvocatitermini.it"
+      ],
+      "court_or_procedure": "Tribunale di PALERMO - 16/2026",
+      "publication_date": "2026-11-18",
+      "sale_type": "Senza Incanto",
+      "sale_date": "2026-12-10T12:00",
+      "offer_deadline": "2026-12-09T12:00",
+      "base_auction_price": "2.042,50 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4662548",
       "detail_verified": true
     }
   ]
