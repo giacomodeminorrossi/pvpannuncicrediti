@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-19T02:31:28.600Z",
-  "target_date": "2026-11-18",
+  "checked_at": "2026-11-20T02:15:59.836Z",
+  "target_date": "2026-11-19",
   "source_url": "https://pvp.giustizia.it/pvp/it/lista_annunci.page?searchType=searchForm&page=0&size=48&sortProperty=dataPubblicazione,desc&sortAlpha=citta,asc&searchWith=Raggio%20d%27azione&codTipoLotto=VALORI/CREDITI&raggioAzione=25",
   "status": "success",
   "error": null,
@@ -10,14 +10,14 @@
     "complete": true,
     "pages_checked": 2,
     "listings_seen": 96,
-    "candidates_found": 4,
-    "candidates_checked": 4,
+    "candidates_found": 1,
+    "candidates_checked": 1,
     "stop_reason": "page_only_older_dates",
     "pages": [
       {
         "page": 1,
         "listings": 48,
-        "newest": "2026-11-18",
+        "newest": "2026-11-19",
         "oldest": "2026-11-04",
         "undated": 0,
         "ordered": true
@@ -31,68 +31,23 @@
         "ordered": true
       }
     ],
-    "site_newest_date": "2026-11-18"
+    "site_newest_date": "2026-11-19"
   },
   "announcement_errors": [],
   "announcements": [
     {
-      "title": "Cessione crediti d'imposta 2026",
-      "credit_description": "Cessione crediti d'imposta 2026",
+      "title": "Lotto unico composto da Crediti fiscali risultanti dal cassetto fiscale della società ERRESSE…",
+      "credit_description": "Lotto unico composto da Crediti fiscali risultanti dal cassetto fiscale della società ERRESSE MULTISERVIZI S.R.L.S., per un valore nominale residuo pari ad Euro 9.863,20, utilizzabili in compensazione ovvero cedibili a terzi secondo la normativa vigente. Il tutto meglio riportato nell'avviso di vendita in allegato.",
       "asset_descriptions": [
-        "Cessione crediti d'imposta 2026"
+        "Lotto unico composto da Crediti fiscali risultanti dal cassetto fiscale della società ERRESSE MULTISERVIZI S.R.L.S., per un valore nominale residuo pari ad Euro 9.863,20, utilizzabili in compensazione ovvero cedibili a terzi secondo la normativa vigente. Il tutto meglio riportato nell'avviso di vendita in allegato."
       ],
-      "court_or_procedure": "Tribunale di ASCOLI PICENO - 20/2026",
-      "publication_date": "2026-11-18",
+      "court_or_procedure": "Tribunale di ROMA - 189/2025",
+      "publication_date": "2026-11-19",
       "sale_type": "Competitiva",
-      "sale_date": "2026-12-10T10:00",
-      "offer_deadline": "2026-12-09T12:00",
-      "base_auction_price": "48.112,25 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4662881",
-      "detail_verified": true
-    },
-    {
-      "title": "Cessione monte crediti in blocco pro soluto pari a complessivi €15.112,50 oltre interessi.",
-      "credit_description": "Cessione monte crediti in blocco pro soluto pari a complessivi €15.112,50 oltre interessi.",
-      "asset_descriptions": [
-        "cessione monte crediti in blocco pro soluto pari acomplessivi €15.112,50 oltre interessi"
-      ],
-      "court_or_procedure": "Tribunale di ROMA - 619/2025",
-      "publication_date": "2026-11-18",
-      "sale_type": "Tramite Commissionario",
-      "sale_date": "2026-12-04T15:00",
-      "offer_deadline": "2026-12-04T14:59",
-      "base_auction_price": "4.836,00 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4662901",
-      "detail_verified": true
-    },
-    {
-      "title": "LOTTO UNICO: partecipazione azionaria composta da n. 5.200 azioni ordinarie della società \"RIO…",
-      "credit_description": "LOTTO UNICO: partecipazione azionaria composta da n. 5.200 azioni ordinarie della società \"RIO FORCELLA S.P.A.\" (C.F./P.IVA 01492780661), con capitale sociale sottoscritto e interamente versato pari a € 8.700.000,00, con sede legale in Piazza della Chiesa s.n.c., Frazione Santi di Preturo, 67100 L'Aquila. Si allegano, unitamente al presente bando, visura storica e statuto vigente; per ogni opportuna valutazione si rinvia a tale documentazione e ai bilanci annuali depositati presso il Registro delle Imprese.",
-      "asset_descriptions": [
-        "LOTTO UNICO: partecipazione azionaria composta da n. 5.200 azioni ordinarie della società \"RIO FORCELLA S.P.A.\" (C.F./P.IVA 01492780661), con capitale sociale sottoscritto e interamente versato pari a € 8.700.000,00, con sede legale in Piazza della Chiesa s.n.c., Frazione Santi di Preturo, 67100 L'Aquila. Si allegano, unitamente al presente bando, visura storica e statuto vigente; per ogni opportuna valutazione si rinvia a tale documentazione e ai bilanci annuali depositati presso il Registro delle Imprese."
-      ],
-      "court_or_procedure": "Tribunale di ROMA - 1/2014",
-      "publication_date": "2026-11-18",
-      "sale_type": "Competitiva",
-      "sale_date": "2027-01-20T12:00",
-      "offer_deadline": "2027-01-20T11:45",
-      "base_auction_price": "305,00 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4662696",
-      "detail_verified": true
-    },
-    {
-      "title": "Lotto 1: Vendita pro-soluto dei crediti fiscali cedibili derivanti da bonus edilizi (recupero del…",
-      "credit_description": "Lotto 1: Vendita pro-soluto dei crediti fiscali cedibili derivanti da bonus edilizi (recupero del patrimonio edilizio art. 16 bis TUIR), con rata in scadenza nel 2026, per un valore nominale complessivo di euro 4.85,00, così ripartiti: * Euro 3.300,00 - Cod. Tributo 6926 (crediti non tracciabili) * Euro 785,00 - Cod. Tributo 7716 (crediti tracciabili). Per accedere alla data room è necessario inviare il patto di riservatezza sottoscritto a: daniele.sinatra@cert.avvocatitermini.it",
-      "asset_descriptions": [
-        "Lotto 1: Vendita pro-soluto dei crediti fiscali cedibili derivanti da bonus edilizi (recupero del patrimonio edilizio art. 16 bis TUIR), con rata in scadenza nel 2026, per un valore nominale complessivo di euro 4.85,00, così ripartiti: * Euro 3.300,00 - Cod. Tributo 6926 (crediti non tracciabili) * Euro 785,00 - Cod. Tributo 7716 (crediti tracciabili). Per accedere alla data room è necessario inviare il patto di riservatezza sottoscritto a: daniele.sinatra@cert.avvocatitermini.it"
-      ],
-      "court_or_procedure": "Tribunale di PALERMO - 16/2026",
-      "publication_date": "2026-11-18",
-      "sale_type": "Senza Incanto",
-      "sale_date": "2026-12-10T12:00",
-      "offer_deadline": "2026-12-09T12:00",
-      "base_auction_price": "2.042,50 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4662548",
+      "sale_date": "2027-01-14T12:00",
+      "offer_deadline": "2027-01-14T11:45",
+      "base_auction_price": "5.049,96 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4663553",
       "detail_verified": true
     }
   ]

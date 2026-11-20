@@ -1,0 +1,54 @@
+{
+  "checked_at": "2026-11-20T02:15:59.836Z",
+  "target_date": "2026-11-19",
+  "source_url": "https://pvp.giustizia.it/pvp/it/lista_annunci.page?searchType=searchForm&page=0&size=48&sortProperty=dataPubblicazione,desc&sortAlpha=citta,asc&searchWith=Raggio%20d%27azione&codTipoLotto=VALORI/CREDITI&raggioAzione=25",
+  "status": "success",
+  "error": null,
+  "warnings": [],
+  "errors": [],
+  "coverage": {
+    "complete": true,
+    "pages_checked": 2,
+    "listings_seen": 96,
+    "candidates_found": 1,
+    "candidates_checked": 1,
+    "stop_reason": "page_only_older_dates",
+    "pages": [
+      {
+        "page": 1,
+        "listings": 48,
+        "newest": "2026-11-19",
+        "oldest": "2026-11-04",
+        "undated": 0,
+        "ordered": true
+      },
+      {
+        "page": 2,
+        "listings": 48,
+        "newest": "2026-11-04",
+        "oldest": "2026-10-28",
+        "undated": 0,
+        "ordered": true
+      }
+    ],
+    "site_newest_date": "2026-11-19"
+  },
+  "announcement_errors": [],
+  "announcements": [
+    {
+      "title": "Lotto unico composto da Crediti fiscali risultanti dal cassetto fiscale della società ERRESSE…",
+      "credit_description": "Lotto unico composto da Crediti fiscali risultanti dal cassetto fiscale della società ERRESSE MULTISERVIZI S.R.L.S., per un valore nominale residuo pari ad Euro 9.863,20, utilizzabili in compensazione ovvero cedibili a terzi secondo la normativa vigente. Il tutto meglio riportato nell'avviso di vendita in allegato.",
+      "asset_descriptions": [
+        "Lotto unico composto da Crediti fiscali risultanti dal cassetto fiscale della società ERRESSE MULTISERVIZI S.R.L.S., per un valore nominale residuo pari ad Euro 9.863,20, utilizzabili in compensazione ovvero cedibili a terzi secondo la normativa vigente. Il tutto meglio riportato nell'avviso di vendita in allegato."
+      ],
+      "court_or_procedure": "Tribunale di ROMA - 189/2025",
+      "publication_date": "2026-11-19",
+      "sale_type": "Competitiva",
+      "sale_date": "2027-01-14T12:00",
+      "offer_deadline": "2027-01-14T11:45",
+      "base_auction_price": "5.049,96 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4663553",
+      "detail_verified": true
+    }
+  ]
+}
