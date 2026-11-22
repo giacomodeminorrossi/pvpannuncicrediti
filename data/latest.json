@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-21T02:09:24.651Z",
-  "target_date": "2026-11-20",
+  "checked_at": "2026-11-22T01:12:11.871Z",
+  "target_date": "2026-11-21",
   "source_url": "https://pvp.giustizia.it/pvp/it/lista_annunci.page?searchType=searchForm&page=0&size=48&sortProperty=dataPubblicazione,desc&sortAlpha=citta,asc&searchWith=Raggio%20d%27azione&codTipoLotto=VALORI/CREDITI&raggioAzione=25",
   "status": "success",
   "error": null,
@@ -8,10 +8,10 @@
   "errors": [],
   "coverage": {
     "complete": true,
-    "pages_checked": 2,
-    "listings_seen": 96,
-    "candidates_found": 6,
-    "candidates_checked": 6,
+    "pages_checked": 1,
+    "listings_seen": 48,
+    "candidates_found": 0,
+    "candidates_checked": 0,
     "stop_reason": "page_only_older_dates",
     "pages": [
       {
@@ -21,109 +21,11 @@
         "oldest": "2026-11-06",
         "undated": 0,
         "ordered": true
-      },
-      {
-        "page": 2,
-        "listings": 48,
-        "newest": "2026-11-06",
-        "oldest": "2026-10-29",
-        "undated": 0,
-        "ordered": true
       }
     ],
+    "page_reloads": 3,
     "site_newest_date": "2026-11-20"
   },
   "announcement_errors": [],
-  "announcements": [
-    {
-      "title": "AVVISO DI INVITO A PRESENTARE OFFERTE IRREVOCABILIper l’acquisto pro soluto del credito vantato…",
-      "credit_description": "AVVISO DI INVITO A PRESENTARE OFFERTE IRREVOCABILIper l’acquisto pro soluto del credito vantato dalla Procedura Fallimentare",
-      "asset_descriptions": [
-        "Oggetto della cessione è il credito vantato dalla Procedura Fallimentare, scaturente dalla sentenza della Corte d’Appello, passata in giudicato, che ha condannato il debitore: i)alla restituzione in favore della società della somma per risarcimento del danno liquidato oltre interessi di legge;"
-      ],
-      "court_or_procedure": "Tribunale di NOCERA INFERIORE - 52/2019",
-      "publication_date": "2026-11-20",
-      "sale_type": "Competitiva",
-      "sale_date": "2026-12-23T12:00",
-      "offer_deadline": "2026-12-21T13:00",
-      "base_auction_price": "0,00 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4664283",
-      "detail_verified": true
-    },
-    {
-      "title": "Vendita relativa a crediti d'imposta del valore nominale di complessivi euro 390.536,75, come…",
-      "credit_description": "Vendita relativa a crediti d'imposta del valore nominale di complessivi euro 390.536,75, come meglio descritti nell'avviso allegato. Si precisa che sono cedibili solo a soggetti/operatori qualificati.",
-      "asset_descriptions": [
-        "Vendita relativa a crediti d'imposta del valore nominale di complessivi euro 390.536,75, come meglio descritti nell'avviso allegato. Si precisa che sono cedibili solo a soggetti/operatori qualificati."
-      ],
-      "court_or_procedure": "Tribunale di BUSTO ARSIZIO - 21/2025",
-      "publication_date": "2026-11-20",
-      "sale_type": "Tramite Commissionario",
-      "sale_date": "2027-01-18T12:00",
-      "offer_deadline": "2027-01-13T12:00",
-      "base_auction_price": "240.000,00 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4664405",
-      "detail_verified": true
-    },
-    {
-      "title": "la cessione pro-soluto del credito IVA futuro che la Procedura vanterà al momento della emissione…",
-      "credit_description": "la cessione pro-soluto del credito IVA futuro che la Procedura vanterà al momento della emissione del decreto di chiusura ex art. 235 CCII divenuto definitivo, credito che, allo stato, risulta pari a Euro 44.273,41 ma che potrà variare nel corso di Procedura per effetto dell’IVA di rivalsa esposta nella fattura del curatore relativa al proprio compenso e dell’utilizzo in compensazione di una sua parte, per il versamento della ritenuta d’acconto applicata su detto compenso. la documentazi",
-      "asset_descriptions": [
-        "la cessione pro-soluto del credito IVA futuro che la Procedura vanterà al momento della emissione del decreto di chiusura ex art. 235 CCII divenuto definitivo, credito che, allo stato, risulta pari a Euro 44.273,41 ma che potrà variare nel corso di Procedura per effetto dell’IVA di rivalsa esposta nella fattura del curatore relativa al proprio compenso e dell’utilizzo in compensazione di una sua parte, per il versamento della ritenuta d’acconto applicata su detto compenso. la documentazione relativa al credito IVA è consultabile mediante accesso alla data-room https://dataroom.asteannunci.it/epizza, previa sottoscrizione di apposito impegno di riservatezza;"
-      ],
-      "court_or_procedure": "Tribunale di MILANO - 142/2023",
-      "publication_date": "2026-11-20",
-      "sale_type": "Tramite Commissionario",
-      "sale_date": "2027-01-21T12:00",
-      "offer_deadline": "2027-01-20T12:00",
-      "base_auction_price": "17.709,36 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4663708",
-      "detail_verified": true
-    },
-    {
-      "title": "Crediti GSE - vendita telematica sulla piattaforma www.gobid.it n.34444",
-      "credit_description": "Crediti GSE - vendita telematica sulla piattaforma www.gobid.it n.34444",
-      "asset_descriptions": [
-        "Vendita del diritto di credito derivante dagli incentivi per la produzione di energia fotovoltaica maturati da n. 5 impianti situati in provincia di Enna (comuni di Agira, Enna e Leonforte). Il lotto comprende esclusivamente il diritto a percepire gli incentivi residui (IV Conto Energia) fino alla naturale scadenza delle convenzioni stipulate con il GSE, prevista per l'anno 2032"
-      ],
-      "court_or_procedure": "Tribunale di ENNA - 7/2023",
-      "publication_date": "2026-11-20",
-      "sale_type": "Competitiva",
-      "sale_date": "2026-12-22T17:01",
-      "offer_deadline": "2026-12-22T17:00",
-      "base_auction_price": "6.537,60 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4664221",
-      "detail_verified": true
-    },
-    {
-      "title": "CREDITI FISCALI",
-      "credit_description": "CREDITI FISCALI",
-      "asset_descriptions": [
-        "CREDITI FISCALI"
-      ],
-      "court_or_procedure": "Tribunale di ASCOLI PICENO - 5/2026",
-      "publication_date": "2026-11-20",
-      "sale_type": "Competitiva",
-      "sale_date": "2026-12-01T12:05",
-      "offer_deadline": "2026-12-01T12:00",
-      "base_auction_price": "40.079,14 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4664049",
-      "detail_verified": true
-    },
-    {
-      "title": "Cedesi credito litigioso di €. 651.000,00 oltre ad interessi contestuali di €. 111.408,00 e spese…",
-      "credit_description": "Cedesi credito litigioso di €. 651.000,00 oltre ad interessi contestuali di €. 111.408,00 e spese processuali",
-      "asset_descriptions": [
-        "Cedesi credito litigioso di €. 651.000,00 oltre ad interessi contestuali di €. 111.408,00 e spese processuali. Offerta minima di €. 240.000,00 oltre rimborso di tutte le spese di causa sostenute nessuna esclusa."
-      ],
-      "court_or_procedure": "Tribunale di MILANO - 634/2009",
-      "publication_date": "2026-11-20",
-      "sale_type": "Senza Incanto",
-      "sale_date": "2026-12-21T10:00",
-      "offer_deadline": "2026-12-17T10:00",
-      "base_auction_price": "240.000,00 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4663929",
-      "detail_verified": true
-    }
-  ]
+  "announcements": []
 }
