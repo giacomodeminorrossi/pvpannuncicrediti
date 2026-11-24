@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-23T01:36:30.778Z",
-  "target_date": "2026-11-22",
+  "checked_at": "2026-11-24T05:18:51.115Z",
+  "target_date": "2026-11-23",
   "source_url": "https://pvp.giustizia.it/pvp/it/lista_annunci.page?searchType=searchForm&page=0&size=48&sortProperty=dataPubblicazione,desc&sortAlpha=citta,asc&searchWith=Raggio%20d%27azione&codTipoLotto=VALORI/CREDITI&raggioAzione=25",
   "status": "success",
   "error": null,
@@ -8,24 +8,107 @@
   "errors": [],
   "coverage": {
     "complete": true,
-    "pages_checked": 1,
-    "listings_seen": 48,
-    "candidates_found": 0,
-    "candidates_checked": 0,
+    "pages_checked": 2,
+    "listings_seen": 96,
+    "candidates_found": 5,
+    "candidates_checked": 5,
     "stop_reason": "page_only_older_dates",
     "pages": [
       {
         "page": 1,
         "listings": 48,
-        "newest": "2026-11-20",
-        "oldest": "2026-11-06",
+        "newest": "2026-11-23",
+        "oldest": "2026-11-09",
+        "undated": 0,
+        "ordered": true
+      },
+      {
+        "page": 2,
+        "listings": 48,
+        "newest": "2026-11-09",
+        "oldest": "2026-11-02",
         "undated": 0,
         "ordered": true
       }
     ],
-    "page_reloads": 2,
-    "site_newest_date": "2026-11-20"
+    "site_newest_date": "2026-11-23"
   },
   "announcement_errors": [],
-  "announcements": []
+  "announcements": [
+    {
+      "title": "N. 74 TITOLI PAC DAL N. 000001704239 AL N. 000001704312.",
+      "credit_description": "N. 74 TITOLI PAC DAL N. 000001704239 AL N. 000001704312.",
+      "asset_descriptions": [
+        "N. 74 TITOLI PAC DAL N. 000001704239 AL N. 000001704312."
+      ],
+      "court_or_procedure": "Tribunale di BERGAMO - 557/2026",
+      "publication_date": "2026-11-23",
+      "sale_type": "Tramite Commissionario",
+      "sale_date": "2027-01-15T12:00",
+      "offer_deadline": "2027-01-15T10:00",
+      "base_auction_price": "4.508,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4665353",
+      "detail_verified": true
+    },
+    {
+      "title": "LOTTO 1: 50% DELLE QUOTE DI PARTECIPAZIONE NELLA SOCIETA' FCO STUDIO CONSULTING SRL",
+      "credit_description": "LOTTO 1: 50% DELLE QUOTE DI PARTECIPAZIONE NELLA SOCIETA' FCO STUDIO CONSULTING SRL",
+      "asset_descriptions": [
+        "LOTTO 1: 50% DELLE QUOTE DI PARTECIPAZIONE NELLA SOCIETA' FCO STUDIO CONSULTING SRL"
+      ],
+      "court_or_procedure": "Tribunale di CIVITAVECCHIA - 438/2026",
+      "publication_date": "2026-11-23",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-12-10T12:00",
+      "offer_deadline": "2026-12-10T11:45",
+      "base_auction_price": "5.850,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4665273",
+      "detail_verified": true
+    },
+    {
+      "title": "Cessione di credito di imposta derivante da interventi agevolati (c.d. Superbonus 110%)",
+      "credit_description": "Cessione di credito di imposta derivante da interventi agevolati (c.d. Superbonus 110%)",
+      "asset_descriptions": [
+        "LIQUIDAZIONE GIUDIZIALE DI NUOVA MG SRL - Lotto unico costituito da credito di imposta derivante da interventi agevolati ai sensi dell'art. 119 del D.L. n. 34/2020 e ss.mm. (c.d. Superbonus 110%), codice tributo 7709, annualità 2026, per complessivi nominali euro 81.805,00 e precisamente i crediti dettagliatamente descritti nel tabulato che si allega al presente avviso di vendita per formarne parte integrante e sostanziale. ** La quota relativa all'annualità 2027 è esclusa dalla vendita. *** Si riporta il seguente paragrafo dell'avviso di vendita, che si consiglia di consultare (visionabile e scaricabile nella sezione \"Documenti\" della scheda pubblicitaria): La partecipazione alla gara è riservata esclusivamente ai soggetti qualificati e concretamente legittimati all'acquisto dei crediti ai sensi dell'art. 121 del D.L. n. 34/2020 e s.m.i.: banche e intermediari finanziari iscritti all'albo ex art. 106 TUB; società appartenenti a gruppi bancari iscritti all'albo ex art. 64 TUB; imprese di assicurazione autorizzate ad operare in Italia ai sensi del D. Lgs. n. 209/2005. Ogni offerente deve documentare la propria qualifica e la concreta legittimazione all'acquisto, in relazione alla catena delle cessioni e al regime applicabile alle quote. I soggetti privi dei requisiti non sono ammessi. Il mero possesso della qualifica soggettiva non sostituisce la verifica della cedibilità in favore del singolo acquirente. Laddove un soggetto diverso da Istituti Bancari ed intermediari finanziari iscritti all'albo di cui all'art. 106 del T.U.B. dovesse decidere comunque di partecipare all'asta e aggiudicarsi i crediti fiscali, il mancato trasferimento non sarà addebitabile alla Procedura o a IVG Modena e il deposito cauzionale versato, l'eventuale saldo prezzo di aggiudicazione e gli onorari di IVG Modena verranno definitivamente trattenuti dalla Procedura. ***"
+      ],
+      "court_or_procedure": "Tribunale di MODENA - 170/2025",
+      "publication_date": "2026-11-23",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-12-09T15:00",
+      "offer_deadline": "2026-12-07T23:59",
+      "base_auction_price": "28.631,75 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4665207",
+      "detail_verified": true
+    },
+    {
+      "title": "Cessione credito IRES",
+      "credit_description": "Cessione credito IRES",
+      "asset_descriptions": [
+        "Credito IRES per ritenute d’acconto su interessi attivi bancari maturati in corso di procedura sulle somme depositate nel conto corrente intestato al fallimento (quantificato in euro 66.011,94 alla data del 30/09/2026), che verrà chiesto a rimborso con la dichiarazione dei redditi finale dopo la chiusura del fallimento"
+      ],
+      "court_or_procedure": "Tribunale di TREVISO - 100/2013",
+      "publication_date": "2026-11-23",
+      "sale_type": "Competitiva",
+      "sale_date": "2027-01-14T10:00",
+      "offer_deadline": "2027-01-13T12:00",
+      "base_auction_price": "30.000,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4664793",
+      "detail_verified": true
+    },
+    {
+      "title": "Offerta migliorativa per acquisto credito chirografario vantato dal fallimento n. 44/2018 nei…",
+      "credit_description": "Offerta migliorativa per acquisto credito chirografario vantato dal fallimento n. 44/2018 nei confronti di Terme di Montecatini S.p.A., come risultante dagli atti della procedura e attualmente indicato nell’importo nominale di 32.921,51. Maggiori informazioni e la documentazione relativa al credito potranno essere richieste al Curatore presso lo studio del curatore dott. Stefano Sala, via San Pietro 1, 51100 Pistoia, tel. 057333373, mail stefanosala@studiosalapt.com.",
+      "asset_descriptions": [
+        "Offerta migliorativa per acquisto credito chirografario vantato dal fallimento n. 44/2018 nei confronti di Terme di Montecatini S.p.A., come risultante dagli atti della procedura e attualmente indicato nell’importo nominale di 32.921,51. Maggiori informazioni e la documentazione relativa al credito potranno essere richieste al Curatore presso lo studio del curatore dott. Stefano Sala, via San Pietro 1, 51100 Pistoia, tel. 057333373, mail stefanosala@studiosalapt.com. La consultazione della documentazione avverrà previo appuntamento."
+      ],
+      "court_or_procedure": "Tribunale di PISTOIA - 44/2018",
+      "publication_date": "2026-11-23",
+      "sale_type": "Competitiva",
+      "sale_date": "2027-01-11T19:00",
+      "offer_deadline": "2027-01-11T18:30",
+      "base_auction_price": "11.523,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4661855",
+      "detail_verified": true
+    }
+  ]
 }
