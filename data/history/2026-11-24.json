@@ -1,0 +1,114 @@
+{
+  "checked_at": "2026-11-25T04:08:04.822Z",
+  "target_date": "2026-11-24",
+  "source_url": "https://pvp.giustizia.it/pvp/it/lista_annunci.page?searchType=searchForm&page=0&size=48&sortProperty=dataPubblicazione,desc&sortAlpha=citta,asc&searchWith=Raggio%20d%27azione&codTipoLotto=VALORI/CREDITI&raggioAzione=25",
+  "status": "success",
+  "error": null,
+  "warnings": [],
+  "errors": [],
+  "coverage": {
+    "complete": true,
+    "pages_checked": 2,
+    "listings_seen": 96,
+    "candidates_found": 5,
+    "candidates_checked": 5,
+    "stop_reason": "page_only_older_dates",
+    "pages": [
+      {
+        "page": 1,
+        "listings": 48,
+        "newest": "2026-11-24",
+        "oldest": "2026-11-10",
+        "undated": 0,
+        "ordered": true
+      },
+      {
+        "page": 2,
+        "listings": 48,
+        "newest": "2026-11-10",
+        "oldest": "2026-11-03",
+        "undated": 0,
+        "ordered": true
+      }
+    ],
+    "site_newest_date": "2026-11-24"
+  },
+  "announcement_errors": [],
+  "announcements": [
+    {
+      "title": "Quote di partecipazione di 1/3 nella società XXX srl",
+      "credit_description": "Quote di partecipazione di 1/3 nella società XXX srl",
+      "asset_descriptions": [
+        "Quota di partecipazione di 1/3 nella società XXX srl"
+      ],
+      "court_or_procedure": "Tribunale di PESCARA - 85/2014",
+      "publication_date": "2026-11-24",
+      "sale_type": "Competitiva",
+      "sale_date": "2027-02-05T15:00",
+      "offer_deadline": "2027-02-05T14:30",
+      "base_auction_price": "118.000,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4666090",
+      "detail_verified": true
+    },
+    {
+      "title": "LOTTO N. 6 Ramo d’azienda per attività di supermercato, corrente in Amantea, Via della Libertà…",
+      "credit_description": "LOTTO N. 6 Ramo d’azienda per attività di supermercato, corrente in Amantea, Via della Libertà, composto da un bene immobile e da beni mobili (attrezzature e strumentazioni funzionali all’esercizio dell’attività di vendita al dettaglio). Il ramo d’azienda risulta corredato delle licenze e dei permessi amministrativi necessari allo svolgimento dell’attività di vendita al dettaglio di prodotti alimentari e non. Per una più accurata descrizione si rimanda alla relazione di stima del",
+      "asset_descriptions": [
+        "LOTTO N. 6 Ramo d’azienda per attività di supermercato, corrente in Amantea, Via della Libertà, composto da un bene immobile e da beni mobili (attrezzature e strumentazioni funzionali all’esercizio dell’attività di vendita al dettaglio). Il ramo d’azienda risulta corredato delle licenze e dei permessi amministrativi necessari allo svolgimento dell’attività di vendita al dettaglio di prodotti alimentarie."
+      ],
+      "court_or_procedure": "Tribunale di PAOLA - 3/2025",
+      "publication_date": "2026-11-24",
+      "sale_type": "Tramite Commissionario",
+      "sale_date": "2027-01-19T12:00",
+      "offer_deadline": "2027-01-18T12:00",
+      "base_auction_price": "699.146,24 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4665975",
+      "detail_verified": true
+    },
+    {
+      "title": "Cessione Credito IVA del valore nonimale pari ad € 17.344,00 (come meglio descritto sul portale di…",
+      "credit_description": "Cessione Credito IVA del valore nonimale pari ad € 17.344,00 (come meglio descritto sul portale di vendita)",
+      "asset_descriptions": [
+        "Cessione Credito IVA"
+      ],
+      "court_or_procedure": "Tribunale di ROMA - 103/2019",
+      "publication_date": "2026-11-24",
+      "sale_type": "Tramite Commissionario",
+      "sale_date": "2027-02-12T10:00",
+      "offer_deadline": "2027-02-10T12:00",
+      "base_auction_price": "13.875,20 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4665874",
+      "detail_verified": true
+    },
+    {
+      "title": "LOTTO UNICO: Vendita PRO SOLUTO COD. TRIBUTO 7706 “CESSIONE CREDITO – RECUPERO PATRIMONIO EDILIZIO…",
+      "credit_description": "LOTTO UNICO: Vendita PRO SOLUTO COD. TRIBUTO 7706 “CESSIONE CREDITO – RECUPERO PATRIMONIO EDILIZIO art. 16-bis, comma 1, lett. a), b) e d), del TUIR – art. 121 DL n. 34/2020” ANNO 2026-2027-2028-2029-2030-2031-2032. Utilizzabile col modello F24 dai cessionari per l'utilizzo in compensazione dei crediti d'imposta relativi a bonus edilizi, introdotti con il Decreto Rilancio, pari a euro 26.427,10, relativo ai crediti tracciabili bonus edilizi cedibili a chiunque e poi tre volte a soggetti qualificati:",
+      "asset_descriptions": [
+        "LOTTO UNICO: Vendita PRO SOLUTO COD. TRIBUTO 7706 “CESSIONE CREDITO – RECUPERO PATRIMONIO EDILIZIO art. 16-bis, comma 1, lett. a), b) e d), del TUIR – art. 121 DL n. 34/2020” ANNO 2026-2027-2028-2029-2030-2031-2032. Utilizzabile col modello F24 dai cessionari per l'utilizzo in compensazione dei crediti d'imposta relativi a bonus edilizi, introdotti con il Decreto Rilancio, pari a euro 26.427,10, relativo ai crediti tracciabili bonus edilizi cedibili a chiunque e poi tre volte a soggetti qualificati:"
+      ],
+      "court_or_procedure": "Tribunale di PALERMO - 11/2024",
+      "publication_date": "2026-11-24",
+      "sale_type": "Senza Incanto",
+      "sale_date": "2026-12-17T12:00",
+      "offer_deadline": "2026-12-16T12:00",
+      "base_auction_price": "13.530,68 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4665830",
+      "detail_verified": true
+    },
+    {
+      "title": "Trattasi di Vendita con invito ad offrire. Lotto unico – Partecipazione detenuta da Fortunito…",
+      "credit_description": "Trattasi di Vendita con invito ad offrire. Lotto unico – Partecipazione detenuta da Fortunito s.r.l. per una quota pari al 100% del Capitale della Fortunito Inc., società con sede in 388 MARKET STREET STE 1300, San Francisco, California, Stato del Delaware, Stati Uniti d’America, “Employer Identification Number” (EIN 82-4917697).",
+      "asset_descriptions": [
+        "Lotto unico – Partecipazione detenuta da Fortunito s.r.l. per una quota pari al 100% del Capitale della Fortunito Inc., società con sede in 388 MARKET STREET STE 1300, San Francisco, California, Stato del Delaware, Stati Uniti d’America, “Employer Identification Number” (EIN 82-4917697). Valore di iscrizione in bilancio al 31.12.2024 € 376,68 Il Prezzo di riferimento è di € 250,00, a cui devono essere aggiunte tutte le spese della cessione e della pubblicità, che sono poste integralmente a carico dell’acquirente.la Fortunito Inc., costituita nel 2018, non ha mai avviato l’attività né realizzato ricavi; nè ha allo stato passività, contenziosi, pignoramenti e obbligazioni contrattuali, in essere. Non ha mai distribuito dividendi Fortunito Inc. è applicant/assignee del brevetto statunitense n. US 11.875.372 B2, concesso il 16 gennaio 2024. Tale brevetto, che costituisce l’unico asset nel patrimonio della Fortunito inc., non è stato sfruttato economicamente, per esso la prima tassa di mantenimento è prevista a luglio 2027. Per ogni altra informazione si richiama l'avviso."
+      ],
+      "court_or_procedure": "Tribunale di CATANZARO - 1/2025",
+      "publication_date": "2026-11-24",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-12-30T12:01",
+      "offer_deadline": "2026-12-30T12:00",
+      "base_auction_price": "376,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4665546",
+      "detail_verified": true
+    }
+  ]
+}

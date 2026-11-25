@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-24T05:18:51.115Z",
-  "target_date": "2026-11-23",
+  "checked_at": "2026-11-25T04:08:04.822Z",
+  "target_date": "2026-11-24",
   "source_url": "https://pvp.giustizia.it/pvp/it/lista_annunci.page?searchType=searchForm&page=0&size=48&sortProperty=dataPubblicazione,desc&sortAlpha=citta,asc&searchWith=Raggio%20d%27azione&codTipoLotto=VALORI/CREDITI&raggioAzione=25",
   "status": "success",
   "error": null,
@@ -17,97 +17,97 @@
       {
         "page": 1,
         "listings": 48,
-        "newest": "2026-11-23",
-        "oldest": "2026-11-09",
+        "newest": "2026-11-24",
+        "oldest": "2026-11-10",
         "undated": 0,
         "ordered": true
       },
       {
         "page": 2,
         "listings": 48,
-        "newest": "2026-11-09",
-        "oldest": "2026-11-02",
+        "newest": "2026-11-10",
+        "oldest": "2026-11-03",
         "undated": 0,
         "ordered": true
       }
     ],
-    "site_newest_date": "2026-11-23"
+    "site_newest_date": "2026-11-24"
   },
   "announcement_errors": [],
   "announcements": [
     {
-      "title": "N. 74 TITOLI PAC DAL N. 000001704239 AL N. 000001704312.",
-      "credit_description": "N. 74 TITOLI PAC DAL N. 000001704239 AL N. 000001704312.",
+      "title": "Quote di partecipazione di 1/3 nella società XXX srl",
+      "credit_description": "Quote di partecipazione di 1/3 nella società XXX srl",
       "asset_descriptions": [
-        "N. 74 TITOLI PAC DAL N. 000001704239 AL N. 000001704312."
+        "Quota di partecipazione di 1/3 nella società XXX srl"
       ],
-      "court_or_procedure": "Tribunale di BERGAMO - 557/2026",
-      "publication_date": "2026-11-23",
+      "court_or_procedure": "Tribunale di PESCARA - 85/2014",
+      "publication_date": "2026-11-24",
+      "sale_type": "Competitiva",
+      "sale_date": "2027-02-05T15:00",
+      "offer_deadline": "2027-02-05T14:30",
+      "base_auction_price": "118.000,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4666090",
+      "detail_verified": true
+    },
+    {
+      "title": "LOTTO N. 6 Ramo d’azienda per attività di supermercato, corrente in Amantea, Via della Libertà…",
+      "credit_description": "LOTTO N. 6 Ramo d’azienda per attività di supermercato, corrente in Amantea, Via della Libertà, composto da un bene immobile e da beni mobili (attrezzature e strumentazioni funzionali all’esercizio dell’attività di vendita al dettaglio). Il ramo d’azienda risulta corredato delle licenze e dei permessi amministrativi necessari allo svolgimento dell’attività di vendita al dettaglio di prodotti alimentari e non. Per una più accurata descrizione si rimanda alla relazione di stima del",
+      "asset_descriptions": [
+        "LOTTO N. 6 Ramo d’azienda per attività di supermercato, corrente in Amantea, Via della Libertà, composto da un bene immobile e da beni mobili (attrezzature e strumentazioni funzionali all’esercizio dell’attività di vendita al dettaglio). Il ramo d’azienda risulta corredato delle licenze e dei permessi amministrativi necessari allo svolgimento dell’attività di vendita al dettaglio di prodotti alimentarie."
+      ],
+      "court_or_procedure": "Tribunale di PAOLA - 3/2025",
+      "publication_date": "2026-11-24",
       "sale_type": "Tramite Commissionario",
-      "sale_date": "2027-01-15T12:00",
-      "offer_deadline": "2027-01-15T10:00",
-      "base_auction_price": "4.508,00 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4665353",
+      "sale_date": "2027-01-19T12:00",
+      "offer_deadline": "2027-01-18T12:00",
+      "base_auction_price": "699.146,24 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4665975",
       "detail_verified": true
     },
     {
-      "title": "LOTTO 1: 50% DELLE QUOTE DI PARTECIPAZIONE NELLA SOCIETA' FCO STUDIO CONSULTING SRL",
-      "credit_description": "LOTTO 1: 50% DELLE QUOTE DI PARTECIPAZIONE NELLA SOCIETA' FCO STUDIO CONSULTING SRL",
+      "title": "Cessione Credito IVA del valore nonimale pari ad € 17.344,00 (come meglio descritto sul portale di…",
+      "credit_description": "Cessione Credito IVA del valore nonimale pari ad € 17.344,00 (come meglio descritto sul portale di vendita)",
       "asset_descriptions": [
-        "LOTTO 1: 50% DELLE QUOTE DI PARTECIPAZIONE NELLA SOCIETA' FCO STUDIO CONSULTING SRL"
+        "Cessione Credito IVA"
       ],
-      "court_or_procedure": "Tribunale di CIVITAVECCHIA - 438/2026",
-      "publication_date": "2026-11-23",
-      "sale_type": "Competitiva",
-      "sale_date": "2026-12-10T12:00",
-      "offer_deadline": "2026-12-10T11:45",
-      "base_auction_price": "5.850,00 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4665273",
+      "court_or_procedure": "Tribunale di ROMA - 103/2019",
+      "publication_date": "2026-11-24",
+      "sale_type": "Tramite Commissionario",
+      "sale_date": "2027-02-12T10:00",
+      "offer_deadline": "2027-02-10T12:00",
+      "base_auction_price": "13.875,20 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4665874",
       "detail_verified": true
     },
     {
-      "title": "Cessione di credito di imposta derivante da interventi agevolati (c.d. Superbonus 110%)",
-      "credit_description": "Cessione di credito di imposta derivante da interventi agevolati (c.d. Superbonus 110%)",
+      "title": "LOTTO UNICO: Vendita PRO SOLUTO COD. TRIBUTO 7706 “CESSIONE CREDITO – RECUPERO PATRIMONIO EDILIZIO…",
+      "credit_description": "LOTTO UNICO: Vendita PRO SOLUTO COD. TRIBUTO 7706 “CESSIONE CREDITO – RECUPERO PATRIMONIO EDILIZIO art. 16-bis, comma 1, lett. a), b) e d), del TUIR – art. 121 DL n. 34/2020” ANNO 2026-2027-2028-2029-2030-2031-2032. Utilizzabile col modello F24 dai cessionari per l'utilizzo in compensazione dei crediti d'imposta relativi a bonus edilizi, introdotti con il Decreto Rilancio, pari a euro 26.427,10, relativo ai crediti tracciabili bonus edilizi cedibili a chiunque e poi tre volte a soggetti qualificati:",
       "asset_descriptions": [
-        "LIQUIDAZIONE GIUDIZIALE DI NUOVA MG SRL - Lotto unico costituito da credito di imposta derivante da interventi agevolati ai sensi dell'art. 119 del D.L. n. 34/2020 e ss.mm. (c.d. Superbonus 110%), codice tributo 7709, annualità 2026, per complessivi nominali euro 81.805,00 e precisamente i crediti dettagliatamente descritti nel tabulato che si allega al presente avviso di vendita per formarne parte integrante e sostanziale. ** La quota relativa all'annualità 2027 è esclusa dalla vendita. *** Si riporta il seguente paragrafo dell'avviso di vendita, che si consiglia di consultare (visionabile e scaricabile nella sezione \"Documenti\" della scheda pubblicitaria): La partecipazione alla gara è riservata esclusivamente ai soggetti qualificati e concretamente legittimati all'acquisto dei crediti ai sensi dell'art. 121 del D.L. n. 34/2020 e s.m.i.: banche e intermediari finanziari iscritti all'albo ex art. 106 TUB; società appartenenti a gruppi bancari iscritti all'albo ex art. 64 TUB; imprese di assicurazione autorizzate ad operare in Italia ai sensi del D. Lgs. n. 209/2005. Ogni offerente deve documentare la propria qualifica e la concreta legittimazione all'acquisto, in relazione alla catena delle cessioni e al regime applicabile alle quote. I soggetti privi dei requisiti non sono ammessi. Il mero possesso della qualifica soggettiva non sostituisce la verifica della cedibilità in favore del singolo acquirente. Laddove un soggetto diverso da Istituti Bancari ed intermediari finanziari iscritti all'albo di cui all'art. 106 del T.U.B. dovesse decidere comunque di partecipare all'asta e aggiudicarsi i crediti fiscali, il mancato trasferimento non sarà addebitabile alla Procedura o a IVG Modena e il deposito cauzionale versato, l'eventuale saldo prezzo di aggiudicazione e gli onorari di IVG Modena verranno definitivamente trattenuti dalla Procedura. ***"
+        "LOTTO UNICO: Vendita PRO SOLUTO COD. TRIBUTO 7706 “CESSIONE CREDITO – RECUPERO PATRIMONIO EDILIZIO art. 16-bis, comma 1, lett. a), b) e d), del TUIR – art. 121 DL n. 34/2020” ANNO 2026-2027-2028-2029-2030-2031-2032. Utilizzabile col modello F24 dai cessionari per l'utilizzo in compensazione dei crediti d'imposta relativi a bonus edilizi, introdotti con il Decreto Rilancio, pari a euro 26.427,10, relativo ai crediti tracciabili bonus edilizi cedibili a chiunque e poi tre volte a soggetti qualificati:"
       ],
-      "court_or_procedure": "Tribunale di MODENA - 170/2025",
-      "publication_date": "2026-11-23",
-      "sale_type": "Competitiva",
-      "sale_date": "2026-12-09T15:00",
-      "offer_deadline": "2026-12-07T23:59",
-      "base_auction_price": "28.631,75 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4665207",
+      "court_or_procedure": "Tribunale di PALERMO - 11/2024",
+      "publication_date": "2026-11-24",
+      "sale_type": "Senza Incanto",
+      "sale_date": "2026-12-17T12:00",
+      "offer_deadline": "2026-12-16T12:00",
+      "base_auction_price": "13.530,68 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4665830",
       "detail_verified": true
     },
     {
-      "title": "Cessione credito IRES",
-      "credit_description": "Cessione credito IRES",
+      "title": "Trattasi di Vendita con invito ad offrire. Lotto unico – Partecipazione detenuta da Fortunito…",
+      "credit_description": "Trattasi di Vendita con invito ad offrire. Lotto unico – Partecipazione detenuta da Fortunito s.r.l. per una quota pari al 100% del Capitale della Fortunito Inc., società con sede in 388 MARKET STREET STE 1300, San Francisco, California, Stato del Delaware, Stati Uniti d’America, “Employer Identification Number” (EIN 82-4917697).",
       "asset_descriptions": [
-        "Credito IRES per ritenute d’acconto su interessi attivi bancari maturati in corso di procedura sulle somme depositate nel conto corrente intestato al fallimento (quantificato in euro 66.011,94 alla data del 30/09/2026), che verrà chiesto a rimborso con la dichiarazione dei redditi finale dopo la chiusura del fallimento"
+        "Lotto unico – Partecipazione detenuta da Fortunito s.r.l. per una quota pari al 100% del Capitale della Fortunito Inc., società con sede in 388 MARKET STREET STE 1300, San Francisco, California, Stato del Delaware, Stati Uniti d’America, “Employer Identification Number” (EIN 82-4917697). Valore di iscrizione in bilancio al 31.12.2024 € 376,68 Il Prezzo di riferimento è di € 250,00, a cui devono essere aggiunte tutte le spese della cessione e della pubblicità, che sono poste integralmente a carico dell’acquirente.la Fortunito Inc., costituita nel 2018, non ha mai avviato l’attività né realizzato ricavi; nè ha allo stato passività, contenziosi, pignoramenti e obbligazioni contrattuali, in essere. Non ha mai distribuito dividendi Fortunito Inc. è applicant/assignee del brevetto statunitense n. US 11.875.372 B2, concesso il 16 gennaio 2024. Tale brevetto, che costituisce l’unico asset nel patrimonio della Fortunito inc., non è stato sfruttato economicamente, per esso la prima tassa di mantenimento è prevista a luglio 2027. Per ogni altra informazione si richiama l'avviso."
       ],
-      "court_or_procedure": "Tribunale di TREVISO - 100/2013",
-      "publication_date": "2026-11-23",
+      "court_or_procedure": "Tribunale di CATANZARO - 1/2025",
+      "publication_date": "2026-11-24",
       "sale_type": "Competitiva",
-      "sale_date": "2027-01-14T10:00",
-      "offer_deadline": "2027-01-13T12:00",
-      "base_auction_price": "30.000,00 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4664793",
-      "detail_verified": true
-    },
-    {
-      "title": "Offerta migliorativa per acquisto credito chirografario vantato dal fallimento n. 44/2018 nei…",
-      "credit_description": "Offerta migliorativa per acquisto credito chirografario vantato dal fallimento n. 44/2018 nei confronti di Terme di Montecatini S.p.A., come risultante dagli atti della procedura e attualmente indicato nell’importo nominale di 32.921,51. Maggiori informazioni e la documentazione relativa al credito potranno essere richieste al Curatore presso lo studio del curatore dott. Stefano Sala, via San Pietro 1, 51100 Pistoia, tel. 057333373, mail stefanosala@studiosalapt.com.",
-      "asset_descriptions": [
-        "Offerta migliorativa per acquisto credito chirografario vantato dal fallimento n. 44/2018 nei confronti di Terme di Montecatini S.p.A., come risultante dagli atti della procedura e attualmente indicato nell’importo nominale di 32.921,51. Maggiori informazioni e la documentazione relativa al credito potranno essere richieste al Curatore presso lo studio del curatore dott. Stefano Sala, via San Pietro 1, 51100 Pistoia, tel. 057333373, mail stefanosala@studiosalapt.com. La consultazione della documentazione avverrà previo appuntamento."
-      ],
-      "court_or_procedure": "Tribunale di PISTOIA - 44/2018",
-      "publication_date": "2026-11-23",
-      "sale_type": "Competitiva",
-      "sale_date": "2027-01-11T19:00",
-      "offer_deadline": "2027-01-11T18:30",
-      "base_auction_price": "11.523,00 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4661855",
+      "sale_date": "2026-12-30T12:01",
+      "offer_deadline": "2026-12-30T12:00",
+      "base_auction_price": "376,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4665546",
       "detail_verified": true
     }
   ]
