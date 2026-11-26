@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-25T04:08:04.822Z",
-  "target_date": "2026-11-24",
+  "checked_at": "2026-11-26T03:31:18.318Z",
+  "target_date": "2026-11-25",
   "source_url": "https://pvp.giustizia.it/pvp/it/lista_annunci.page?searchType=searchForm&page=0&size=48&sortProperty=dataPubblicazione,desc&sortAlpha=citta,asc&searchWith=Raggio%20d%27azione&codTipoLotto=VALORI/CREDITI&raggioAzione=25",
   "status": "success",
   "error": null,
@@ -10,104 +10,119 @@
     "complete": true,
     "pages_checked": 2,
     "listings_seen": 96,
-    "candidates_found": 5,
-    "candidates_checked": 5,
+    "candidates_found": 6,
+    "candidates_checked": 6,
     "stop_reason": "page_only_older_dates",
     "pages": [
       {
         "page": 1,
         "listings": 48,
-        "newest": "2026-11-24",
-        "oldest": "2026-11-10",
+        "newest": "2026-11-25",
+        "oldest": "2026-11-12",
         "undated": 0,
         "ordered": true
       },
       {
         "page": 2,
         "listings": 48,
-        "newest": "2026-11-10",
+        "newest": "2026-11-11",
         "oldest": "2026-11-03",
         "undated": 0,
         "ordered": true
       }
     ],
-    "site_newest_date": "2026-11-24"
+    "site_newest_date": "2026-11-25"
   },
   "announcement_errors": [],
   "announcements": [
     {
-      "title": "Quote di partecipazione di 1/3 nella società XXX srl",
-      "credit_description": "Quote di partecipazione di 1/3 nella società XXX srl",
+      "title": "Lotto unico, ceduto ai sensi dell’art. 106 L.F., pro soluto e a corpo, composto da crediti…",
+      "credit_description": "Lotto unico, ceduto ai sensi dell’art. 106 L.F., pro soluto e a corpo, composto da crediti fiscali, in tutto o in parte futuri",
       "asset_descriptions": [
-        "Quota di partecipazione di 1/3 nella società XXX srl"
+        "Lotto unico, ceduto ai sensi dell’art. 106 L.F., pro soluto e a corpo, composto da crediti fiscali, in tutto o in parte futuri. Per i dettagli si rimanda all'avviso di vendita."
       ],
-      "court_or_procedure": "Tribunale di PESCARA - 85/2014",
-      "publication_date": "2026-11-24",
+      "court_or_procedure": "Tribunale di RIMINI - 73/2013",
+      "publication_date": "2026-11-25",
       "sale_type": "Competitiva",
-      "sale_date": "2027-02-05T15:00",
-      "offer_deadline": "2027-02-05T14:30",
-      "base_auction_price": "118.000,00 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4666090",
+      "sale_date": "2027-02-17T12:00",
+      "offer_deadline": "2027-02-16T12:00",
+      "base_auction_price": "115.000,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4666014",
       "detail_verified": true
     },
     {
-      "title": "LOTTO N. 6 Ramo d’azienda per attività di supermercato, corrente in Amantea, Via della Libertà…",
-      "credit_description": "LOTTO N. 6 Ramo d’azienda per attività di supermercato, corrente in Amantea, Via della Libertà, composto da un bene immobile e da beni mobili (attrezzature e strumentazioni funzionali all’esercizio dell’attività di vendita al dettaglio). Il ramo d’azienda risulta corredato delle licenze e dei permessi amministrativi necessari allo svolgimento dell’attività di vendita al dettaglio di prodotti alimentari e non. Per una più accurata descrizione si rimanda alla relazione di stima del",
+      "title": "Numero 37 titoli P.A.C. (Iscritti nel Registro Nazionale Titoli ex art. 3 del D.L. 182/2005…",
+      "credit_description": "Numero 37 titoli P.A.C. (Iscritti nel Registro Nazionale Titoli ex art. 3 del D.L. 182/2005 convertito in L. 231/2005) per un valore complessivo pari ad € 4.748,61 (Euro: quattromilasettecentoquarantotto/61)",
       "asset_descriptions": [
-        "LOTTO N. 6 Ramo d’azienda per attività di supermercato, corrente in Amantea, Via della Libertà, composto da un bene immobile e da beni mobili (attrezzature e strumentazioni funzionali all’esercizio dell’attività di vendita al dettaglio). Il ramo d’azienda risulta corredato delle licenze e dei permessi amministrativi necessari allo svolgimento dell’attività di vendita al dettaglio di prodotti alimentarie."
+        "Numero 37 titoli P.A.C. (Iscritti nel Registro Nazionale Titoli ex art. 3 del D.L. 182/2005 convertito in L. 231/2005) per un valore complessivo pari ad € 4.748,61 (Euro: quattromilasettecentoquarantotto/61) come da verbale di pignoramento del 01/12/2025, i cui numeri identificativi, la cui quantità ed il cui valore singolo e di gruppo, così come riportati nella scheda estratta in data 27/10/2026 dal Registro Nazionale Titoli tenuto da AGEA, alla quale si rimanda"
       ],
-      "court_or_procedure": "Tribunale di PAOLA - 3/2025",
-      "publication_date": "2026-11-24",
-      "sale_type": "Tramite Commissionario",
-      "sale_date": "2027-01-19T12:00",
-      "offer_deadline": "2027-01-18T12:00",
-      "base_auction_price": "699.146,24 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4665975",
-      "detail_verified": true
-    },
-    {
-      "title": "Cessione Credito IVA del valore nonimale pari ad € 17.344,00 (come meglio descritto sul portale di…",
-      "credit_description": "Cessione Credito IVA del valore nonimale pari ad € 17.344,00 (come meglio descritto sul portale di vendita)",
-      "asset_descriptions": [
-        "Cessione Credito IVA"
-      ],
-      "court_or_procedure": "Tribunale di ROMA - 103/2019",
-      "publication_date": "2026-11-24",
-      "sale_type": "Tramite Commissionario",
-      "sale_date": "2027-02-12T10:00",
-      "offer_deadline": "2027-02-10T12:00",
-      "base_auction_price": "13.875,20 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4665874",
-      "detail_verified": true
-    },
-    {
-      "title": "LOTTO UNICO: Vendita PRO SOLUTO COD. TRIBUTO 7706 “CESSIONE CREDITO – RECUPERO PATRIMONIO EDILIZIO…",
-      "credit_description": "LOTTO UNICO: Vendita PRO SOLUTO COD. TRIBUTO 7706 “CESSIONE CREDITO – RECUPERO PATRIMONIO EDILIZIO art. 16-bis, comma 1, lett. a), b) e d), del TUIR – art. 121 DL n. 34/2020” ANNO 2026-2027-2028-2029-2030-2031-2032. Utilizzabile col modello F24 dai cessionari per l'utilizzo in compensazione dei crediti d'imposta relativi a bonus edilizi, introdotti con il Decreto Rilancio, pari a euro 26.427,10, relativo ai crediti tracciabili bonus edilizi cedibili a chiunque e poi tre volte a soggetti qualificati:",
-      "asset_descriptions": [
-        "LOTTO UNICO: Vendita PRO SOLUTO COD. TRIBUTO 7706 “CESSIONE CREDITO – RECUPERO PATRIMONIO EDILIZIO art. 16-bis, comma 1, lett. a), b) e d), del TUIR – art. 121 DL n. 34/2020” ANNO 2026-2027-2028-2029-2030-2031-2032. Utilizzabile col modello F24 dai cessionari per l'utilizzo in compensazione dei crediti d'imposta relativi a bonus edilizi, introdotti con il Decreto Rilancio, pari a euro 26.427,10, relativo ai crediti tracciabili bonus edilizi cedibili a chiunque e poi tre volte a soggetti qualificati:"
-      ],
-      "court_or_procedure": "Tribunale di PALERMO - 11/2024",
-      "publication_date": "2026-11-24",
+      "court_or_procedure": "Tribunale di VALLO DELLA LUCANIA - 626/2025",
+      "publication_date": "2026-11-25",
       "sale_type": "Senza Incanto",
-      "sale_date": "2026-12-17T12:00",
+      "sale_date": "2026-12-17T11:00",
       "offer_deadline": "2026-12-16T12:00",
-      "base_auction_price": "13.530,68 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4665830",
+      "base_auction_price": "4.748,61 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4666578",
       "detail_verified": true
     },
     {
-      "title": "Trattasi di Vendita con invito ad offrire. Lotto unico – Partecipazione detenuta da Fortunito…",
-      "credit_description": "Trattasi di Vendita con invito ad offrire. Lotto unico – Partecipazione detenuta da Fortunito s.r.l. per una quota pari al 100% del Capitale della Fortunito Inc., società con sede in 388 MARKET STREET STE 1300, San Francisco, California, Stato del Delaware, Stati Uniti d’America, “Employer Identification Number” (EIN 82-4917697).",
+      "title": "Lotto 4: Cessione di credito di imposta derivante da interventi agevolati (c.d. Superbonus 110%)",
+      "credit_description": "Lotto 4: Cessione di credito di imposta derivante da interventi agevolati (c.d. Superbonus 110%)",
       "asset_descriptions": [
-        "Lotto unico – Partecipazione detenuta da Fortunito s.r.l. per una quota pari al 100% del Capitale della Fortunito Inc., società con sede in 388 MARKET STREET STE 1300, San Francisco, California, Stato del Delaware, Stati Uniti d’America, “Employer Identification Number” (EIN 82-4917697). Valore di iscrizione in bilancio al 31.12.2024 € 376,68 Il Prezzo di riferimento è di € 250,00, a cui devono essere aggiunte tutte le spese della cessione e della pubblicità, che sono poste integralmente a carico dell’acquirente.la Fortunito Inc., costituita nel 2018, non ha mai avviato l’attività né realizzato ricavi; nè ha allo stato passività, contenziosi, pignoramenti e obbligazioni contrattuali, in essere. Non ha mai distribuito dividendi Fortunito Inc. è applicant/assignee del brevetto statunitense n. US 11.875.372 B2, concesso il 16 gennaio 2024. Tale brevetto, che costituisce l’unico asset nel patrimonio della Fortunito inc., non è stato sfruttato economicamente, per esso la prima tassa di mantenimento è prevista a luglio 2027. Per ogni altra informazione si richiama l'avviso."
+        "LIQUIDAZIONE GIUDIZIALE DI REON SRL - LOTTO 4: Crediti fiscali derivanti da Bonus edilizi ex D.L. 34/2020, codice tributo 7706, anni di riferimento dal 2026 al 2032, di complessivi nominali Euro 100.409,47, e precisamente i crediti dettagliatamente descritti nel tabulato allegato all'avviso di vendita, consultabile e scaricabile nella sezione \"Documenti\" della presente scheda pubblicitaria. Si invitano gli interessati a prenderne visione. *** Si precisa che la partecipazione alla cessione di crediti in oggetto è riservata agli Istituti Bancari ed agli intermediari finanziari iscritti all'albo di cui all'art. 106 del T.U.B. e pertanto i crediti medesimi potranno essere trasferiti solo ed esclusivamente alle predette categorie di soggetti. Laddove un soggetto diverso da Istituti Bancari ed intermediari finanziari iscritti all'albo di cui all'art. 106 del T.U.B. dovesse decidere comunque di partecipare all'asta e aggiudicarsi i crediti fiscali, il mancato trasferimento non sarà addebitabile alla Procedura o a IVG Modena e il deposito cauzionale versato, l'eventuale saldo prezzo di aggiudicazione e gli onorari di IVG Modena verranno definitivamente trattenuti dalla Procedura. ***"
       ],
-      "court_or_procedure": "Tribunale di CATANZARO - 1/2025",
-      "publication_date": "2026-11-24",
+      "court_or_procedure": "Tribunale di MODENA - 11/2026",
+      "publication_date": "2026-11-25",
       "sale_type": "Competitiva",
-      "sale_date": "2026-12-30T12:01",
-      "offer_deadline": "2026-12-30T12:00",
-      "base_auction_price": "376,00 €",
-      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4665546",
+      "sale_date": "2026-12-04T15:00",
+      "offer_deadline": "2026-12-03T23:59",
+      "base_auction_price": "29.652,17 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4666538",
+      "detail_verified": true
+    },
+    {
+      "title": "Lotto Unico: Cessione pro soluto in blocco dei crediti fiscali nella titolarità della L.G.…",
+      "credit_description": "Lotto Unico: Cessione pro soluto in blocco dei crediti fiscali nella titolarità della L.G., presenti nella Piattaforma \"Cessione crediti\" dell'Agenzia delle Entrate originati dalle seguenti agevolazioni edilizie: a) Bonus facciate (art. 1, commi 219-224, L. 27 dicembre 2019, n. 160), ossia i crediti con codici 6925 e 7715; b) Recupero del patrimonio edilizio (art. 16-bis, comma 1, del TUIR, nella misura maggiorata prevista dall'art. 16 D.L. 63/2013), ossia i crediti con codici 6926 e 7716. In allegato bando.",
+      "asset_descriptions": [
+        "Lotto Unico: Cessione pro soluto in blocco dei crediti fiscali nella titolarità della L.G., presenti nella Piattaforma \"Cessione crediti\" dell'Agenzia delle Entrate originati dalle seguenti agevolazioni edilizie: a) Bonus facciate (art. 1, commi 219-224, L. 27 dicembre 2019, n. 160), ossia i crediti con codici 6925 e 7715; b) Recupero del patrimonio edilizio (art. 16-bis, comma 1, del TUIR, nella misura maggiorata prevista dall'art. 16 D.L. 63/2013), ossia i crediti con codici 6926 e 7716. In allegato bando."
+      ],
+      "court_or_procedure": "Tribunale di ROMA - 43/2026",
+      "publication_date": "2026-11-25",
+      "sale_type": "Competitiva",
+      "sale_date": "2027-01-14T12:00",
+      "offer_deadline": "2027-01-14T11:45",
+      "base_auction_price": "900.941,09 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4666377",
+      "detail_verified": true
+    },
+    {
+      "title": "Crediti fiscali da Superbonus",
+      "credit_description": "Crediti fiscali da Superbonus",
+      "asset_descriptions": [
+        "Crediti fiscali da Superbonus"
+      ],
+      "court_or_procedure": "Tribunale di ROMA - 455/2026",
+      "publication_date": "2026-11-25",
+      "sale_type": "Tramite Commissionario",
+      "sale_date": "2026-12-16T12:00",
+      "offer_deadline": "2026-12-14T12:00",
+      "base_auction_price": "65.914,20 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4666295",
+      "detail_verified": true
+    },
+    {
+      "title": "AVVISO DI INVITO A PRESENTARE OFFERTE IRREVOCABILI",
+      "credit_description": "AVVISO DI INVITO A PRESENTARE OFFERTE IRREVOCABILI",
+      "asset_descriptions": [
+        "credito vantato dalla Procedura Fallimentare, scaturente dalla sentenza della Corte d’Appello di Salerno passata in giudicato."
+      ],
+      "court_or_procedure": "Tribunale di NOCERA INFERIORE - 52/2019",
+      "publication_date": "2026-11-25",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-12-28T18:00",
+      "offer_deadline": "2026-12-28T12:00",
+      "base_auction_price": "d'asta",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4666151",
       "detail_verified": true
     }
   ]
