@@ -1,0 +1,84 @@
+{
+  "checked_at": "2026-11-27T03:37:20.752Z",
+  "target_date": "2026-11-26",
+  "source_url": "https://pvp.giustizia.it/pvp/it/lista_annunci.page?searchType=searchForm&page=0&size=48&sortProperty=dataPubblicazione,desc&sortAlpha=citta,asc&searchWith=Raggio%20d%27azione&codTipoLotto=VALORI/CREDITI&raggioAzione=25",
+  "status": "success",
+  "error": null,
+  "warnings": [],
+  "errors": [],
+  "coverage": {
+    "complete": true,
+    "pages_checked": 2,
+    "listings_seen": 96,
+    "candidates_found": 3,
+    "candidates_checked": 3,
+    "stop_reason": "page_only_older_dates",
+    "pages": [
+      {
+        "page": 1,
+        "listings": 48,
+        "newest": "2026-11-26",
+        "oldest": "2026-11-12",
+        "undated": 0,
+        "ordered": true
+      },
+      {
+        "page": 2,
+        "listings": 48,
+        "newest": "2026-11-12",
+        "oldest": "2026-11-03",
+        "undated": 0,
+        "ordered": true
+      }
+    ],
+    "site_newest_date": "2026-11-26"
+  },
+  "announcement_errors": [],
+  "announcements": [
+    {
+      "title": "Lotto unico composto da Crediti fiscali risultanti dal cassetto fiscale della società ERRESSE…",
+      "credit_description": "Lotto unico composto da Crediti fiscali risultanti dal cassetto fiscale della società ERRESSE MULTISERVIZI S.R.L.S., per un valore nominale residuo pari ad Euro 9.863,20, utilizzabili in compensazione ovvero cedibili a terzi secondo la normativa vigente. Il tutto meglio riportato nell'avviso di vendita in allegato.",
+      "asset_descriptions": [
+        "Lotto unico composto da Crediti fiscali risultanti dal cassetto fiscale della società ERRESSE MULTISERVIZI S.R.L.S., per un valore nominale residuo pari ad Euro 9.863,20, utilizzabili in compensazione ovvero cedibili a terzi secondo la normativa vigente. Il tutto meglio riportato nell'avviso di vendita in allegato."
+      ],
+      "court_or_procedure": "Tribunale di ROMA - 189/2025",
+      "publication_date": "2026-11-26",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-12-14T12:00",
+      "offer_deadline": "2026-12-14T11:45",
+      "base_auction_price": "3.000,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4667377",
+      "detail_verified": true
+    },
+    {
+      "title": "Titoli PAC, come da registro nazionale titoli allegato.",
+      "credit_description": "Titoli PAC, come da registro nazionale titoli allegato.",
+      "asset_descriptions": [
+        "Titoli PAC, come da registro nazionale titoli allegato."
+      ],
+      "court_or_procedure": "Tribunale di SANTA MARIA CAPUA VETERE - 1378/2026",
+      "publication_date": "2026-11-26",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-12-10T15:00",
+      "offer_deadline": "2026-12-10T13:00",
+      "base_auction_price": "170,25 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4660455",
+      "detail_verified": true
+    },
+    {
+      "title": "Marchio Stick House descritto come un format integrato di produzione e vendita di gelati artigianali",
+      "credit_description": "Marchio Stick House descritto come un format integrato di produzione e vendita di gelati artigianali",
+      "asset_descriptions": [
+        "Marchio Stick House descritto come un format integrato di produzione e vendita di gelati artigianali comprendente macchinari, ingredienti, marchio, materiale marketing e immagine aziendale; con l'obiettivo. di realizzare un sistema facilmente replicabile e commerciabile a livello internazionale. Il marchio STICK HOUSE è un brand internazionale nel settore del gelato artigianale su stecco e dei format di vendita su scala globale. Nella storia l'espansione del progetto STICK HOUSE sui mercati internazionali, ha consolidato il format e strutturato un modello di business basato sulla concessione di Master Franchisee e sub-franchising in diverse aree geografiche. La strategia adottata da tale format consiste nell'instaurare rapporti con imprenditori locali, ai quali viene affidato, in regime di esclusiva territoriale, lo sviluppo commerciale del marchio all'interno del' proprio mercato nazionale o regionale. Tali soggetti vengono formalmente nominati Master Franchisee e assumono la responsabilità della promozione, apertura e gestione delle unità operative sul territorio di competenza. PARTECIPANDO DICHIARATE DI AVER PRESO VISIONE ED ACCETTATO TUTTE LE CONDIZIONI RIPORTATE NELL'AVVISO DI VENDITA ALLEGATO"
+      ],
+      "court_or_procedure": "Tribunale di SIENA - 39/2025",
+      "publication_date": "2026-11-26",
+      "sale_type": "Competitiva",
+      "sale_date": "2027-01-12T12:45",
+      "offer_deadline": "2027-01-12T11:45",
+      "base_auction_price": "12.100,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4667088",
+      "detail_verified": true
+    }
+  ]
+}
