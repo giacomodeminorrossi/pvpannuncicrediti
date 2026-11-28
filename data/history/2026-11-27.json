@@ -1,0 +1,99 @@
+{
+  "checked_at": "2026-11-28T03:15:47.750Z",
+  "target_date": "2026-11-27",
+  "source_url": "https://pvp.giustizia.it/pvp/it/lista_annunci.page?searchType=searchForm&page=0&size=48&sortProperty=dataPubblicazione,desc&sortAlpha=citta,asc&searchWith=Raggio%20d%27azione&codTipoLotto=VALORI/CREDITI&raggioAzione=25",
+  "status": "success",
+  "error": null,
+  "warnings": [],
+  "errors": [],
+  "coverage": {
+    "complete": true,
+    "pages_checked": 2,
+    "listings_seen": 96,
+    "candidates_found": 4,
+    "candidates_checked": 4,
+    "stop_reason": "page_only_older_dates",
+    "pages": [
+      {
+        "page": 1,
+        "listings": 48,
+        "newest": "2026-11-27",
+        "oldest": "2026-11-12",
+        "undated": 0,
+        "ordered": true
+      },
+      {
+        "page": 2,
+        "listings": 48,
+        "newest": "2026-11-12",
+        "oldest": "2026-11-03",
+        "undated": 0,
+        "ordered": true
+      }
+    ],
+    "site_newest_date": "2026-11-27"
+  },
+  "announcement_errors": [],
+  "announcements": [
+    {
+      "title": "crediti fiscali da bonus edilizi, annualità 2026, cedibili a chiunque (cod. tributo 6922 e 7718).…",
+      "credit_description": "crediti fiscali da bonus edilizi, annualità 2026, cedibili a chiunque (cod. tributo 6922 e 7718). Valore nominale complessivo € 35.286,99. Vendita in blocco.",
+      "asset_descriptions": [
+        "Tribunale di Roma – Concordato semplificato n. 15/2026 – ITC S.r.l. unipersonale. Lotto unico: crediti fiscali da bonus edilizi, annualità 2026, cedibili a chiunque. Il lotto comprende crediti d'imposta da bonus edilizi derivanti da sconto in fattura e/o cessione del credito. I crediti sono identificati dalle risultanze della Piattaforma Cessione Crediti dell'Agenzia delle Entrate e dal prospetto analitico disponibile in data room. Sono così composti: a) codice tributo 6922: crediti non tracciabili, annualità 2026, nominali € 11.268,99; b) codice tributo 7718: crediti tracciabili, annualità 2026, quota cedibile a chiunque, nominali € 24.018,00. Valore nominale complessivo del lotto: € 35.286,99. Il lotto riguarda solo i crediti ancora disponibili e cedibili indicati nel prospetto. Non comprende le quote utilizzabili soltanto in compensazione, né i crediti già utilizzati o trasferiti. Il lotto è venduto in blocco, unitariamente e inscindibilmente. Non sono ammesse offerte parziali riferite a singoli crediti o codici tributo."
+      ],
+      "court_or_procedure": "di Roma – Concordato semplificato n. 15/2026 – ITC S.r.l. unipersonale. Lotto unico: crediti fiscali da bonus edilizi, annualità 2026, cedibili a chiunque.Il lotto comprende crediti d'imposta da bonus edilizi derivanti da sconto in fattura e/o cessione del credito. I crediti sono identificati dalle risultanze della Piattaforma Cessione Crediti dell'Agenzia delle Entrate e dal prospetto analitico disponibile in data room. Sono così composti:a) codice tributo 6922: crediti non tracciabili, annualità 2026, nominali € 11.268,99;b) codice tributo 7718: crediti tracciabili, annualità 2026, quota cedibile a chiunque, nominali € 24.018,00.Valore nominale complessivo del lotto: € 35.286,99.Il lotto riguarda solo i crediti ancora disponibili e cedibili indicati nel prospetto. Non comprende le quote utilizzabili soltanto in compensazione, né i crediti già utilizzati o trasferiti. Il lotto è venduto in blocco, unitariamente e inscindibilmente. Non sono ammesse offerte parziali riferite a singoli crediti o codici tributo. - 16507/2026",
+      "publication_date": "2026-11-27",
+      "sale_type": "Senza Incanto",
+      "sale_date": "2026-12-04T17:30",
+      "offer_deadline": "2026-12-04T17:00",
+      "base_auction_price": "21.173,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4667924",
+      "detail_verified": true
+    },
+    {
+      "title": "LOTTO 1: cessione del credito IVA risultante dall’ultima dichiarazione IVA, per l’importo di euro…",
+      "credit_description": "LOTTO 1: cessione del credito IVA risultante dall’ultima dichiarazione IVA, per l’importo di euro 34.275,00 Vendita competitiva telematica sui portali www.doauction.it e www.astemobili.it - Gruppo Edicom",
+      "asset_descriptions": [
+        "LOTTO 1: cessione del credito IVA risultante dall’ultima dichiarazione IVA, per l’importo di euro 34.275,00 Vendita competitiva telematica sui portali www.doauction.it e www.astemobili.it - Gruppo Edicom"
+      ],
+      "court_or_procedure": "Tribunale di LATINA - 56/2004",
+      "publication_date": "2026-11-27",
+      "sale_type": "Tramite Commissionario",
+      "sale_date": "2027-01-28T12:00",
+      "offer_deadline": "2027-01-27T12:00",
+      "base_auction_price": "19.742,40 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4667781",
+      "detail_verified": true
+    },
+    {
+      "title": "Cessione Credito IVA PRO SOLUTO",
+      "credit_description": "Cessione Credito IVA PRO SOLUTO",
+      "asset_descriptions": [
+        "Cessione Credito IVA PRO SOLUTO"
+      ],
+      "court_or_procedure": "Tribunale di ROMA - 816/2021",
+      "publication_date": "2026-11-27",
+      "sale_type": "Tramite Commissionario",
+      "sale_date": "2027-02-19T10:00",
+      "offer_deadline": "2027-02-17T12:00",
+      "base_auction_price": "19.579,83 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4667703",
+      "detail_verified": true
+    },
+    {
+      "title": "INVITO A PRESENTARE OFFERTE MIGLIORATIVE PER L'ACQUISTO DEL CREDITO DI EURO 137.048,46 NEI…",
+      "credit_description": "INVITO A PRESENTARE OFFERTE MIGLIORATIVE PER L'ACQUISTO DEL CREDITO DI EURO 137.048,46 NEI CONFRONTI DELLA LIQUIDAZIONE GIUDIZIALE N. 61/2026 PRIME INVESTIMENTI SRL TRIBUNALE DI PRATO. OFFERTA GIA' A MANI DEL CURATORE DI EURO 50.000,00.",
+      "asset_descriptions": [
+        "INVITO A PRESENTARE OFFERTE MIGLIORATIVE PER L'ACQUISTO DEL CREDITO DI EURO 137.048,46 NEI CONFRONTI DELLA LIQUIDAZIONE GIUDIZIALE 61/2026 PRIME INVESTIMENTI SRL TRIBUNALE DI PRATO. OFFERTA GIA' A MANI DEL CURATORE DI EURO 50.000,00"
+      ],
+      "court_or_procedure": "Tribunale di PRATO - 25/2024",
+      "publication_date": "2026-11-27",
+      "sale_type": "Competitiva",
+      "sale_date": "2026-12-09T15:00",
+      "offer_deadline": "2026-12-09T12:00",
+      "base_auction_price": "50.000,00 €",
+      "official_url": "https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4667410",
+      "detail_verified": true
+    }
+  ]
+}
